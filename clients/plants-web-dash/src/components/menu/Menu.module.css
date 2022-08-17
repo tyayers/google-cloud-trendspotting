@@ -9,6 +9,14 @@
   cursor: pointer;
 }
 
+.list_line_selected {
+  background-color: #c5c5c5;
+}
+
+.list_line:hover {
+  background-color: #f1f3f4;
+}
+
 .list_image {
   border-radius: 90px;
   height: 100px;

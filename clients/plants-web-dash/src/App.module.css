@@ -1,21 +1,126 @@
 .app_container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  margin: "5px";
+  display: flex;
+  /* height: 100%;
+  width: 100%; */
+  /* margin: "5px"; */
 }
 
-.detail_frame {
-  position: absolute;
-  left: 400px;
-  width: calc(100vw - 405px);
-  height: 100%;
-  border: 0px;
+.navbar {
+  height: 64px;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.header_logo {
+  margin-top: 12px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.header_text {
+  cursor: pointer;
+  margin-top: 19px;
+  font-size: 22px;
+  margin-left: -4px;
+}
+
+.header_gdelt {
+  margin-left: auto;
+  height: 38px;
+  margin-top: 14px;
+  margin-right: 7px;
+  border-radius: 17px;
+  opacity: .8;
+}
+
+.search_box {
+  background-color: white;
+  position: sticky;
+  display: flex;
+  top: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.search_field {
+  background: #f1f3f4;
+  border: 0;
+  border-radius: 4px;
+  color: rgb(95, 99, 104);
+  font-size: 13px;
+  height: 32px;
+  padding-inline: 32px;
+  margin: 20px;
+  width: calc(100% - 104px);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.search_icon {
+  color: rgb(95, 99, 104);
+  position: relative;
+  left: 44px;
+  top: 29px;
+  font-size: 17px;
+
+}
+
+.search_field:before {
+  content: "filter_list";
+  inset-inline: 24px auto;
+  font: normal normal normal 14px/1 Material Icons;
+  top: 24px;
+  height: 24px;
+
 }
 
 .menu_frame {
-  position: absolute;
   width: 400px;
-  height: 100%;
+  height: calc(100vh - 65px);
   overflow-y: scroll;
+  /* padding: 5px; */
+}
+
+.detail_frame {
+  flex-grow: 1;
+  /* position: absolute;
+  left: 400px;
+  width: calc(100vw - 405px); */
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  border: 0px;
+}
+
+.detail_empty_frame {
+  flex-grow: 1;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  border: 0px;
+  text-align: center;
+  color: #bbbbbb
+}
+
+.detail_image {
+  opacity: 0.2;
+  width: 175px;
+}
+
+.detail_empty_message {
+  margin-top: 20vh;
+}
+
+.detail_header {
+  position: absolute;
+  background-color: white;
+  right: 24px;
+  width: calc(100vw - 443px);
+  height: 49px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+  font-size: 35px;
+  padding-top: 10px;
+  font-style: italic;
 }
