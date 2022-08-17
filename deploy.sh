@@ -4,5 +4,5 @@ cd ./clients/plants-web-dash
 cd ../..
 
 git stage .
-git commit -m $1
+git commit -m "$1"
 git push origin main
