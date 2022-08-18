@@ -1,12 +1,14 @@
 .list_container {
   height: 100%;
-
 }
 
 .list_line {
   display: flex;
   vertical-align: middle;
   cursor: pointer;
+  padding-left: 9px;
+  padding-right: 20px;
+  padding-bottom: 5px;
 }
 
 .list_line_selected {

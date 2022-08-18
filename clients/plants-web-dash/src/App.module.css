@@ -27,6 +27,26 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+.menu_button {
+  display: none;
+  cursor: pointer;
+  margin-top: 17px;
+  margin-left: 12px;
+  color: rgb(95, 99, 104);
+}
+
+.menu_popup {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* opacity: .4; */
+  /* display: none; */
+}
+
 .header_logo {
   margin-top: 12px;
   height: 35px;
@@ -99,9 +119,18 @@ input:focus {
 
 .menu_frame {
   width: 400px;
+  min-width: 400px;
   height: calc(100vh - 65px);
   overflow-y: scroll;
-  /* padding: 5px; */
+  background-color: white;
+}
+
+.menu_frame_popup {
+
+  width: 100%;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  background-color: white;
 }
 
 .detail_frame {
@@ -119,7 +148,6 @@ input:focus {
   height: calc(100vh - 65px);
   overflow-y: scroll;
   border: 0px;
-  text-align: center;
   color: #bbbbbb
 }
 
@@ -145,6 +173,9 @@ input:focus {
   margin: 0px;
   padding: 0px;
   padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .trending_container {
@@ -197,12 +228,25 @@ input:focus {
   left: 11px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+
+  .menu_popup {
+    display: block;
+  }
+
+  .menu_button {
+    display: block;
+  }
+
   .menu_frame {
-    width: 0px;
+    display: none;
   }
 
   .header_rightbox {
     display: none;
+  }
+
+  .detail_header {
+    width: calc(100vw - 41px);
   }
 }

@@ -16,9 +16,11 @@ const App: Component = () => {
   const [selectedPlant, setSelectedPlant] = createSignal("")
   const [detailUrl, setDetailUrl] = createSignal("https://www.wikipedia.org")
   const [filter, setFilter] = createSignal("")
+  const [menuVisible, setMenuVisible] = createSignal(false)
 
   createEffect(() => {
-    setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedPlant().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stc=yes&sta=list&c=1`)
+    setMenuVisible(false)
+    setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedPlant().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stt=yes&ssm=yes&slm=country&stc=yes&sta=list&c=1`)
   });
 
   const setTopBar = (plant) => {
@@ -35,6 +37,9 @@ const App: Component = () => {
   return (
     <div>
       <div class={styles.navbar}>
+        <span onclick={(e) => setMenuVisible(!menuVisible())} class={styles.menu_button + " material-symbols-outlined"}>
+          menu
+        </span>
         <img class={styles.header_logo} src={logo}></img>
         <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trend Database</span>
         <div class={styles.header_rightbox}>
@@ -59,7 +64,7 @@ const App: Component = () => {
           <iframe class={styles.detail_frame} src={detailUrl()} onload={(e) => topbar.hide()}></iframe>
         </Show>
         <Show when={selectedPlant() == ""}>
-          <div style={{ "flex-grow": 1 }}>
+          <div class={styles.detail_empty_frame}>
             <h1 class={styles.trending_title}>Top Trending</h1>
             <div class={styles.trending_container}>
               <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Black cohosh')}>
@@ -119,6 +124,24 @@ const App: Component = () => {
           </div>
         </Show> */}
       </div >
+      <Show when={menuVisible()}>
+        <div class={styles.menu_popup}>
+          <div class={styles.navbar}>
+            <span onclick={(e) => setMenuVisible(false)} class={styles.menu_button + " material-symbols-outlined"}>
+              close
+            </span>
+            <img class={styles.header_logo} src={logo}></img>
+            <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trend Database</span>
+          </div>
+          <div class={styles.menu_frame_popup} >
+            <div class={styles.search_box}>
+              <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
+              <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
+            </div>
+            <Menu data={plantsUrl()} setSelected={setSelectedPlant} selectedPlant={selectedPlant()} filter={filter()}></Menu>
+          </div>
+        </div>
+      </Show>
     </div>
   );
 };
