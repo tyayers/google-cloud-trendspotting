@@ -22,7 +22,12 @@ const App: Component = () => {
   });
 
   const setTopBar = (plant) => {
-    if (plant != "") topbar.show();
+    if (plant != "") {
+      topbar.show();
+      setTimeout(() => {
+        topbar.hide();
+      }, 5000)
+    }
   }
 
   createEffect(() => setTopBar(selectedPlant()))
