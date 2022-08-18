@@ -1,3 +1,18 @@
+body {
+  font-family: Google Sans,
+    Noto Sans,
+    Noto Sans JP,
+    Noto Sans KR,
+    Noto Naskh Arabic,
+    Noto Sans Thai,
+    Noto Sans Hebrew,
+    Noto Sans Bengali,
+    sans-serif;
+
+  /* border-top: 4px solid #37ba8a;
+  margin: 0; */
+}
+
 .app_container {
   display: flex;
   /* height: 100%;
@@ -21,12 +36,16 @@
 
 .header_text {
   cursor: pointer;
-  margin-top: 19px;
+  margin-top: 15px;
   font-size: 22px;
   margin-left: -4px;
 }
 
-.header_gdelt {
+.header_rightbox {
+  margin-left: auto
+}
+
+.header_rightbox_logo {
   margin-left: auto;
   height: 38px;
   margin-top: 14px;
@@ -123,4 +142,64 @@ input:focus {
   font-size: 35px;
   padding-top: 10px;
   font-style: italic;
+}
+
+.trending_container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly
+}
+
+.trending_title {
+  padding-left: 25px;
+  color: #202124;
+}
+
+.trending_box {
+  cursor: pointer;
+  flex-grow: 1;
+  background-color: white;
+  margin: 15px;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
+  border-left: 0.25rem solid #1cc88a !important;
+  height: 8.5rem;
+  border: 1px px solid rgba(0, 0, 0, 0.2);
+  border-left: 0.5rem solid;
+  min-width: 16.5rem;
+  max-width: 21rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.trending_box_title {
+  font-size: 2rem;
+  color: #1cc88a !important;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.trending_box_metric {
+  font-size: 4rem;
+  color: #1cc88a !important;
+  padding-top: 11px;
+}
+
+.trending_box_icon {
+  font-size: 10rem;
+  color: #dddfeb;
+  position: relative;
+  top: -50px;
+  left: 11px;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu_frame {
+    width: 0px;
+  }
+
+  .header_rightbox {
+    display: none;
+  }
 }

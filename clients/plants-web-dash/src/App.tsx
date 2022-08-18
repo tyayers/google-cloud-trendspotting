@@ -7,6 +7,7 @@ import leaf from './assets/leaf.png'
 import gdelt from './assets/gdelt.png'
 import trends from './assets/trends.png'
 import bigquery from './assets/bigquery.png'
+import trends_up from './assets/trends_up.png'
 
 const App: Component = () => {
   //  const [plantsUrl, setPlantsUrl] = createSignal("https://wikipediascraper-qtw3rvj3ya-ew.a.run.app/tables?site=https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism&flatten=true")
@@ -16,19 +17,24 @@ const App: Component = () => {
   const [filter, setFilter] = createSignal("")
 
   createEffect(() => {
-    console.info(selectedPlant())
     setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedPlant().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stc=yes&sta=list&c=1`)
   });
+
+  const setTopBar = (plant) => {
+    if (plant != "") topbar.show();
+  }
+
+  createEffect(() => setTopBar(selectedPlant()))
 
   return (
     <div>
       <div class={styles.navbar}>
         <img class={styles.header_logo} src={logo}></img>
         <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trends Dashboard</span>
-        <div style={{ "margin-left": "auto" }}>
-          <a href="https://cloud.google.com/bigquery" target="_blank"><img class={styles.header_gdelt} src={bigquery}></img></a>
-          <a href="https://trends.google.com/" target="_blank"><img class={styles.header_gdelt} src={trends}></img></a>
-          <a href="https://www.gdeltproject.org/" target="_blank"><img class={styles.header_gdelt} src={gdelt}></img></a>
+        <div class={styles.header_rightbox}>
+          <a href="https://cloud.google.com/bigquery" target="_blank"><img class={styles.header_rightbox_logo} src={bigquery}></img></a>
+          <a href="https://trends.google.com/" target="_blank"><img class={styles.header_rightbox_logo} src={trends}></img></a>
+          <a href="https://www.gdeltproject.org/" target="_blank"><img class={styles.header_rightbox_logo} src={gdelt}></img></a>
         </div>
       </div>
       <div class={styles.app_container}>
@@ -43,28 +49,44 @@ const App: Component = () => {
           <div class={styles.detail_header}>
             {selectedPlant()}
           </div>
-          <iframe class={styles.detail_frame} src={detailUrl()}></iframe>
+          <iframe class={styles.detail_frame} src={detailUrl()} onload={(e) => topbar.hide()}></iframe>
         </Show>
-        {/* <Show when={selectedPlant() == ""}>
+        <Show when={selectedPlant() == ""}>
           <div style={{ "flex-grow": 1 }}>
-            <h1>Trending plants</h1>
-            <div style={{ display: "flex", "flex-grow": 1, "justify-content": "space-evenly" }}>
-              <div style={{ width: "100px", "background-color": "red" }}>test</div>
-              <div style={{ width: "100px", "background-color": "red" }}>test</div>
-
-              <div style={{ width: "100px", "background-color": "red" }}>test</div>
-
+            <h1 class={styles.trending_title}>Top Trending</h1>
+            <div class={styles.trending_container}>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Black cohosh')}>
+                <div class={styles.trending_box_title}>Black cohosh</div>
+                <div class={styles.trending_box_metric}>+41%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Bitter leaf')}>
+                <div class={styles.trending_box_title}>Bitter leaf</div>
+                <div class={styles.trending_box_metric}>+35%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Ginkgo')}>
+                <div class={styles.trending_box_title}>Ginkgo</div>
+                <div class={styles.trending_box_metric}>+31%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
             </div>
           </div>
-        </Show> */}
-        <Show when={selectedPlant() == ""}>
+        </Show>
+        {/* <Show when={selectedPlant() == ""}>
           <div class={styles.detail_empty_frame} >
             <div class={styles.detail_empty_message}>
               <img class={styles.detail_image} src={leaf}></img><br></br>
               Please select a plant from the list on the left.
             </div>
           </div>
-        </Show>
+        </Show> */}
       </div >
     </div>
   );
