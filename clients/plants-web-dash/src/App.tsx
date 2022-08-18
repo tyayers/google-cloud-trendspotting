@@ -49,7 +49,7 @@ const App: Component = () => {
             <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
             <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
           </div>
-          <Menu data={plantsUrl()} setSelected={setSelectedPlant} filter={filter()}></Menu>
+          <Menu data={plantsUrl()} setSelected={setSelectedPlant} selectedPlant={selectedPlant()} filter={filter()}></Menu>
         </div>
         <Show when={selectedPlant() != ""}>
           <div class={styles.detail_header}>

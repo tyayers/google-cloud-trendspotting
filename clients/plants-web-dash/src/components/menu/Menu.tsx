@@ -9,7 +9,7 @@ const fetchData = async (url: string) => {
 }
 
 export const Menu: Component = (props) => {
-  const mergedProps = mergeProps({ data: "", setSelected: function (name: string) { }, filter: "" }, props);
+  const mergedProps = mergeProps({ data: "", setSelected: function (name: string) { }, filter: "", selectedPlant: "" }, props);
   const [items, setItems] = createSignal([]);
 
   onMount(async () => {
@@ -28,19 +28,38 @@ export const Menu: Component = (props) => {
     <div class={styles.list_container}>
       <For each={items()}>{(item, i) =>
         <Show when={mergedProps.filter == "" || item['Name'].toLowerCase().includes(mergedProps.filter.toLowerCase())}>
-          <div class={styles.list_line} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
-            <Show
-              when={item['Picture']}
-              fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
-            >
-              <img class={styles.list_image} src={item['Picture']}></img>
-            </Show>
+          <Show
+            when={mergedProps.selectedPlant == item['Name']}
+            fallback={
+              <div class={styles.list_line} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
+                <Show
+                  when={item['Picture']}
+                  fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
+                >
+                  <img class={styles.list_image} src={item['Picture']}></img>
+                </Show>
 
-            <div>
-              <div class={styles.list_line_title}>{item['Name']}</div>
-              <div class={styles.list_line_description}>{item['Description']}</div>
+                <div>
+                  <div class={styles.list_line_title}>{item['Name']}</div>
+                  <div class={styles.list_line_description}>{item['Description']}</div>
+                </div>
+              </div>
+            }
+          >
+            <div class={styles.list_line_selected} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
+              <Show
+                when={item['Picture']}
+                fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
+              >
+                <img class={styles.list_image} src={item['Picture']}></img>
+              </Show>
+
+              <div>
+                <div class={styles.list_line_title}>{item['Name']}</div>
+                <div class={styles.list_line_description}>{item['Description']}</div>
+              </div>
             </div>
-          </div>
+          </Show>
         </Show>
       }</For>
     </div>

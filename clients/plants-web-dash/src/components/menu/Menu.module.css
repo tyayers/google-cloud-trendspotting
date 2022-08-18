@@ -10,7 +10,10 @@
 }
 
 .list_line_selected {
-  background-color: #c5c5c5;
+  display: flex;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f1f3f4;
 }
 
 .list_line:hover {
