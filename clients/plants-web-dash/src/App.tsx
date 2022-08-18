@@ -84,6 +84,30 @@ const App: Component = () => {
                 </span>
               </div>
             </div>
+            <h1 class={styles.trending_title}>Watchlist</h1>
+            <div class={styles.trending_container}>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Black cohosh')}>
+                <div class={styles.trending_box_title}>Black cohosh</div>
+                <div class={styles.trending_box_metric}>+41%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Bitter leaf')}>
+                <div class={styles.trending_box_title}>Bitter leaf</div>
+                <div class={styles.trending_box_metric}>+35%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
+              <div class={styles.trending_box} onclick={(e) => setSelectedPlant('Ginkgo')}>
+                <div class={styles.trending_box_title}>Ginkgo</div>
+                <div class={styles.trending_box_metric}>+31%</div>
+                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
+                  trending_up
+                </span>
+              </div>
+            </div>
           </div>
         </Show>
         {/* <Show when={selectedPlant() == ""}>
