@@ -59,7 +59,8 @@ const App: Component = () => {
         </div>
         <Show when={selectedPlant() != ""}>
           <h1 class={styles.detail_header}>
-            {selectedPlant()}
+            <img class={styles.detail_header_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>
+            <span class={styles.detail_header_text}>{selectedPlant()}</span>
           </h1>
           <iframe class={styles.detail_frame} src={detailUrl()} onload={(e) => topbar.hide()}></iframe>
         </Show>

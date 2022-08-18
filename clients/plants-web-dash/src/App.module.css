@@ -178,6 +178,23 @@ input:focus {
   text-overflow: ellipsis;
 }
 
+.detail_header_image {
+  border-radius: 90px;
+  height: 39px;
+  width: 39px;
+  margin-top: 5px;
+  /* min-width: 100px; */
+  /* align-content: stretch; */
+  object-fit: cover;
+  margin: 7px;
+  margin-top: 6px;
+}
+
+.detail_header_text {
+  position: relative;
+  top: -15px;
+}
+
 .trending_container {
   flex-wrap: wrap;
   display: flex;
