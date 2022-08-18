@@ -24,42 +24,30 @@ export const Menu: Component = (props) => {
     })
   })
 
+  const getLineClass = (name) => {
+    if (name == mergedProps.selectedPlant)
+      return styles.list_line_selected;
+    else
+      return styles.list_line;
+  }
+
   return (
     <div class={styles.list_container}>
       <For each={items()}>{(item, i) =>
         <Show when={mergedProps.filter == "" || item['Name'].toLowerCase().includes(mergedProps.filter.toLowerCase())}>
-          <Show
-            when={mergedProps.selectedPlant == item['Name']}
-            fallback={
-              <div class={styles.list_line} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
-                <Show
-                  when={item['Picture']}
-                  fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
-                >
-                  <img class={styles.list_image} src={item['Picture']}></img>
-                </Show>
+          <div class={getLineClass(item['Name'])} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
+            <Show
+              when={item['Picture']}
+              fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
+            >
+              <img class={styles.list_image} src={item['Picture']}></img>
+            </Show>
 
-                <div>
-                  <div class={styles.list_line_title}>{item['Name']}</div>
-                  <div class={styles.list_line_description}>{item['Description']}</div>
-                </div>
-              </div>
-            }
-          >
-            <div class={styles.list_line_selected} onClick={(e) => { mergedProps.setSelected(item['Name']) }}>
-              <Show
-                when={item['Picture']}
-                fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
-              >
-                <img class={styles.list_image} src={item['Picture']}></img>
-              </Show>
-
-              <div>
-                <div class={styles.list_line_title}>{item['Name']}</div>
-                <div class={styles.list_line_description}>{item['Description']}</div>
-              </div>
+            <div>
+              <div class={styles.list_line_title}>{item['Name']}</div>
+              <div class={styles.list_line_description}>{item['Description']}</div>
             </div>
-          </Show>
+          </div>
         </Show>
       }</For>
     </div>
