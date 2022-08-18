@@ -127,19 +127,21 @@ const App: Component = () => {
       </div >
       <Show when={menuVisible()}>
         <div class={styles.menu_popup}>
-          <div class={styles.navbar}>
-            <span onclick={(e) => setMenuVisible(false)} class={styles.menu_button + " material-symbols-outlined"}>
-              close
-            </span>
-            <img class={styles.header_logo} src={logo}></img>
-            <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trend Database</span>
-          </div>
-          <div class={styles.menu_frame_popup} >
-            <div class={styles.search_box}>
-              <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
-              <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
+          <div class={styles.menu_popup_container}>
+            <div class={styles.navbar}>
+              <span onclick={(e) => setMenuVisible(false)} class={styles.menu_button + " material-symbols-outlined"}>
+                close
+              </span>
+              <img class={styles.header_logo} src={logo}></img>
+              <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trend Database</span>
             </div>
-            <Menu data={plantsUrl()} setSelected={setSelectedPlant} selectedPlant={selectedPlant()} filter={filter()}></Menu>
+            <div class={styles.menu_frame_popup} >
+              <div class={styles.search_box}>
+                <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
+                <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
+              </div>
+              <Menu data={plantsUrl()} setSelected={setSelectedPlant} selectedPlant={selectedPlant()} filter={filter()}></Menu>
+            </div>
           </div>
         </div>
       </Show>

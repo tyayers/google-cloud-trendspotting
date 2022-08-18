@@ -39,12 +39,20 @@ body {
   display: none;
   position: fixed;
   top: 0px;
+  /* opacity: 0; */
   left: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
+  /* transition: ease all 2s; */
   /* opacity: .4; */
   /* display: none; */
+}
+
+.menu_popup_container {
+  width: 85%;
+  position: relative;
+  left: -100vw;
 }
 
 .header_logo {
@@ -249,6 +257,36 @@ input:focus {
 
   .menu_popup {
     display: block;
+    background-color: rgba(0, 0, 0, .6);
+    animation: fadein .5s;
+    /* opacity: 1; */
+  }
+
+  .menu_popup_container {
+    left: 0px;
+    animation: slidein .5s;
+  }
+
+  @keyframes fadein {
+    from {
+      background-color: rgba(0, 0, 0, .0);
+      ;
+    }
+
+    to {
+      background-color: rgba(0, 0, 0, .6);
+      ;
+    }
+  }
+
+  @keyframes slidein {
+    from {
+      left: -100vw;
+    }
+
+    to {
+      left: 0px;
+    }
   }
 
   .menu_button {
