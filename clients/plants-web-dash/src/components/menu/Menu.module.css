@@ -22,10 +22,10 @@
 
 .list_image {
   border-radius: 90px;
-  height: 100px;
+  height: 90px;
   margin-top: 5px;
-  width: 100px;
-  min-width: 100px;
+  width: 90px;
+  /* min-width: 100px; */
   /* align-content: stretch; */
   object-fit: cover;
   margin: 7px;

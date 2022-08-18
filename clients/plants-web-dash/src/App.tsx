@@ -6,7 +6,7 @@ import { Menu } from './components/menu/Menu';
 import logo from './assets/logo.webp'
 import leaf from './assets/leaf.png'
 import gdelt from './assets/gdelt.png'
-import trends from './assets/trends.png'
+import trends from './assets/trends.jpg'
 import bigquery from './assets/bigquery.png'
 import trends_up from './assets/trends_up.png'
 
@@ -36,11 +36,12 @@ const App: Component = () => {
     <div>
       <div class={styles.navbar}>
         <img class={styles.header_logo} src={logo}></img>
-        <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trends Dashboard</span>
+        <span class={styles.header_text} onclick={(e) => setSelectedPlant("")}>Herbal Plant Trend Database</span>
         <div class={styles.header_rightbox}>
-          <a href="https://cloud.google.com/bigquery" target="_blank"><img class={styles.header_rightbox_logo} src={bigquery}></img></a>
+          <a href="https://www.gdeltproject.org/" target="_blank"><img style={{ opacity: ".4" }} class={styles.header_rightbox_logo} src={gdelt}></img></a>
           <a href="https://trends.google.com/" target="_blank"><img class={styles.header_rightbox_logo} src={trends}></img></a>
-          <a href="https://www.gdeltproject.org/" target="_blank"><img class={styles.header_rightbox_logo} src={gdelt}></img></a>
+          <a href="https://cloud.google.com/bigquery" target="_blank"><img style={{ height: "43px", "margin-left": "-6px" }} class={styles.header_rightbox_logo} src={bigquery}></img></a>
+
         </div>
       </div>
       <div class={styles.app_container}>
@@ -52,9 +53,9 @@ const App: Component = () => {
           <Menu data={plantsUrl()} setSelected={setSelectedPlant} selectedPlant={selectedPlant()} filter={filter()}></Menu>
         </div>
         <Show when={selectedPlant() != ""}>
-          <div class={styles.detail_header}>
+          <h1 class={styles.detail_header}>
             {selectedPlant()}
-          </div>
+          </h1>
           <iframe class={styles.detail_frame} src={detailUrl()} onload={(e) => topbar.hide()}></iframe>
         </Show>
         <Show when={selectedPlant() == ""}>
