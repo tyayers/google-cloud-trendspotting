@@ -30,8 +30,7 @@
   height: 90px;
   margin-top: 5px;
   width: 90px;
-  /* min-width: 100px; */
-  /* align-content: stretch; */
+  min-width: 89px;
   object-fit: cover;
   margin: 7px;
   margin-top: 10px;

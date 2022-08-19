@@ -225,7 +225,7 @@ input:focus {
   height: 8.5rem;
   border: 1px px solid rgba(0, 0, 0, 0.2);
   border-left: 0.5rem solid;
-  min-width: 16.5rem;
+  min-width: 324px;
   max-width: 21rem;
   display: flex;
   flex-wrap: wrap;
