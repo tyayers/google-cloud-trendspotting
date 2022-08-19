@@ -63,6 +63,10 @@ const App: Component = () => {
 
   createEffect(() => setTopBar(selectedName()))
 
+  window.addEventListener('resize', (e) => {
+    setMenuVisible(false);
+  });
+
   return (
     <div>
       <div class={styles.navbar}>
@@ -160,14 +164,14 @@ const App: Component = () => {
         </Show> */}
       </div >
       <Show when={menuVisible()}>
-        <div class={styles.menu_popup} onclick={(e) => setMenuVisible(false)}>
-          <div class={styles.menu_popup_container}>
+        <div class={styles.menu_popup} onclick={(e) => { setMenuVisible(false) }}>
+          <div class={styles.menu_popup_container} onclick={(e) => { e.stopPropagation() }}>
             <div class={styles.navbar}>
-              <span onclick={(e) => setMenuVisible(false)} class={styles.menu_button + " material-symbols-outlined"}>
+              <img class={styles.header_logo} src={logo}></img>
+              <span class={styles.header_text} onclick={(e) => setSelectedName("")}>Herbal Plants</span>
+              <span onclick={(e) => setMenuVisible(false)} class={styles.menu_button_close + " material-symbols-outlined"}>
                 close
               </span>
-              <img class={styles.header_logo} src={logo}></img>
-              <span class={styles.header_text} onclick={(e) => setSelectedName("")}>Herbal Plant Trend Database</span>
             </div>
             <div class={styles.menu_frame_popup} >
               <div class={styles.search_box}>

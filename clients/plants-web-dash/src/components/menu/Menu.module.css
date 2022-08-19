@@ -16,9 +16,11 @@
   vertical-align: middle;
   cursor: pointer;
   background-color: #f1f3f4;
-  padding-left: 15px;
+  padding-left: 9px;
   padding-right: 20px;
   padding-bottom: 5px;
+  padding-top: 2px;
+  border-left: 0.25rem solid #1cc88a !important;
 }
 
 .list_line:hover {

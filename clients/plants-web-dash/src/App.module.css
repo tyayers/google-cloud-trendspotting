@@ -35,6 +35,15 @@ body {
   color: rgb(95, 99, 104);
 }
 
+.menu_button_close {
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: #bfc1c4;
+}
+
 .menu_popup {
   display: none;
   position: fixed;
