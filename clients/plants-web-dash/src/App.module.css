@@ -253,7 +253,7 @@ input:focus {
   left: 11px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
 
   .menu_popup {
     display: block;
