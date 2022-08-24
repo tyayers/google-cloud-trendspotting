@@ -1,0 +1,4 @@
+requests
+web.py
+google-cloud-storage
+google-cloud-bigquery

@@ -235,7 +235,7 @@ input:focus {
   border: 1px px solid rgba(0, 0, 0, 0.2);
   border-left: 0.5rem solid;
   min-width: 324px;
-  max-width: 21rem;
+  max-width: 22rem;
   display: flex;
   flex-wrap: wrap;
   padding-top: 5px;
@@ -249,7 +249,7 @@ input:focus {
 }
 
 .trending_box_metric {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #1cc88a !important;
   padding-top: 11px;
 }

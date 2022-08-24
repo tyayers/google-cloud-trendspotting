@@ -1,0 +1,20 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "name": "date",
+      "type": "DATE"
+    },
+    {
+      "name": "news_volume",
+      "type": "INTEGER"
+    },
+    {
+      "name": "news_norm",
+      "type": "INTEGER"
+    }
+  ]
+}

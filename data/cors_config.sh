@@ -1,0 +1,1 @@
+gsutil cors set cors_config.json gs://planttrends-72642
