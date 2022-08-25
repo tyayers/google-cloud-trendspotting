@@ -204,7 +204,7 @@ const App: Component = () => {
                 <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
                 <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
               </div>
-              <Menu data={items()} setSelected={setSelected} selectedName={selectedItem()["Name"]} filter={filter()}></Menu>
+              <Menu data={items()} setSelected={setSelected} selectedName={selectedName()} filter={filter()}></Menu>
             </div>
           </div>
         </div>
