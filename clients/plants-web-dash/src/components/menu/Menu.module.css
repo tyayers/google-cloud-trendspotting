@@ -1,5 +1,6 @@
 .list_container {
   height: 100%;
+  padding-left: 10px;
 }
 
 .list_line {

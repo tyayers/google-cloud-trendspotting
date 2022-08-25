@@ -15,9 +15,44 @@ body {
 
 .app_container {
   display: flex;
+  padding: 0px;
   /* height: 100%;
   width: 100%; */
   /* margin: "5px"; */
+}
+
+.menu_frame {
+  width: 400px;
+  min-width: 400px;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.menu_frame_popup {
+
+  width: 100%;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.detail_frame {
+  flex-grow: 1;
+  /* position: absolute;
+  left: 400px;
+  width: calc(100vw - 405px); */
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  border: 0px;
+}
+
+.detail_empty_frame {
+  flex-grow: 1;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  border: 0px;
+  color: #bbbbbb
 }
 
 .navbar {
@@ -65,6 +100,7 @@ body {
 }
 
 .header_logo {
+  cursor: pointer;
   margin-top: 12px;
   height: 35px;
   margin-left: 10px;
@@ -134,39 +170,7 @@ input:focus {
 
 }
 
-.menu_frame {
-  width: 400px;
-  min-width: 400px;
-  height: calc(100vh - 65px);
-  overflow-y: scroll;
-  background-color: white;
-}
 
-.menu_frame_popup {
-
-  width: 100%;
-  height: calc(100vh - 65px);
-  overflow-y: scroll;
-  background-color: white;
-}
-
-.detail_frame {
-  flex-grow: 1;
-  /* position: absolute;
-  left: 400px;
-  width: calc(100vw - 405px); */
-  height: calc(100vh - 65px);
-  overflow-y: scroll;
-  border: 0px;
-}
-
-.detail_empty_frame {
-  flex-grow: 1;
-  height: calc(100vh - 65px);
-  overflow-y: scroll;
-  border: 0px;
-  color: #bbbbbb
-}
 
 .detail_image {
   opacity: 0.2;
@@ -239,6 +243,7 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   padding-top: 5px;
+  border-radius: 6px;
 }
 
 .trending_box_title {

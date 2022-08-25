@@ -44,6 +44,10 @@ const App: Component = () => {
         setSelectedItem(item)
         setSelectedName(name)
       }
+
+      let elem = document.getElementById("menuItem_" + name);
+      if (elem)
+        elem.scrollIntoView({ block: "center", inline: "nearest" });
     }
     else {
       setSelectedName("")
@@ -77,7 +81,7 @@ const App: Component = () => {
 
   createEffect(() => {
     setMenuVisible(false)
-    if (selectedName() != "")
+    if (selectedItem() != undefined)
       setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedName().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stt=yes&ssm=yes&slm=country&stc=yes&sta=list&c=1`)
   });
 
@@ -91,7 +95,7 @@ const App: Component = () => {
   }
 
   createEffect(() => {
-    if (selectedName() != "")
+    if (selectedItem() != undefined)
       setTopBar(selectedName())
   })
 
@@ -122,7 +126,7 @@ const App: Component = () => {
           </div>
           <Menu data={items()} setSelected={setSelected} selectedName={selectedName()} filter={filter()}></Menu>
         </div>
-        <Show when={selectedName() != ""}>
+        <Show when={selectedItem() != undefined}>
           <h1 class={styles.detail_header}>
             <Show when={selectedItem()["Picture"] != ""}
               fallback={
@@ -134,7 +138,7 @@ const App: Component = () => {
           </h1>
           <iframe class={styles.detail_frame} src={detailUrl()} onload={(e) => topbar.hide()}></iframe>
         </Show>
-        <Show when={selectedName() == ""}>
+        <Show when={selectedItem() == undefined}>
           <div class={styles.detail_empty_frame}>
             <h1 class={styles.trending_title}>Top Trending</h1>
             <div class={styles.trending_container}>
