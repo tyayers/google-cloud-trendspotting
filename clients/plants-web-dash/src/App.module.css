@@ -1,3 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 218, 218);
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(184, 184, 184);
+}
+
 body {
   font-family: Google Sans,
     Noto Sans,
@@ -9,47 +30,51 @@ body {
     Noto Sans Bengali,
     sans-serif;
 
-  /* border-top: 4px solid #37ba8a;
-  margin: 0; */
+  --navbar-height: 65px;
+  --sidepanel-width: 300px;
+  --detail_frame_left: 30px;
 }
 
 .app_container {
   display: flex;
   padding: 0px;
+  background-color: rgb(241, 243, 244);
   /* height: 100%;
   width: 100%; */
   /* margin: "5px"; */
 }
 
 .menu_frame {
-  width: 400px;
-  min-width: 400px;
-  height: calc(100vh - 65px);
+  width: var(--sidepanel-width);
+  min-width: var(--sidepanel-width);
+  height: calc(100vh - var(--navbar-height));
   overflow-y: scroll;
   background-color: white;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
 }
 
 .menu_frame_popup {
 
   width: 100%;
-  height: calc(100vh - 65px);
+  height: calc(100vh - var(--navbar-height));
   overflow-y: scroll;
   background-color: white;
 }
 
 .detail_frame {
   flex-grow: 1;
-  /* position: absolute;
-  left: 400px;
-  width: calc(100vw - 405px); */
-  height: calc(100vh - 65px);
+  height: calc(100vh - var(--navbar-height));
   overflow-y: scroll;
   border: 0px;
+  margin-left: var(--detail_frame_left);
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
 }
 
 .detail_empty_frame {
   flex-grow: 1;
-  height: calc(100vh - 65px);
+  height: calc(100vh - var(--navbar-height));
   overflow-y: scroll;
   border: 0px;
   color: #bbbbbb
@@ -83,14 +108,10 @@ body {
   display: none;
   position: fixed;
   top: 0px;
-  /* opacity: 0; */
   left: 0px;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0);
-  /* transition: ease all 2s; */
-  /* opacity: .4; */
-  /* display: none; */
 }
 
 .menu_popup_container {
@@ -170,8 +191,6 @@ input:focus {
 
 }
 
-
-
 .detail_image {
   opacity: 0.2;
   width: 175px;
@@ -185,18 +204,16 @@ input:focus {
   position: absolute;
   background-color: white;
   right: 24px;
-  width: calc(100vw - 443px);
+  width: calc((100vw - var(--sidepanel-width)) - 55px);
   height: 49px;
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
-  /* font-size: 35px; */
   padding-top: 10px;
-  /* font-style: italic; */
   margin: 0px;
   padding: 0px;
   padding-top: 5px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-left: var(--detail_frame_left);
 }
 
 .detail_header_image {
@@ -204,8 +221,6 @@ input:focus {
   height: 39px;
   width: 39px;
   margin-top: 5px;
-  /* min-width: 100px; */
-  /* align-content: stretch; */
   object-fit: cover;
   margin: 7px;
   margin-top: 6px;
@@ -220,12 +235,22 @@ input:focus {
   flex-wrap: wrap;
   display: flex;
   flex-grow: 1;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  background-color: white;
+  margin-left: var(--detail_frame_left);
+  border-radius: 2px;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+  box-sizing: border-box;
+  max-width: 900px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .trending_title {
   padding-left: 25px;
   color: #202124;
+  width: 100%;
 }
 
 .trending_box {
@@ -239,32 +264,46 @@ input:focus {
   border: 1px px solid rgba(0, 0, 0, 0.2);
   border-left: 0.5rem solid;
   min-width: 324px;
-  max-width: 22rem;
+  max-width: 324px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 5px;
   border-radius: 6px;
+  opacity: .8;
 }
 
 .trending_box_title {
   font-size: 2rem;
   color: #1cc88a !important;
-  width: 100%;
-  padding-left: 10px;
+  width: 200px;
+  padding-left: 2px;
+  z-index: 1;
+}
+
+.trending_header_image {
+  border-radius: 90px;
+  height: 55px;
+  width: 55px;
+  margin-top: 5px;
+  object-fit: cover;
+  margin: 7px;
+  margin-top: 6px;
 }
 
 .trending_box_metric {
   font-size: 3.5rem;
   color: #1cc88a !important;
-  padding-top: 11px;
+  z-index: 1;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 .trending_box_icon {
   font-size: 10rem;
-  color: #dddfeb;
+  color: #eeeeee;
   position: relative;
-  top: -50px;
-  left: 11px;
+  top: -156px;
+  left: 166px;
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,6 +1,10 @@
+:root {
+  --listicon_size: 70px;
+}
+
 .list_container {
   height: 100%;
-  padding-left: 10px;
+  padding-left: 4px;
 }
 
 .list_line {
@@ -29,11 +33,11 @@
 }
 
 .list_image {
-  border-radius: 90px;
-  height: 90px;
+  border-radius: var(--listicon_size);
+  height: var(--listicon_size);
   margin-top: 5px;
-  width: 90px;
-  min-width: 89px;
+  width: var(--listicon_size);
+  min-width: var(--listicon_size);
   object-fit: cover;
   margin: 7px;
   margin-top: 10px;

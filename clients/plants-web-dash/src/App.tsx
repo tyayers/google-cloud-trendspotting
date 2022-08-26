@@ -56,6 +56,16 @@ const App: Component = () => {
     // setSelectedName(item["Name"])
   }
 
+  const getPicture = (name: string) => {
+    let result = "https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"
+    let item = items().find(item => item['Name'].toLowerCase() === name.toLowerCase());
+
+    if (item && item["Picture"])
+      result = item["Picture"]
+
+    return result
+  }
+
   onMount(async () => {
     fetchData().then((result) => {
       setItems(result.sort(function (a, b) {
@@ -140,11 +150,12 @@ const App: Component = () => {
         </Show>
         <Show when={selectedItem() == undefined}>
           <div class={styles.detail_empty_frame}>
-            <h1 class={styles.trending_title}>Top Trending</h1>
             <div class={styles.trending_container}>
+              <h1 class={styles.trending_title}>Top Trending</h1>
               <For each={growthItems()}>{(item, i) =>
-                <Show when={item.growth_rate != "0.0"}>
+                <Show when={item.growth_rate != "0.0" && parseFloat(item.growth_rate) > 100}>
                   <div class={styles.trending_box} onclick={(e) => setSelected(undefined, item.name)}>
+                    <img class={styles.trending_header_image} src={getPicture(item.name)}></img>
                     <div class={styles.trending_box_title}>{item.name}</div>
                     <div class={styles.trending_box_metric}>{"+" + item.growth_rate + " %"}</div>
                     <span class={styles.trending_box_icon + " material-symbols-outlined"}>
@@ -153,31 +164,9 @@ const App: Component = () => {
                   </div>
                 </Show>
               }</For>
+
             </div>
-            <h1 class={styles.trending_title}>Watchlist</h1>
-            <div class={styles.trending_container}>
-              <div class={styles.trending_box} onclick={(e) => setSelected(undefined, 'Black cohosh')}>
-                <div class={styles.trending_box_title}>Black cohosh</div>
-                <div class={styles.trending_box_metric}>+41%</div>
-                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
-                  trending_up
-                </span>
-              </div>
-              <div class={styles.trending_box} onclick={(e) => setSelected(undefined, 'Bitter leaf')}>
-                <div class={styles.trending_box_title}>Bitter leaf</div>
-                <div class={styles.trending_box_metric}>+35%</div>
-                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
-                  trending_up
-                </span>
-              </div>
-              <div class={styles.trending_box} onclick={(e) => setSelected(undefined, 'Ginkgo')}>
-                <div class={styles.trending_box_title}>Ginkgo</div>
-                <div class={styles.trending_box_metric}>+31%</div>
-                <span class={styles.trending_box_icon + " material-symbols-outlined"}>
-                  trending_up
-                </span>
-              </div>
-            </div>
+
           </div>
         </Show>
         {/* <Show when={selectedName() == ""}>
