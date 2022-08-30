@@ -20,15 +20,8 @@
 }
 
 body {
-  font-family: Google Sans,
-    Noto Sans,
-    Noto Sans JP,
-    Noto Sans KR,
-    Noto Naskh Arabic,
-    Noto Sans Thai,
-    Noto Sans Hebrew,
-    Noto Sans Bengali,
-    sans-serif;
+  font-family: Heebo;
+  font-weight: 400;
 
   --navbar-height: 65px;
   --sidepanel-width: 300px;
@@ -85,6 +78,8 @@ body {
 
 .navbar {
   height: 64px;
+  font-weight: 500;
+  color: #555454;
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
@@ -126,7 +121,8 @@ body {
 
 .header_leftbox {
   text-decoration: none;
-  color: black;
+  font-weight: 500;
+  color: #555454;
 }
 
 .header_logo {

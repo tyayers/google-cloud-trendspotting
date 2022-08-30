@@ -7,10 +7,16 @@ import plantdata from '../../assets/plantdata.js'
 
 export const DataView: Component = (props) => {
   const params = useParams();
+  const mergedProps = mergeProps({ setTopBar: function (name: string) { }, setSelectedName: function (name: string) { } }, props);
+
   const [items, setItems] = createSignal(plantdata)
   const [item, setItem] = createSignal(items().find(item => item['Name'].toLowerCase() === params.name.toLowerCase()))
 
   const [searchName, setSearchName] = createSignal(params.name.replace("-", "+").replace(" or ", " ").split(",")[0])
+
+  onMount(async () => {
+    mergedProps.setTopBar(params.name)
+  })
 
   createEffect(() => {
     setSearchName(params.name.replace("-", "+").replace(" or ", " ").split(",")[0])
@@ -47,7 +53,7 @@ export const DataView: Component = (props) => {
         <div class={styles.header_container}>
           <div class={styles.header_title}>
             <Show when={item()}>
-              <h1>{item()["Name"]}</h1>
+              <h1 class={styles.header_title_text}>{item()["Name"]}</h1>
               {item()["Description"]}
             </Show>
           </div>

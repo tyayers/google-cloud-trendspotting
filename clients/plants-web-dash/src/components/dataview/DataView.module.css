@@ -53,6 +53,11 @@ h1 {
   width: 60%;
 }
 
+.header_title_text {
+  position: sticky;
+  top: 10px;
+}
+
 .header_image {
   float: right;
   width: 40%;

@@ -3,7 +3,7 @@ import { Component, createSignal, createEffect, mergeProps, Show, For, onMount }
 import styles from '../../App.module.css';
 
 export const Trending: Component = (props) => {
-  const mergedProps = mergeProps({ items: [] }, props);
+  const mergedProps = mergeProps({ items: [], setTopBar: function (name: string) { } }, props);
   const [growthItems, setGrowthItems] = createSignal([])
 
   onMount(async () => {
@@ -33,7 +33,7 @@ export const Trending: Component = (props) => {
         <h1 class={styles.trending_title}>Top Trending</h1>
         <For each={growthItems()}>{(item, i) =>
           <Show when={item.growth_rate != "0.0" && parseFloat(item.growth_rate) > 100}>
-            <Link class={styles.trending_box} href={"/plants/" + item.name}>
+            <Link class={styles.trending_box} href={"/plants/" + item.name} onClick={(e) => { mergedProps.setTopBar("hi") }}>
               <img class={styles.trending_header_image} src={getPicture(item.name)}></img>
               <div class={styles.trending_box_title}>{item.name}</div>
               <div class={styles.trending_box_metric}>{"+" + item.growth_rate + " %"}</div>

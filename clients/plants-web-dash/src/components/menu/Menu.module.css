@@ -28,6 +28,8 @@
   padding-bottom: 5px;
   padding-top: 2px;
   border-left: 0.25rem solid #1cc88a !important;
+  text-decoration: none;
+  color: black;
 }
 
 .list_line:hover {

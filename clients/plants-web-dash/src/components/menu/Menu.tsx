@@ -5,7 +5,7 @@ import plantdata from '../../assets/plantdata.js'
 import styles from './Menu.module.css'
 
 export const Menu: Component = (props) => {
-  const mergedProps = mergeProps({ data: [], setSelected: function (name: string) { }, filter: "", selectedName: "" }, props);
+  const mergedProps = mergeProps({ data: [], setSelected: function (name: string) { }, setTopBar: function (name: string) { }, filter: "", selectedName: "" }, props);
 
   const getLineClass = (name: string) => {
     if (name == mergedProps.selectedName)
@@ -18,7 +18,7 @@ export const Menu: Component = (props) => {
     <div class={styles.list_container}>
       <For each={mergedProps.data}>{(item, i) =>
         <Show when={mergedProps.filter == "" || item['Name'].toLowerCase().includes(mergedProps.filter.toLowerCase())}>
-          <Link class={getLineClass(item['Name'])} href={"/plants/" + item['Name']} id={"menuItem_" + item['Name']}>
+          <Link class={getLineClass(item['Name'])} href={"/plants/" + item['Name']} id={"menuItem_" + item['Name']} onClick={(e) => { mergedProps.setTopBar(item['Name']) }}>
             <Show
               when={item['Picture']}
               fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}

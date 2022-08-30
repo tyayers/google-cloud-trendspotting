@@ -1,5 +1,5 @@
 import { Component, createSignal, createEffect, Show, For, onMount } from 'solid-js';
-import { Router, Routes, Route, Link } from "@solidjs/router";
+import { Router, Routes, Route, Link, useParams } from "@solidjs/router";
 
 import styles from './App.module.css';
 import { Menu } from './components/menu/Menu';
@@ -21,10 +21,12 @@ const fetchData = async () => {
 }
 
 const App: Component = () => {
+  const params = useParams();
+
   const [plantsUrl, setPlantsUrl] = createSignal("https://wikipediascraper-qtw3rvj3ya-ew.a.run.app/tables?site=https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism&flatten=true")
   const [items, setItems] = createSignal([])
   //const [selectedIndex, setSelectedIndex] = createSignal(-1)
-  const [selectedName, setSelectedName] = createSignal("")
+  const [selectedName, setSelectedName] = createSignal(params.name)
   const [selectedItem, setSelectedItem] = createSignal(undefined)
   const [detailUrl, setDetailUrl] = createSignal("https://www.wikipedia.org")
   const [filter, setFilter] = createSignal("")
@@ -64,6 +66,10 @@ const App: Component = () => {
     // setSelectedName(item["Name"])
   }
 
+  const setName = (name: string) => {
+    setSelectedName(name);
+  }
+
   const getPicture = (name: string) => {
     let result = "https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"
     let item = items().find(item => item['Name'].toLowerCase() === name.toLowerCase());
@@ -94,8 +100,9 @@ const App: Component = () => {
       setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedName().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stt=yes&ssm=yes&slm=country&stc=yes&sta=list&c=1`)
   });
 
-  const setTopBar = (plant: string) => {
-    if (plant != "") {
+  const setTopBar = (name: string) => {
+    if (name != "") {
+      setSelectedName(name);
       topbar.show();
       setTimeout(() => {
         topbar.hide();
@@ -135,15 +142,15 @@ const App: Component = () => {
             <span class={styles.search_icon + " material-symbols-outlined"}>filter_list</span>
             <input class={styles.search_field} oninput={(e) => setFilter(e.target.value)} placeholder="Filter"></input>
           </div>
-          <Menu data={items()} setSelected={setSelected} selectedName={selectedName()} filter={filter()}></Menu>
+          <Menu data={items()} setSelected={setSelected} selectedName={selectedName()} filter={filter()} setTopBar={setTopBar}></Menu>
         </div>
         <Routes>
           <Route path="/" element={
-            <Trending items={items()}></Trending>
+            <Trending items={items()} setTopBar={setTopBar}></Trending>
           } />
           <Route path="/plants/:name" element={
             <div class={styles.detail_empty_frame}>
-              <DataView items={items()}></DataView>
+              <DataView items={items()} setTopBar={setTopBar} setSelectedName={setName}></DataView>
             </div>
           } data={ItemData} />
         </Routes>
