@@ -107,6 +107,12 @@ const App: Component = () => {
       setTimeout(() => {
         topbar.hide();
       }, 5000)
+
+      setTimeout(() => {
+        let elem = document.getElementById("menuItem_" + name);
+        if (elem)
+          elem.scrollIntoView({ block: "center", inline: "nearest" });
+      }, 500)
     }
   }
 

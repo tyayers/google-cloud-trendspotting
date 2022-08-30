@@ -15,7 +15,6 @@ h1 {
 .toc_frame {
   float: right;
   width: 18%;
-  height: 100px;
   margin-left: 5px;
   padding-left: 5px;
   position: sticky;
@@ -27,6 +26,11 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   color: #202124;
+}
+
+.toc_item {
+  font-size: 13px;
+  color: gray;
 }
 
 .page_frame {
@@ -55,7 +59,12 @@ h1 {
 
 .header_title_text {
   position: sticky;
-  top: 10px;
+  top: 0px;
+  background-color: white;
+  border-bottom: 1px solid #ddd !important;
+  border-left: 1px solid #ddd !important;
+  padding-left: 23px;
+  margin-left: -26px;
 }
 
 .header_image {
