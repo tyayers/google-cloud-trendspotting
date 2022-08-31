@@ -123,6 +123,8 @@ body {
   text-decoration: none;
   font-weight: 500;
   color: #555454;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .header_logo {
@@ -139,6 +141,8 @@ body {
   top: -7px;
   font-size: 22px;
   margin-left: -4px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .header_rightbox {
