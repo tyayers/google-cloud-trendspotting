@@ -8,7 +8,7 @@ import { Trending } from './components/trending/Trending';
 import plantdata from './assets/plantdata.js'
 import topbar from 'topbar';
 
-import logo from './assets/logo.webp'
+import logo from './assets/logo.png'
 import leaf from './assets/leaf.png'
 import gdelt from './assets/gdelt.png'
 import trends from './assets/trends.jpg'
@@ -132,7 +132,8 @@ const App: Component = () => {
           menu
         </span>
         <Link href="/" class={styles.header_leftbox}>
-          <img class={styles.header_logo} src={logo}></img>
+          {/* <img class={styles.header_logo} src={logo}></img> */}
+          <span class={styles.header_logo + " material-symbols-outlined"}>trending_up</span>
           <span class={styles.header_text} >Herbal Plant Trend Database</span>
           <div class={styles.header_rightbox}>
             <a href="https://www.gdeltproject.org/" target="_blank"><img style={{ opacity: ".4" }} class={styles.header_rightbox_logo} src={gdelt}></img></a>
