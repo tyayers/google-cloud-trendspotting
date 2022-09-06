@@ -88,7 +88,7 @@ body {
   float: left;
   display: none;
   cursor: pointer;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-left: 12px;
   color: rgb(95, 99, 104);
 }
@@ -140,7 +140,7 @@ body {
   position: relative;
   top: -7px;
   font-size: 22px;
-  margin-left: -4px;
+  margin-left: 2px;
   white-space: nowrap;
   overflow: hidden;
 }
