@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "cloud31x"
+  },
+  "targets": {
+    "cloud31x": {
+      "hosting": {
+        "trend-sandwiches-qk3tsa1y": [
+          "trend-sandwiches-qk3tsa1y"
+        ]
+      }
+    }
+  }
+}

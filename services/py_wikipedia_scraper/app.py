@@ -12,29 +12,25 @@ app = web.application(urls, globals())
 class wikipedia_scraper:
     def GET(self, site):
         site = web.input().site
-
+        flatten = False
+        topic = ""
+        
         if not site:
             site = 'https://en.wikipedia.org/wiki/Web_scraping'
 
-        result = self.getData(site)
-
         if "flatten" in web.input() and web.input().flatten == "true":
-            newResult = []
-            for table in result:
-                newResult = newResult + table
-
-            if "name" in web.input():
-                result = {
-                    web.input().name: newResult
-                }
-            else:
-                result = newResult
+            flatten = True
+            
+        if "topic" in web.input():
+            topic = web.input().topic
+        
+        result = self.getData(site, topic, flatten)
 
         web.header('Access-Control-Allow-Origin', '*')
         web.header('Content-Type', 'application/json')
         return json.dumps(result)
 
-    def getData(self, site):
+    def getData(self, site, topic, flatten):
         response = requests.get(
             url=site,
         )
@@ -69,6 +65,18 @@ class wikipedia_scraper:
                     table_result.append(row_value)
 
             result.append(table_result)
+
+        if flatten:
+            newResult = []
+            for table in result:
+                newResult = newResult + table
+
+            if topic != "":
+                result = {
+                    topic: newResult
+                }
+            else:
+                result = newResult
 
         return result
 

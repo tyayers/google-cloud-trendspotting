@@ -14,6 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT="cloud3x" # The name of the GCP project
+export PROJECT="cloud31x" # The name of the GCP project
 export NETWORK="default" # The network to use (will be created if it doesn't exist)
-export LOCATION="europe-west1-a" # The location for the Apigee X instance and analytics data
+export LOCATION="europe-west1-a" # The location to deploy resources to
+
+export TOPIC="sandwiches"
+export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_sandwiches"
+
+#export BUCKET_NAME="trend-$TOPIC"
+BUCKET_NAME="trend-$TOPIC-$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8 ; echo '')"
+export BUCKET_NAME=$(echo "$BUCKET_NAME" | tr '[:upper:]' '[:lower:]')
+
+
