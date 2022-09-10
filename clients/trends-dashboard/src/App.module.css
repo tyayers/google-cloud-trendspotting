@@ -331,7 +331,7 @@ input:focus {
 
   .menu_popup_container {
     left: 0px;
-    animation: slidein .5s;
+    animation: slidein .3s;
   }
 
   @keyframes fadein {

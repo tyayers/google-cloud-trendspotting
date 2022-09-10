@@ -6,7 +6,9 @@ import styles from './Menu.module.css'
 
 export const Menu: Component = (props) => {
   const mergedProps = mergeProps({ data: [], setSelected: function (name: string) { }, setTopBar: function (name: string) { }, filter: "", selectedName: "" }, props);
-
+  const [topicSingular, setTopicSingular] = createSignal(import.meta.env.VITE_TOPIC_SINGULAR)
+  const [topicPlural, setTopicPlural] = createSignal(import.meta.env.VITE_TOPIC_PLURAL)
+  
   const getLineClass = (name: string) => {
     if (name == mergedProps.selectedName)
       return styles.list_line_selected;
@@ -18,14 +20,13 @@ export const Menu: Component = (props) => {
     <div class={styles.list_container}>
       <For each={mergedProps.data}>{(item, i) =>
         <Show when={mergedProps.filter == "" || item['Name'].toLowerCase().includes(mergedProps.filter.toLowerCase())}>
-          <Link class={getLineClass(item['Name'])} href={"/plants/" + item['Name']} id={"menuItem_" + item['Name']} onClick={(e) => { mergedProps.setTopBar(item['Name']) }}>
+          <Link class={getLineClass(item['Name'])} href={"/" + topicPlural() + "/" + item['Name']} id={"menuItem_" + item['Name']} onClick={(e) => { mergedProps.setTopBar(item['Name']) }}>
             <Show
-              when={item['Picture']}
+              when={item['Image']}
               fallback={<img class={styles.list_image} src="https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"></img>}
             >
-              <img class={styles.list_image} src={item['Picture']}></img>
+              <img class={styles.list_image} src={item['Image']}></img>
             </Show>
-
             <div>
               <div class={styles.list_line_title}>{item['Name']}</div>
               <div class={styles.list_line_description}>{item['Description']}</div>

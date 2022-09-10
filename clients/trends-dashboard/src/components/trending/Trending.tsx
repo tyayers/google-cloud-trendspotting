@@ -21,8 +21,8 @@ export const Trending: Component = (props) => {
     let result = "https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"
     let item = mergedProps.items.find(item => item['Name'].toLowerCase() === name.toLowerCase());
 
-    if (item && item["Picture"])
-      result = item["Picture"]
+    if (item && item["Image"])
+      result = item["Image"]
 
     return result
   }

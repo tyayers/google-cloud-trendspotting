@@ -16,21 +16,23 @@ import bigquery from './assets/bigquery.png'
 import trends_up from './assets/trends_up.png'
 
 const fetchData = async () => {
-  //   (await fetch(url)).json();
-  return plantdata;
+  return (await fetch(import.meta.env.VITE_ENTITIES_URL)).json();
+  // return plantdata;
 }
 
 const App: Component = () => {
   const params = useParams();
 
-  const [plantsUrl, setPlantsUrl] = createSignal("https://wikipediascraper-qtw3rvj3ya-ew.a.run.app/tables?site=https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism&flatten=true")
+  const [topicSingular, setTopicSingular] = createSignal(import.meta.env.VITE_TOPIC_SINGULAR)
+  const [topicPlural, setTopicPlural] = createSignal(import.meta.env.VITE_TOPIC_PLURAL)
   const [items, setItems] = createSignal([])
-  //const [selectedIndex, setSelectedIndex] = createSignal(-1)
   const [selectedName, setSelectedName] = createSignal(params.name)
   const [selectedItem, setSelectedItem] = createSignal(undefined)
   const [detailUrl, setDetailUrl] = createSignal("https://www.wikipedia.org")
   const [filter, setFilter] = createSignal("")
   const [menuVisible, setMenuVisible] = createSignal(false)
+
+  document.title = topicSingular()[0].toUpperCase() + topicSingular().substring(1) + " Trend Tracker"
 
   //Data function
   function ItemData({ params, location, navigate, data }) {
@@ -43,6 +45,8 @@ const App: Component = () => {
     //   setSelectedIndex(i)
     // else
     //   setSelectedIndex(items().indexOf(item))
+    setMenuVisible(false)
+    
     if (item) {
       setSelectedItem(item)
       setSelectedName(item["Name"])
@@ -74,15 +78,15 @@ const App: Component = () => {
     let result = "https://www.goshin-jutsu-no-michi.de/wp-content/themes/betheme/functions/builder/pre-built/images/placeholders/780x780b.png"
     let item = items().find(item => item['Name'].toLowerCase() === name.toLowerCase());
 
-    if (item && item["Picture"])
-      result = item["Picture"]
+    if (item && item["Image"])
+      result = item["Image"]
 
     return result
   }
 
   onMount(async () => {
     fetchData().then((result) => {
-      setItems(result.sort(function (a, b) {
+      setItems(result[topicPlural()].sort(function (a, b) {
         let x = a.Name.toLowerCase();
         let y = b.Name.toLowerCase();
         if (x < y) { return -1; }
@@ -102,6 +106,7 @@ const App: Component = () => {
 
   const setTopBar = (name: string) => {
     if (name != "") {
+      setMenuVisible(false);
       setSelectedName(name);
       topbar.show();
       setTimeout(() => {
@@ -134,7 +139,7 @@ const App: Component = () => {
         <Link href="/" class={styles.header_leftbox}>
           {/* <img class={styles.header_logo} src={logo}></img> */}
           <span class={styles.header_logo + " material-symbols-outlined"}>trending_up</span>
-          <span class={styles.header_text} >Herbal Plant Trend Database</span>
+          <span class={styles.header_text} >{topicSingular()[0].toUpperCase() + topicSingular().substring(1) + " Trend Tracker"}</span>
           <div class={styles.header_rightbox}>
             <a href="https://www.gdeltproject.org/" target="_blank"><img style={{ opacity: ".4" }} class={styles.header_rightbox_logo} src={gdelt}></img></a>
             <a href="https://trends.google.com/" target="_blank"><img class={styles.header_rightbox_logo} src={trends}></img></a>
@@ -155,7 +160,7 @@ const App: Component = () => {
           <Route path="/" element={
             <Trending items={items()} setTopBar={setTopBar}></Trending>
           } />
-          <Route path="/plants/:name" element={
+          <Route path={"/" + topicPlural() + "/:name"} element={
             <div class={styles.detail_empty_frame}>
               <DataView items={items()} setTopBar={setTopBar} setSelectedName={setName}></DataView>
             </div>

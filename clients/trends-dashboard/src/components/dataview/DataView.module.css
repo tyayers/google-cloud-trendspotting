@@ -86,6 +86,12 @@ h1 {
   height: 300px;
 }
 
+.news_stories {
+  width: 100%;
+  border: 0px;
+  height: 700px;
+}
+
 @media only screen and (max-width: 700px) {
   .toc_frame {
     display: none;
