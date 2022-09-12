@@ -1,20 +1,23 @@
-{
-  "BigQuery Schema": [
-    {
-      "name": "name",
-      "type": "STRING"
-    },
-    {
-      "name": "date",
-      "type": "DATE"
-    },
-    {
-      "name": "news_volume",
-      "type": "INTEGER"
-    },
-    {
-      "name": "news_norm",
-      "type": "INTEGER"
-    }
-  ]
-}
+[
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "The news search term."
+  },
+  {
+    "name": "date",
+    "type": "DATE",
+    "description": "The date of the news volume search."
+  },
+  {
+    "name": "news_volume",
+    "type": "INTEGER",
+    "description": "The number of stories found for the search term on the specified date."
+  },
+  {
+    "name": "news_norm",
+    "type": "INTEGER",
+    "description": "Total number of all news stories found on the date."
+  }
+]

@@ -3,10 +3,10 @@
     "default": "cloud32x"
   },
   "targets": {
-    "cloud31x": {
+    "cloud32x": {
       "hosting": {
-        "trend-sandwiches-mz6uuvlo": [
-          "trend-sandwiches-mz6uuvlo"
+        "sandwich-trends-thljhosrw": [
+          "sandwich-trends-thljhosrw"
         ]
       }
     }

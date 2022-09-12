@@ -1,0 +1,4 @@
+name: projects/323709580283/policies/compute.requireOsLogin
+spec:  
+  rules:
+  - enforce: false

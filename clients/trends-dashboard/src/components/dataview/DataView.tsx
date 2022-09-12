@@ -16,10 +16,10 @@ export const DataView: Component = (props) => {
   //const [item, setItem] = createSignal(items().find(item => item['Name'].toLowerCase() === params.name.toLowerCase()))
   const [item, setItem] = createSignal(undefined)
 
-  const [searchName, setSearchName] = createSignal(params.name.replace("-", "+").replace(" or ", " ").split(",")[0])
+  const [searchName, setSearchName] = createSignal(params.name.replace("-", "+").replace(" or ", " ").split(",")[0] + " " + topicSingular())
 
   createEffect(() => {
-    setSearchName(params.name.replace("-", "+").replace(" or ", " ").split(",")[0])
+    setSearchName(params.name.replace("-", "+").replace(" or ", " ").replace(" on ", " ").split(",")[0] + " " + topicSingular())
     setItems(mergedProps.items)
     setItem(items().find(item => item['Name'].toLowerCase() === params.name.toLowerCase()))
     mergedProps.setTopBar(params.name)

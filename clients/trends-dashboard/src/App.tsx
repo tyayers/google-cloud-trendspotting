@@ -16,7 +16,7 @@ import bigquery from './assets/bigquery.png'
 import trends_up from './assets/trends_up.png'
 
 const fetchData = async () => {
-  return (await fetch(import.meta.env.VITE_ENTITIES_URL)).json();
+  return (await fetch(import.meta.env.VITE_DATA_ROOT_URL + "topic_entities.json")).json();
   // return plantdata;
 }
 

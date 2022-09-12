@@ -14,15 +14,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT="cloud31x" # The name of the GCP project
+export PROJECT="cloud32x" # The name of the GCP project
 export NETWORK="default" # The network to use (will be created if it doesn't exist)
-export LOCATION="europe-west1-a" # The location to deploy resources to
+export LOCATION="EU" # The geographic location to use for geo-oriented resources
+export REGION="europe-west1" # The region to use for any regional resources
 
 export TOPIC_PLURAL="sandwiches"
 export TOPIC_SINGULAR="sandwich"
 export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_sandwiches"
 
 #export BUCKET_NAME="trend-$TOPIC"
-BUCKET_NAME="$TOPIC_SINGULAR-trends-t$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8 ; echo '')"
+BUCKET_NAME="${TOPIC_SINGULAR}_trends_t$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8 ; echo '')"
 export BUCKET_NAME=$(echo "$BUCKET_NAME" | tr '[:upper:]' '[:lower:]')
 
