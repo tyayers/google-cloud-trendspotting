@@ -139,7 +139,7 @@ export const DataView: Component = (props) => {
           </div>
           <div>
             <h2 id="news_list">Latest News Stories</h2>
-            <iframe class={styles.news_stories} src={"https://api.gdeltproject.org/api/v2/doc/doc?query=" + searchName().replace(" ", "%20") + "&mode=artlist&timespan=1week"}></iframe>
+            <iframe class={styles.news_stories} src={"https://api.gdeltproject.org/api/v2/doc/doc?query=" + searchName().replace(" ", "%20") + "&mode=artlist&timespan=4week&trans=googtrans"}></iframe>
           </div>
         </div>
 
