@@ -18,6 +18,7 @@ export PROJECT="cloud32x" # The name of the GCP project
 export NETWORK="default" # The network to use (will be created if it doesn't exist)
 export LOCATION="EU" # The geographic location to use for geo-oriented resources
 export REGION="europe-west1" # The region to use for any regional resources
+export USER=$(gcloud auth list --filter=status:ACTIVE --format="value(account)")
 
 export TOPIC_PLURAL="sandwiches"
 export TOPIC_SINGULAR="sandwich"

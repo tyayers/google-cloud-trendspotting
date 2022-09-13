@@ -1,0 +1,3284 @@
+{
+  "pets": [
+    {
+      "Date": "13,000 BCE",
+      "Degree and type of domestication": "Tame (with exceptions),",
+      "Extent in the wild vs. captivity": "Domestic and feral dogs both very common,",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pembroke_Welsh_Corgi_600.jpg/130px-Pembroke_Welsh_Corgi_600.jpg",
+      "Location of origin": "China,",
+      "Purposes": "meat, leather, fiber, hunting, herding, guarding, fighting, racing, working, rescuing, guiding, policing, draft, pack, sport, service, therapy, narcotics detection, truffle harvesting, pest control, research, education, show, pets",
+      "Species and subspecies": "Domestic dog (Canis familiaris)",
+      "Wild ancestor": "Extinct Pleistocene population of the grey wolf (Canis lupus ssp.)"
+    },
+    {
+      "Date": "10,000 BCE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, threatened in the wild, feral populations common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Capra%2C_Crete_4.jpg/130px-Capra%2C_Crete_4.jpg",
+      "Location of origin": "Iran",
+      "Purposes": "milk, meat, fiber, skin, horns, vellum, manure, guarding, fighting, racing, lawn mowing, weed control, clearing land, show, pets",
+      "Species and subspecies": "Domestic goat (Capra hircus)",
+      "Wild ancestor": "Bezoar ibex (Capra aegagrus aegagrus)"
+    },
+    {
+      "Date": "9000 BCE",
+      "Degree and type of domestication": "Some physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild, much more common in captivity, feral populations common in some areas",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sow_with_piglet.jpg/130px-Sow_with_piglet.jpg",
+      "Location of origin": "China, Western Asia",
+      "Purposes": "meat, leather, tusks, manure, guarding, fighting, racing, truffle harvesting, weed control, research, show, pets",
+      "Species and subspecies": "Domestic pig (Sus domesticus)",
+      "Wild ancestor": "Anatolian boar (Sus scrofa libycus),"
+    },
+    {
+      "Date": "9000 BCE to 8500 BCE",
+      "Degree and type of domestication": "Some physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, threatened in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pair_of_Icelandic_Sheep.jpg/130px-Pair_of_Icelandic_Sheep.jpg",
+      "Location of origin": "Anatolia, Iran",
+      "Purposes": "meat, milk, fiber, leather, hides, pelts, horns, vellum, manure, guarding, fighting, racing, lawn mowing, weed control, research, ornamental, show, pets",
+      "Species and subspecies": "Domestic sheep (Ovis aries)",
+      "Wild ancestor": "Unknown ancestor,"
+    },
+    {
+      "Date": "8000 BCE",
+      "Degree and type of domestication": "Some physical changes",
+      "Extent in the wild vs. captivity": "Very common in captivity, wild relatives extinct, feral populations fairly common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Koe_in_weiland_bij_Gorssel.JPG/130px-Koe_in_weiland_bij_Gorssel.JPG",
+      "Location of origin": "China,",
+      "Purposes": "meat, milk, leather, hides, fiber, horns, vellum, blood, dung, working, plowing, guarding, fighting, racing, draft, mount, soil fertilization, lawn mowing, weed control, show, pets",
+      "Species and subspecies": "European cattle or taurine cattle (Bos taurus)",
+      "Wild ancestor": "Eurasian aurochs (Bos primigenius primigenius)\u2020"
+    },
+    {
+      "Date": "8000 BCE",
+      "Degree and type of domestication": "Considerable physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, wild relatives extinct",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Female_zebu_cattle.JPG/130px-Female_zebu_cattle.JPG",
+      "Location of origin": "India",
+      "Purposes": "meat, milk, leather, hides, horns, vellum, blood, dung, working, plowing, fighting, racing, draft, soil fertilization, lawn mowing, show, pets",
+      "Species and subspecies": "Zebu, Brahman cattle, indicine cattle or humped cattle (Bos indicus)",
+      "Wild ancestor": "Indian aurochs (Bos primigenius namadicus)\u2020"
+    },
+    {
+      "Date": "8000\u20137500 BCE",
+      "Degree and type of domestication": "Tame, some physical changes",
+      "Extent in the wild vs. captivity": "Very abundant in captivity; true wildcat species less abundant, though not rare, feral populations very common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Jammlich_crop.jpg/130px-Jammlich_crop.jpg",
+      "Location of origin": "the Near East",
+      "Purposes": "meat, pelts, pest control, research, show, pets",
+      "Species and subspecies": "Domestic cat or house cat (Felis catus)",
+      "Wild ancestor": "North African wildcat (Felis lybica lybica)"
+    },
+    {
+      "Date": "6000 BCE",
+      "Degree and type of domestication": "Some physical changes, considerable reproductive changes",
+      "Extent in the wild vs. captivity": "Very common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Poltava_chicken_breed_female.jpg/130px-Poltava_chicken_breed_female.jpg",
+      "Location of origin": "India and Southeast Asia",
+      "Purposes": "meat, eggs, feathers, leather, manure, guarding, alarming, fighting, racing, pest control, weed control, ornamental, show, pets",
+      "Species and subspecies": "Domestic chicken (Gallus gallus domesticus)",
+      "Wild ancestor": "Indian red junglefowl (Gallus gallus murghi) with some contribution from the grey junglefowl (Gallus sonneratii)"
+    },
+    {
+      "Date": "5000 BCE",
+      "Degree and type of domestication": "Tame, slight physical changes",
+      "Extent in the wild vs. captivity": "Somewhat common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Caviaklein.jpg/130px-Caviaklein.jpg",
+      "Location of origin": "Peru",
+      "Purposes": "meat, manure, racing, lawn mowing, weed control, research, show, pets",
+      "Species and subspecies": "Guinea pig (Cavia porcellus)",
+      "Wild ancestor": "Montane guinea pig (Cavia tschudii)"
+    },
+    {
+      "Date": "5000 BCE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity and as feral populations, wild relatives critically endangered",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg/130px-Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg",
+      "Location of origin": "Nubia",
+      "Purposes": "meat, milk, manure, working, plowing, guarding, racing, draft, pack, mount, lawn mowing, weed control, show, pets",
+      "Species and subspecies": "Domestic donkey, domestic ass or burro (Equus asinus)",
+      "Wild ancestor": "African wild ass (Equus africanus), including subspecies Nubian (E. a. africanus) and Somali wild ass (E. a. somaliensis)"
+    },
+    {
+      "Date": "4000 BCE",
+      "Degree and type of domestication": "Considerable physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, but more abundant in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pekin_Ducks_cropped.jpg/130px-Pekin_Ducks_cropped.jpg",
+      "Location of origin": "China",
+      "Purposes": "meat, eggs, feathers, manure, guarding, pest control, weed control, ornamental, show, pets",
+      "Species and subspecies": "Domestic duck (Anas platyrhynchos domesticus)",
+      "Wild ancestor": "Common mallard (Anas platyrhynchos platyrhynchos)"
+    },
+    {
+      "Date": "4000 BCE",
+      "Degree and type of domestication": "Mainly unchanged from the wild animal",
+      "Extent in the wild vs. captivity": "Common in captivity, endangered in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Water_Buffalo%2C_Phayao_Lake.jpg/130px-Water_Buffalo%2C_Phayao_Lake.jpg",
+      "Location of origin": "India, China, the Philippines",
+      "Purposes": "meat, milk, horns, dung, working, plowing, fighting, racing, draft, mount, lawn mowing, show",
+      "Species and subspecies": "Domestic water buffalo (Bubalus bubalis)",
+      "Wild ancestor": "Wild water buffalo (Bubalus arnee)"
+    },
+    {
+      "Date": "4000 BCE",
+      "Degree and type of domestication": "Tame, few physical changes",
+      "Extent in the wild vs. captivity": "Moderately common in captivity, small feral population in original range, significant feral population in Australia, truly wild dromedaries may be extinct",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Camelcalf-feeding.jpg/130px-Camelcalf-feeding.jpg",
+      "Location of origin": "Arabia, the Horn of Africa",
+      "Purposes": "meat, milk, urine, racing, hunting, pack, mount, show, pets",
+      "Species and subspecies": "Dromedary or Arabian camel (Camelus dromedarius)",
+      "Wild ancestor": ""
+    },
+    {
+      "Date": "4000 BCE (the modern era for A. m. mellifera, the 1880s for A. m. ligustica, uncertain for A. m. carnica, A. m. caucasia, A. m. cecropia, A. m. sahariensis and A. m. lamarckii)",
+      "Degree and type of domestication": "Some physical and behavioral changes, actual domestication status is still a point of contention",
+      "Extent in the wild vs. captivity": "Very common in captivity, feral populations common, extent of status in the wild unclear; see Western honey bee for details",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bee-apis.jpg/130px-Bee-apis.jpg",
+      "Location of origin": "Europe (including Germany, Italy, Greece, Slovenia and the United Kingdom), Georgia, North Africa",
+      "Purposes": "honey, wax, propolis, bee brood, royal jelly, venom, pollen, pollination, research",
+      "Species and subspecies": "Western honey bee (Apis mellifera) including subspecies German (A. m. mellifera), Italian (A. m. ligustica), Carniolan (A. m. carnica), Caucasian (A. m. caucasia), Greek (A. m. cecropia), Saharan (A. m. sahariensis) and Egyptian honey bees (A. m. lamarckii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "3500 BCE",
+      "Degree and type of domestication": "Tame, some physical changes, mainly in colouration",
+      "Extent in the wild vs. captivity": "Common in captivity, very rare in the wild, feral populations common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/130px-Nokota_Horses_cropped.jpg",
+      "Location of origin": "Kazakhstan",
+      "Purposes": "milk, meat, hair, manure, working, plowing, fighting, racing, servicing, guiding, draft, pack, mount, execution, lawn mowing, weed control, show, pets",
+      "Species and subspecies": "Domestic horse (Equus caballus)",
+      "Wild ancestor": "Extinct unknown population of the wild horse (Equus ferus), possibly the tarpan or European wild horse (E. f. ferus)\u2020"
+    },
+    {
+      "Date": "3000 BCE",
+      "Degree and type of domestication": "Tame/held in captivity, some physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in captivity, extent of status in the wild unclear",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Silkworms3000px.jpg/130px-Silkworms3000px.jpg",
+      "Location of origin": "China",
+      "Purposes": "silk, animal feed, pets",
+      "Species and subspecies": "Domestic silkmoth (Bombyx mori)",
+      "Wild ancestor": "Wild silkmoth (Bombyx mandarina)"
+    },
+    {
+      "Date": "3000 BCE",
+      "Degree and type of domestication": "Artificially selected and bred into many varieties including meat breeds, racing/messenger breeds and fancy plumage breeds",
+      "Extent in the wild vs. captivity": "Relatively common in captivity, very common in the wild, feral populations extremely abundant",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Homing_pigeon.jpg/130px-Homing_pigeon.jpg",
+      "Location of origin": "the Mediterranean Basin",
+      "Purposes": "meat, manure, racing, messenger, ornamental, show, pets",
+      "Species and subspecies": "Domestic pigeon (Columba livia domestica)",
+      "Wild ancestor": "Rock dove (Columba livia)"
+    },
+    {
+      "Date": "3000 BCE for A. anser, date uncertain for A. cygnoides",
+      "Degree and type of domestication": "Considerable physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Neugierige_Hausgans.JPG/130px-Neugierige_Hausgans.JPG",
+      "Location of origin": "Egypt (A. anser), China (A. cygnoides)",
+      "Purposes": "meat, eggs, feathers, manure, guarding, alarming, pest control, weed control, show, pets",
+      "Species and subspecies": "Domestic goose and domestic swan goose (Anser anser domesticus and Anser cygnoides domesticus)",
+      "Wild ancestor": "Greylag goose (Anser anser) and swan goose (A. cygnoides)"
+    },
+    {
+      "Date": "2500 BCE",
+      "Degree and type of domestication": "Tame, slight physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in captivity; threatened in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Yak.jpg/130px-The_Yak.jpg",
+      "Location of origin": "Tibet, Nepal",
+      "Purposes": "meat, milk, fiber, horns, dung, working, plowing, guarding, fighting, racing, pack, mount, show, pets",
+      "Species and subspecies": "Domestic yak (Bos grunniens)",
+      "Wild ancestor": "Wild yak (Bos mutus)"
+    },
+    {
+      "Date": "2500 BCE",
+      "Degree and type of domestication": "Tame, few physical changes",
+      "Extent in the wild vs. captivity": "Moderately common in captivity, critically endangered in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Temee.jpg/130px-Temee.jpg",
+      "Location of origin": "Central Asia (Afghanistan)",
+      "Purposes": "meat, milk, hair, dung, pack, mount, show, pets",
+      "Species and subspecies": "Domestic Bactrian camel (Camelus bactrianus)",
+      "Wild ancestor": "Wild Bactrian camel (Camelus ferus)"
+    },
+    {
+      "Date": "2400 BCE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pack_llamas_posing_near_Muir_Trail.jpg/130px-Pack_llamas_posing_near_Muir_Trail.jpg",
+      "Location of origin": "Peru, Bolivia",
+      "Purposes": "meat, fiber, manure, working, guarding, racing, draft, pack, lawn mowing, weed control, show, pets",
+      "Species and subspecies": "Llama (Lama glama)",
+      "Wild ancestor": "Guanaco (Lama guanicoe cacsilensis)"
+    },
+    {
+      "Date": "2400 BCE",
+      "Degree and type of domestication": "Considerable physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Corazon_Full.jpg/130px-Corazon_Full.jpg",
+      "Location of origin": "Peru, Bolivia",
+      "Purposes": "meat, milk, fiber, manure, guarding, lawn mowing, weed control, show, pets",
+      "Species and subspecies": "Alpaca (Lama pacos)",
+      "Wild ancestor": "Vicu\u00f1a (Lama vicugna mensalis)"
+    },
+    {
+      "Date": "2400 BCE",
+      "Degree and type of domestication": "Mainly unaltered from the wild population",
+      "Extent in the wild vs. captivity": "Somewhat common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Domesticated_Guineafowl_-_geograph.org.uk_-_543901.jpg/130px-Domesticated_Guineafowl_-_geograph.org.uk_-_543901.jpg",
+      "Location of origin": "West Africa",
+      "Purposes": "meat, eggs, manure, guarding, alarming, pest control, show, pets",
+      "Species and subspecies": "Domestic guineafowl (Numida meleagris domesticus)",
+      "Wild ancestor": "West African helmeted guineafowl (Numida meleagris galeatus)"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Tame, slight physical changes",
+      "Extent in the wild vs. captivity": "Extinct in captivity, but common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fuegian_dog_%281863%29.jpg/130px-Fuegian_dog_%281863%29.jpg",
+      "Location of origin": "Argentina, Chile",
+      "Purposes": "hunting, guarding, warmth, pets",
+      "Species and subspecies": "Fuegian dog or Yaghan dog (Lycalopex culpaeus)\u2020",
+      "Wild ancestor": "Culpeo or Andean fox (Lycalopex culpaeus)"
+    },
+    {
+      "Date": "1500 BCE",
+      "Degree and type of domestication": "Tame, slight physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, somewhat common in the wild, feral populations rare",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ferret_2008.png/130px-Ferret_2008.png",
+      "Location of origin": "North Africa",
+      "Purposes": "hunting, racing, pest control, show, pets",
+      "Species and subspecies": "Domestic ferret (Mustela furo)",
+      "Wild ancestor": "European polecat (Mustela putorius)"
+    },
+    {
+      "Date": "700\u2013600 BCE",
+      "Degree and type of domestication": "Tame, some physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, feral populations rare",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MuscovyDuck.jpg/130px-MuscovyDuck.jpg",
+      "Location of origin": "South America",
+      "Purposes": "meat, eggs, feathers, manure, guarding, pest control, show, pets",
+      "Species and subspecies": "Domestic Muscovy duck (Cairina moschata domestica)",
+      "Wild ancestor": "Wild Muscovy duck (Cairina moschata sylvestris)"
+    },
+    {
+      "Date": "500 BCE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Common in both captivity and feral populations",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Feral_Barbary_Dove.jpg/130px-Feral_Barbary_Dove.jpg",
+      "Location of origin": "North Africa",
+      "Purposes": "meat, show, pets",
+      "Species and subspecies": "Barbary dove or ringed turtle dove (Streptopelia risoria)",
+      "Wild ancestor": "African collared dove (Streptopelia roseogrisea)"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, endangered in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Banteng_Domesticated_Bali_Bull.PNG/130px-Banteng_Domesticated_Bali_Bull.PNG",
+      "Location of origin": "Bali, Indonesia",
+      "Purposes": "meat, milk, horns, dung, working, plowing, draft, show",
+      "Species and subspecies": "Bali cattle (Bos domesticus)",
+      "Wild ancestor": "Javan banteng (Bos javanicus javanicus)"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity, threatened in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bos_gaurus_%28Gayal%29_male.JPG/130px-Bos_gaurus_%28Gayal%29_male.JPG",
+      "Location of origin": "Southeast Asia, Northeast India",
+      "Purposes": "meat, milk, horns, dung",
+      "Species and subspecies": "Gayal (Bos frontalis)",
+      "Wild ancestor": "Gaur (Bos gaurus)"
+    },
+    {
+      "Date": "180 CE",
+      "Degree and type of domestication": "Considerable physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/White_turkeys.jpg/130px-White_turkeys.jpg",
+      "Location of origin": "Mexico",
+      "Purposes": "meat, eggs, feathers, manure, guarding, pest control, show, pets",
+      "Species and subspecies": "Domestic turkey (Meleagris gallopavo domesticus)",
+      "Wild ancestor": "South Mexican wild turkey (Meleagris gallopavo gallopavo)"
+    },
+    {
+      "Date": "300 CE to 400 CE",
+      "Degree and type of domestication": "Tame/held in captivity, significant physical changes",
+      "Extent in the wild vs. captivity": "Very common and abundant in captivity, extent of status in the wild unclear",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gullfiskur.jpg/130px-Gullfiskur.jpg",
+      "Location of origin": "China",
+      "Purposes": "racing, pest control, ornamental, show, pets",
+      "Species and subspecies": "Goldfish (Carassius auratus)",
+      "Wild ancestor": "Prussian carp (Carassius gibelio)"
+    },
+    {
+      "Date": "600 CE",
+      "Degree and type of domestication": "Tame, significant physical changes",
+      "Extent in the wild vs. captivity": "Common in captivity, rare in native habitat, common in introduced range",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EnglishSpotRabbitChocolate1%28cropped%29.jpg/130px-EnglishSpotRabbitChocolate1%28cropped%29.jpg",
+      "Location of origin": "Europe",
+      "Purposes": "meat, fiber, pelts, manure, racing, lawn mowing, weed control, research, show, pets",
+      "Species and subspecies": "Domestic rabbit (Oryctolagus cuniculus domesticus)",
+      "Wild ancestor": "Iberian rabbit (Oryctolagus cuniculus algirus)"
+    },
+    {
+      "Date": "the 11th century CE",
+      "Degree and type of domestication": "Tame/held in captivity, considerable physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in captivity, threatened in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg/130px-Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg",
+      "Location of origin": "Japan",
+      "Purposes": "ornamental, show, pets",
+      "Species and subspecies": "Koi (Cyprinus rubrofuscus)",
+      "Wild ancestor": "Amur carp (Cyprinus rubrofuscus)"
+    },
+    {
+      "Date": "the 15th century CE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Zwei_Kanarienv%C3%B6gel.JPG/130px-Zwei_Kanarienv%C3%B6gel.JPG",
+      "Location of origin": "the Canary Islands, Europe",
+      "Purposes": "coal mining, fighting, research, show, pets",
+      "Species and subspecies": "Domestic canary (Serinus canaria domestica)",
+      "Wild ancestor": "Wild canary (Serinus canaria canaria)"
+    },
+    {
+      "Date": "unknown, may have been introduced to Japan sometime around the early 18th century CE",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in captivity; common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Rbruni.JPG/130px-Rbruni.JPG",
+      "Location of origin": "Japan",
+      "Purposes": "pets, show, research",
+      "Species and subspecies": "Society finch or Bengalese finch (Lonchura striata domestica)",
+      "Wild ancestor": "White-rumped munia or striated finch (Lonchura striata swinhoei) with some contribution from the Indian silverbill or white-throated munia (Euodice malabarica)"
+    },
+    {
+      "Date": "1100 BCE (China), then the 17th century CE (Europe)",
+      "Degree and type of domestication": "Tame, significant physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Minimouse.jpg/130px-Minimouse.jpg",
+      "Location of origin": "China",
+      "Purposes": "animal feed, racing, research, show, pets",
+      "Species and subspecies": "Fancy mouse a.k.a. laboratory mouse (Mus musculus domestica)",
+      "Wild ancestor": "Western European house mouse (Mus musculus domesticus)"
+    },
+    {
+      "Date": "the 19th century CE",
+      "Degree and type of domestication": "Tame, some physical and psychological changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ratte-Vache.jpeg/130px-Ratte-Vache.jpeg",
+      "Location of origin": "the United Kingdom",
+      "Purposes": "animal feed, research, show, pets",
+      "Species and subspecies": "Fancy rat a.k.a. laboratory rat (Rattus norvegicus domestica)",
+      "Wild ancestor": "Brown rat (Rattus norvegicus)"
+    },
+    {
+      "Date": "the 19th century CE",
+      "Degree and type of domestication": "Some physical and psychological changes",
+      "Extent in the wild vs. captivity": "Somewhat common in the wild and in captivity",
+      "Image": "",
+      "Location of origin": "North America",
+      "Purposes": "fur, hunting, pest control, pets",
+      "Species and subspecies": "Domestic mink (Neogale vison domesticus)",
+      "Wild ancestor": "American mink (Neogale vison)"
+    },
+    {
+      "Date": "the 1800s and the 1950s",
+      "Degree and type of domestication": "Tame, some physical changes",
+      "Extent in the wild vs. captivity": "Very small domestic population, wild relatives fairly common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Silberfuchs_08.jpg/130px-Silberfuchs_08.jpg",
+      "Location of origin": "Prince Edward Island introduced to the Soviet Union, Russia",
+      "Purposes": "fur, pelts, research, pets",
+      "Species and subspecies": "Domesticated silver fox (Vulpes vulpes amicus)",
+      "Wild ancestor": "American red fox (Vulpes vulpes fulva)"
+    },
+    {
+      "Date": "the 1980s",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Common in the wild, somewhat rare in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Baxter_flower.jpg/130px-Baxter_flower.jpg",
+      "Location of origin": "Central and Eastern Africa",
+      "Purposes": "pets",
+      "Species and subspecies": "Domesticated hedgehogs (Atelerix albiventris, A. algirus, Hemiechinus auritus and H. collaris)",
+      "Wild ancestor": "Four-toed (Atelerix albiventris), Algerian (A. algirus), long-eared (Hemiechinus auritus), and Indian long-eared hedgehog (H. collaris)"
+    },
+    {
+      "Date": "2000 BCE (uncertain for E. m. maximus, E. m. sumatranus, E. m. borneensis and E. m. asurus)\u2020",
+      "Degree and type of domestication": "Semi-domesticated (captured from the wild and tamed)",
+      "Extent in the wild vs. captivity": "Syrian subspecies extinct in the wild and in captivity; other subspecies somewhat common in captivity, but endangered in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/IndianElephant.jpg/130px-IndianElephant.jpg",
+      "Location of origin": "India, Sri Lanka, Sumatra, Nepal, Borneo, China, Indochina, formerly Iran",
+      "Purpose": "dung, working, hunting, fighting, racing, transportation, mount, patrol, worship, show",
+      "Species and subspecies": "Asian elephant (Elephas maximus) including subspecies Sri Lankan (E. m. maximus), Indian (E. m. indicus), Sumatran (E. m. sumatranus), Bornean (E. m. borneensis) and formerly Syrian elephants (E. m. asurus)\u2020",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "3000 BCE",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Caribou_using_antlers.jpg/130px-Caribou_using_antlers.jpg",
+      "Location of origin": "Fennoscandia, Western Russia (possibly Eastern Russia),",
+      "Purpose": "meat, milk, leather, hides, antlers, transportation, mount, pets",
+      "Species and subspecies": "Domestic reindeer (Rangifer tarandus domesticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Spiessbock-Etosha-01.jpg/130px-Spiessbock-Etosha-01.jpg",
+      "Location of origin": "Southern Africa",
+      "Purpose": "meat, hides, horns",
+      "Species and subspecies": "Gemsbok (Oryx gazella)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "",
+      "Extent in the wild vs. captivity": "Extinct in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Arabian_Ostrich_hunt.jpg/130px-Arabian_Ostrich_hunt.jpg",
+      "Location of origin": "Mesopotamia",
+      "Purpose": "meat, eggs, feathers, sacrifices",
+      "Species and subspecies": "Arabian ostrich or Syrian ostrich (Struthio camelus syriacus)\u2020",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Reem-Lavan001.jpg/130px-Reem-Lavan001.jpg",
+      "Location of origin": "the Middle East, Egypt",
+      "Purpose": "meat, horns",
+      "Species and subspecies": "Arabian oryx (Oryx leucoryx)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gazella_dorcas.JPG/130px-Gazella_dorcas.JPG",
+      "Location of origin": "Egypt",
+      "Purpose": "meat, hides, horns, pets",
+      "Species and subspecies": "Dorcas gazelle (Gazella dorcas)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/PikiWiki_Israel_4287_Capra.jpg/130px-PikiWiki_Israel_4287_Capra.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "meat, horns",
+      "Species and subspecies": "Nubian ibex (Capra nubiana)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "2320\u20132150 BCE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "Small captive population, but nearly extinct in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Scimitar_oryx1.jpg/130px-Scimitar_oryx1.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "meat, hides, horns, sacrifices",
+      "Species and subspecies": "Scimitar-horned oryx (Oryx dammah)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Serval_in_Tanzania.jpg/130px-Serval_in_Tanzania.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Serval (Leptailurus serval)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Caracl_%2801%29%2C_Paris%2C_d%C3%A9cembre_2013.jpg/130px-Caracl_%2801%29%2C_Paris%2C_d%C3%A9cembre_2013.jpg",
+      "Location of origin": "Egypt, India, Southern Africa",
+      "Purpose": "hunting, pest control, pets",
+      "Species and subspecies": "Caracal (Caracal caracal)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gepard_soemmeringii.jpg/130px-Gepard_soemmeringii.jpg",
+      "Location of origin": "Egypt, India, the Middle East, South Africa",
+      "Purpose": "hunting, tourism, pets",
+      "Species and subspecies": "Cheetah (Acinonyx jubatus) including subspecies Southeast African (A. j. jubatus), Northeast African (A. j. soemmeringii) and Asiatic cheetahs (A. j. venaticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "",
+      "Extent in the wild vs. captivity": "Extinct in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bubalhartebeest-londonzoo.jpg/130px-Bubalhartebeest-londonzoo.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "meat, hides, horns, sacrifices",
+      "Species and subspecies": "Bubal hartebeest (Alcelaphus buselaphus buselaphus)\u2020",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Male_Aix_sponsa_portrait.jpg/130px-Male_Aix_sponsa_portrait.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, pest control, ornamental, pets",
+      "Species and subspecies": "Wood duck (Aix sponsa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "pre-modern China (date uncertain)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Aix_galericulata_-_Z%C3%BCrich_-_Hafen_Riesbach_2011-01-14_15-58-32.JPG/130px-Aix_galericulata_-_Z%C3%BCrich_-_Hafen_Riesbach_2011-01-14_15-58-32.JPG",
+      "Location of origin": "China",
+      "Purpose": "pest control, ornamental, pets",
+      "Species and subspecies": "Mandarin duck (Aix galericulata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity, feral populations very common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Alopochen-aegyptiacus.jpg/130px-Alopochen-aegyptiacus.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "meat, eggs, feathers, guarding, ornamental, pets",
+      "Species and subspecies": "Egyptian goose (Alopochen aegyptiacus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity, feral populations somewhat common",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bar-headed_Goose_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg/130px-Bar-headed_Goose_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg",
+      "Location of origin": "Central Asia, South Asia",
+      "Purpose": "meat, eggs, feathers, guarding, ornamental, pets",
+      "Species and subspecies": "Bar-headed goose (Anser indicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "ancient Egypt (date uncertain)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Herpestes_ichneumon_%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D0%BD%D0%B3%D1%83%D1%81%D1%82%2C_%D0%B8%D0%BB%D0%B8_%D1%84%D0%B0%D1%80%D0%B0%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BA%D1%80%D1%8B%D1%81%D0%B0%2C_%D0%B8%D0%BB%D0%B8_%D0%B8%D1%85%D0%BD%D0%B5%D0%B2%D0%BC%D0%BE%CC%81%D0%BD.jpg/130px-Herpestes_ichneumon_%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D0%BD%D0%B3%D1%83%D1%81%D1%82%2C_%D0%B8%D0%BB%D0%B8_%D1%84%D0%B0%D1%80%D0%B0%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BA%D1%80%D1%8B%D1%81%D0%B0%2C_%D0%B8%D0%BB%D0%B8_%D0%B8%D1%85%D0%BD%D0%B5%D0%B2%D0%BC%D0%BE%CC%81%D0%BD.jpg",
+      "Location of origin": "Egypt",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Egyptian mongoose (Herpestes ichneumon)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "5000 BCE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bengalkatze.jpg/130px-Bengalkatze.jpg",
+      "Location of origin": "China",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Leopard cat (Prionailurus bengalensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG/130px-Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG",
+      "Location of origin": "Africa",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Common (Genetta genetta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Apis_cerana%2C_Asiatic_honey_bee_-_Khao_Yai_National_Park.jpg/130px-Apis_cerana%2C_Asiatic_honey_bee_-_Khao_Yai_National_Park.jpg",
+      "Location of origin": "South Asia, Thailand, Japan, China",
+      "Purpose": "honey, wax, pollination",
+      "Species and subspecies": "Eastern honey bee (Apis cerana) including subspecies Chinese (A. c. cerana), Indian (A. c. indica) and Japanese honey bees (A. c. japonica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "1000 BCE",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fallow_deer_in_field.jpg/130px-Fallow_deer_in_field.jpg",
+      "Location of origin": "the Mediterranean Basin, the Levant",
+      "Purpose": "meat, hides, antlers, pets",
+      "Species and subspecies": "Common fallow (Dama dama) and Persian fallow deer (D. mesopotamica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "800 BCE",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sv%C3%B8mmende_blodigle.JPG/130px-Sv%C3%B8mmende_blodigle.JPG",
+      "Location of origin": "Europe, Asia",
+      "Purpose": "bloodletting, surgery, therapy, research, saliva, pets",
+      "Species and subspecies": "European medicinal leech (Hirudo medicinalis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "700\u2013500 BCE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "Very common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Dactylopius_coccus_%28Barlovento%29_04_ies.jpg/130px-Dactylopius_coccus_%28Barlovento%29_04_ies.jpg",
+      "Location of origin": "Chile, Peru, Mexico",
+      "Purpose": "dye",
+      "Species and subspecies": "Cochineal (Dactylopius coccus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "500 BCE (uncertain for P. muticus)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "Fairly common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Indian_Peahens_I_IMG_9647.jpg/130px-Indian_Peahens_I_IMG_9647.jpg",
+      "Location of origin": "India, Java",
+      "Purpose": "meat, feathers, ornamental, guarding, pest control, pets",
+      "Species and subspecies": "Indian (Pavo cristatus) and green peafowl (P. muticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "kept in ancient Greece, date of captive breeding uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Beo-2.jpg/130px-Beo-2.jpg",
+      "Location of origin": "Greece",
+      "Purpose": "pets, talking bird",
+      "Species and subspecies": "Common hill myna (Gracula religiosa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "classical antiquity (date uncertain)",
+      "Degree and type of domestication": "Held/tame in captivity, plumage colour changes",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Rose-ringed_Parakeet_I_IMG_9797.jpg/130px-Rose-ringed_Parakeet_I_IMG_9797.jpg",
+      "Location of origin": "West Africa, India",
+      "Purpose": "pets, talking bird",
+      "Species and subspecies": "Rose-ringed parakeet (Psittacula krameri) including subspecies African (P. k. krameri) and Indian rose-ringed parakeets (P. k. manillensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "~0 CE",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Deer_Stag_AdF.jpg/130px-Deer_Stag_AdF.jpg",
+      "Location of origin": "China, Russia, Europe (including the United Kingdom), Iran",
+      "Purpose": "meat, milk, leather, hides, antlers, velvet, pets",
+      "Species and subspecies": "Red deer (Cervus elaphus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "100 CE (uncertain for H. lucorum)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Helix_pomatia_89a.jpg/130px-Helix_pomatia_89a.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat, eggs, shells, slime, pets",
+      "Species and subspecies": "Roman (Helix pomatia) and Turkish snails (H. lucorum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "180 CE",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/M._scutellaris_Hive.jpg/130px-M._scutellaris_Hive.jpg",
+      "Location of origin": "Mexico, the Amazon Basin",
+      "Purpose": "honey, wax, propolis, pollination, pets",
+      "Species and subspecies": "Stingless bees (Melipona beecheii), (M. scutellaris), (M. bicolor), (M. quadrifasciata) and (M. subnitida)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the Tang Dynasty (618\u2013907 CE)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cacatua_alba_-pet-8a.jpg/130px-Cacatua_alba_-pet-8a.jpg",
+      "Location of origin": "China, Indonesia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "White cockatoo (Cacatua alba)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cacatua_galerita_Tas_2.jpg/130px-Cacatua_galerita_Tas_2.jpg",
+      "Location of origin": "Australia, Indonesia, New Guinea",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Sulphur-crested cockatoo (Cacatua galerita) including subspecies Triton (C. g. triton) and Eleonora cockatoos (C. g. eleonora)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "960 CE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Phalacrocorax_carbo_ja01.jpg/130px-Phalacrocorax_carbo_ja01.jpg",
+      "Location of origin": "China, Japan",
+      "Purpose": "fishing",
+      "Species and subspecies": "Great (Phalacrocorax carbo) and Japanese cormorants (P. capillatus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Phalacrocorax_brasilianus_%28Costa_Rica%29.jpg/130px-Phalacrocorax_brasilianus_%28Costa_Rica%29.jpg",
+      "Location of origin": "Peru",
+      "Purpose": "fishing",
+      "Species and subspecies": "Neotropic cormorant (Nannopterum brasilianus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "1000-1500 CE",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/CygneVaires.jpg/130px-CygneVaires.jpg",
+      "Location of origin": "Europe (including the United Kingdom)",
+      "Purpose": "meat, feathers, ornamental, guarding, pets",
+      "Species and subspecies": "Mute swan (Cygnus olor)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 12th century CE",
+      "Degree and type of domestication": "Held in captivity",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity, very common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Acheta_domesticus%2C_adultes_Weibchen.jpg/130px-Acheta_domesticus%2C_adultes_Weibchen.jpg",
+      "Location of origin": "Southwestern Asia, China, Japan",
+      "Purpose": "meat, animal feed, fighting, pets",
+      "Species and subspecies": "House cricket (Acheta domesticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "1100\u20131900 CE",
+      "Degree and type of domestication": "Domesticated in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Japanese_Quail.jpg/130px-Japanese_Quail.jpg",
+      "Location of origin": "Eurasia, Japan",
+      "Purpose": "meat, eggs, research, pets",
+      "Species and subspecies": "Common (Coturnix coturnix) and Japanese quails (C. japonica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "1200\u20131500 CE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/LakePowellCarp5437.jpg/130px-LakePowellCarp5437.jpg",
+      "Location of origin": "Europe, Asia",
+      "Purpose": "meat, eggs, pets",
+      "Species and subspecies": "Common carp (Cyprinus carpio)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the Ming Dynasty (1368\u20131644 CE)",
+      "Degree and type of domestication": "Non-wild coloration pied and fancy colored Java sparrows from long Asian captivity lines are hand tamable",
+      "Extent in the wild vs. captivity": "Threatened in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Buberel_Lonchura_oryzivora_3.jpg/130px-Buberel_Lonchura_oryzivora_3.jpg",
+      "Location of origin": "China",
+      "Purpose": "pets",
+      "Species and subspecies": "Java sparrow (Lonchura oryzivora)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 19th century CE (uncertain for B. bellica, B. rubra, B. picta, B. pugnax, B. imbellis, B. smaragdina, B. macrostoma and B. unimaculata)",
+      "Degree and type of domestication": "Held/tame in captivity, very significant physical and slight behavioral changes",
+      "Extent in the wild vs. captivity": "Common in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HM_Orange_M_Sarawut.jpg/130px-HM_Orange_M_Sarawut.jpg",
+      "Location of origin": "Thailand, Malaysia, Borneo",
+      "Purpose": "fighting, show, pets",
+      "Species and subspecies": "Siamese fighting fish or betta (Betta splendens); slim (B. bellica), Toba (B. rubra), spotted (B. picta), Penang (B. pugnax), peaceful (B. imbellis), emerald green (B. smaragdina), spotfin (B. macrostoma), and Howong bettas (B. unimaculata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred, plumage changes",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Virginiawachtel_2007-06-16_065.jpg/130px-Virginiawachtel_2007-06-16_065.jpg",
+      "Location of origin": "the United States, Sonora",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Northern bobwhite (Colinus virginianus) including subspecies masked bobwhite (C. v. ridgwayi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Carduelis_carduelis_close_up.jpg/130px-Carduelis_carduelis_close_up.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "pets, singing",
+      "Species and subspecies": "European goldfinch (Carduelis carduelis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leiothrix_lutea_-Chester_Zoo%2C_Cheshire%2C_England-8a.jpg/130px-Leiothrix_lutea_-Chester_Zoo%2C_Cheshire%2C_England-8a.jpg",
+      "Location of origin": "China, Japan",
+      "Purpose": "pets, singing",
+      "Species and subspecies": "Red-billed leiothrix (Leiothrix lutea)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Herpestes_edwardsii_at_Hyderaba.jpg/130px-Herpestes_edwardsii_at_Hyderaba.jpg",
+      "Location of origin": "India",
+      "Purpose": "pest control, fighting, pets",
+      "Species and subspecies": "Indian grey mongoose (Urva edwardsii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "at least 1997,",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Food_Reward.JPG/130px-Food_Reward.JPG",
+      "Location of origin": "Sub-Saharan Africa",
+      "Purpose": "meat, landmine detection, tuberculosis detection, pest control, pets",
+      "Species and subspecies": "Gambian pouched (Cricetomys gambianus), southern giant pouched (C. ansorgei), and Emin's pouched rats (C. emini)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Black_Francolin.jpg/130px-Black_Francolin.jpg",
+      "Location of origin": "India, Pakistan",
+      "Purpose": "meat, fighting, pets",
+      "Species and subspecies": "Black (Francolinus francolinus) and grey francolins (F. pondicerianus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Male_Golden_Pheasant_DC.jpg/130px-Male_Golden_Pheasant_DC.jpg",
+      "Location of origin": "China",
+      "Purpose": "ornamental, pest control, pets",
+      "Species and subspecies": "Golden (Chrysolophus pictus) and Lady Amherst's pheasants (C. amherstiae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pheasant.jpg/130px-Pheasant.jpg",
+      "Location of origin": "Asia, Japan",
+      "Purpose": "meat, eggs, ornamental, pest control, pets",
+      "Species and subspecies": "Common (Phasianus colchicus) and green pheasants  (P. versicolor)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sikahjort.jpg/130px-Sikahjort.jpg",
+      "Location of origin": "China, Taiwan, Japan",
+      "Purpose": "meat, hides, antlers, tourism, pets",
+      "Species and subspecies": "Sika deer (Cervus nippon)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Taurotragus_oryx.jpg/130px-Taurotragus_oryx.jpg",
+      "Location of origin": "Zimbabwe, South Africa, Kenya",
+      "Purpose": "meat, milk, leather, hides, horns",
+      "Species and subspecies": "Common eland (Taurotragus oryx) including subspecies East African (T. o. pattersonianus) and Livingstone's elands (T. o. livingstonii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "Once uncommon in the wild; captive breeding has led to the species both recovering across and repopulating much of its range.",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/American_Alligator.jpg/130px-American_Alligator.jpg",
+      "Location of origin": "the southeastern United States",
+      "Purpose": "meat, hides, teeth, blood, pets",
+      "Species and subspecies": "American alligator (Alligator mississippiensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Milkmaid-and-Moose-Cow-hp4080.jpg/130px-Milkmaid-and-Moose-Cow-hp4080.jpg",
+      "Location of origin": "Russia, Finland, Sweden, Alaska",
+      "Purpose": "meat, milk, hides, antlers, working, draft, mount, transportation, research, pets",
+      "Species and subspecies": "Eurasian elk or moose (Alces alces)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Yaen001.jpg/130px-Yaen001.jpg",
+      "Location of origin": "North Africa, West Africa, East Africa",
+      "Purpose": "meat, eggs, feathers, leather, oil, mount, racing, guarding, pets",
+      "Species and subspecies": "Masai ostrich (Struthio camelus massaicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 19th century CE",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ostrich_%28Struthio_camelus%29_male_%2813994461256%29.jpg/130px-Ostrich_%28Struthio_camelus%29_male_%2813994461256%29.jpg",
+      "Location of origin": "Southern Africa",
+      "Purpose": "meat, eggs, feathers, leather, oil, mount, racing, guarding, pets",
+      "Species and subspecies": "South African ostrich (Struthio camelus australis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Somali_ostrich.jpg/130px-Somali_ostrich.jpg",
+      "Location of origin": "Kenya",
+      "Purpose": "meat, eggs, feathers, mount, racing, guarding, pets",
+      "Species and subspecies": "Somali ostrich (Struthio molybdophanes)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1850s",
+      "Degree and type of domestication": "Plumage changes, some breeds are physically larger",
+      "Extent in the wild vs. captivity": "Fairly common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Melopsittacus_undulatus_-Zoo_Atlanta-8a.jpg/130px-Melopsittacus_undulatus_-Zoo_Atlanta-8a.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show, talking bird",
+      "Species and subspecies": "Budgerigar (Melopsittacus undulatus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1870s",
+      "Degree and type of domestication": "Held/tame in captivity, plumage colour/pattern changes",
+      "Extent in the wild vs. captivity": "Common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Nymphicus_hollandicus_-garden-8.jpg/130px-Nymphicus_hollandicus_-garden-8.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show, talking bird",
+      "Species and subspecies": "Cockatiel (Nymphicus hollandicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Rocky_Mountain_Bull_Elk.jpg/130px-Rocky_Mountain_Bull_Elk.jpg",
+      "Location of origin": "Russia, China",
+      "Purpose": "meat, leather, hides, antlers, velvet, pets",
+      "Species and subspecies": "Tian Shan wapiti (Cervus canadensis songaricus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1800s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mink1.jpg/130px-Mink1.jpg",
+      "Location of origin": "Europe, Russia",
+      "Purpose": "fur",
+      "Species and subspecies": "European mink (Mustela lutreola)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the late 19th to the early 20th century CE",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ratao_do_banhado_1_REFON.jpg/130px-Ratao_do_banhado_1_REFON.jpg",
+      "Location of origin": "Argentina",
+      "Purpose": "meat, fur, aquatic weed control, pets",
+      "Species and subspecies": "Coypu or nutria (Myocastor coypus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Guppy_coppia_gialla.jpg/130px-Guppy_coppia_gialla.jpg",
+      "Location of origin": "Barbados, Brazil, El Salvador, Guyana, Mexico, Venezuela",
+      "Purpose": "bait, pest control, research, pets",
+      "Species and subspecies": "Guppy (Poecilia reticulata);",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1910s",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Drosophila_melanogaster_-_side_%28aka%29.jpg/130px-Drosophila_melanogaster_-_side_%28aka%29.jpg",
+      "Location of origin": "Australia, South Africa",
+      "Purpose": "research, animal feed",
+      "Species and subspecies": "Lesser fruit fly, vinegar fly or pomace fly (Drosophila melanogaster)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1920s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Chinesedsaffa.jpg/130px-Chinesedsaffa.jpg",
+      "Location of origin": "China",
+      "Purpose": "research, biotechnology, pets",
+      "Species and subspecies": "Chinese hamster (Cricetulus griseus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1920s (uncertain for A. personatus, A. fischeri, A. nigrigenis, A. taranta and A. pullarius)",
+      "Degree and type of domestication": "Held/tame in captivity, plumage colour/pattern changes in rosy-faced lovebird",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg/130px-Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg",
+      "Location of origin": "Africa, Madagascar",
+      "Purpose": "pets",
+      "Species and subspecies": "Rosy-faced (Agapornis roseicollis), yellow-collared (A. personatus), Fischer's (A. fischeri), black-cheeked (A. nigrigenis), black-winged (A. taranta), and red-headed lovebirds (A. pullarius)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1920s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Red_m_boesemani.jpg/130px-Red_m_boesemani.jpg",
+      "Location of origin": "northern and eastern Australia, New Guinea, islands in Cenderawasih Bay and the Raja Ampat Islands in Indonesia",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Rainbowfishes (Melanotaeniidae; various species and subspecies)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1930s",
+      "Degree and type of domestication": "Domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Golden_hamster_front_1.jpg/130px-Golden_hamster_front_1.jpg",
+      "Location of origin": "Syria, Turkey",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Golden hamster (Mesocricetus auratus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE",
+      "Degree and type of domestication": "Domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/%D0%A5%D0%BE%D0%BC%D1%8F%D0%BA_%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D1%82%D0%B0.jpg/130px-%D0%A5%D0%BE%D0%BC%D1%8F%D0%BA_%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D1%82%D0%B0.jpg",
+      "Location of origin": "Armenia, Azerbaijan, Georgia, Iran, Russia, Turkey",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Turkish hamster (Mesocricetus brandti)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1930s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chinchilla_lanigera1.jpg/130px-Chinchilla_lanigera1.jpg",
+      "Location of origin": "the Andes",
+      "Purpose": "fur, research, pets",
+      "Species and subspecies": "Long-tailed chinchilla (Chinchilla lanigera)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1930s",
+      "Degree and type of domestication": "Raised in captivity",
+      "Extent in the wild vs. captivity": "Critically endangered in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chinchilla_brevicaudata.jpg/130px-Chinchilla_brevicaudata.jpg",
+      "Location of origin": "the Andes",
+      "Purpose": "fur",
+      "Species and subspecies": "Short-tailed chinchilla (Chinchilla chinchilla)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1930s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Daphnia_magna-female_adult.jpg/130px-Daphnia_magna-female_adult.jpg",
+      "Location of origin": "North America, Eurasia, Africa",
+      "Purpose": "research, animal feed",
+      "Species and subspecies": "Water flea (Daphnia magna)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1950s (uncertain for X. tropicalis)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Xenopus_laevis_1.jpg/130px-Xenopus_laevis_1.jpg",
+      "Location of origin": "Southern Africa, West Africa",
+      "Purpose": "research, pets",
+      "Species and subspecies": "African (Xenopus laevis) and western clawed frogs (X. tropicalis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1950s",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/SeaMonkiesInAquarium.JPG/130px-SeaMonkiesInAquarium.JPG",
+      "Location of origin": "the United States",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Sea-monkey (Artemia nyos)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1960s (uncertain for P. breitensteini, P. curtus and P. brongersmai)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ball_python_lucy.JPG/130px-Ball_python_lucy.JPG",
+      "Location of origin": "Africa, Sumatra, Borneo, Malaysia",
+      "Purpose": "pets",
+      "Species and subspecies": "Ball (Python regius), Borneo (P. breitensteini), Sumatran short-tailed (P. curtus) and Brongersma's short-tailed pythons (P. brongersmai)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Python_bivittatus_%D1%82%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD.jpg/130px-Python_bivittatus_%D1%82%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD.jpg",
+      "Location of origin": "Myanmar, Thailand, Bali, Java, Sulawesi",
+      "Purpose": "meat, skins, medicine, pets",
+      "Species and subspecies": "Burmese python (Python bivittatus) including subspecies dwarf Burmese python (P. b. progschai)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1960s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Phodopus_roborovskii_side.jpg/130px-Phodopus_roborovskii_side.jpg",
+      "Location of origin": "Mongolia, Russia, China",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Campbell's dwarf (Phodopus campbelli), winter white dwarf (P. sungorus) and Roborovski dwarf hamsters (P. roborovskii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE (uncertain for A. tigrinum and A. mavortium)",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "A. mexicanum Critically endangered in the wild; A. tigrinum and A. mavortium less threatened",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ambystoma_mexicanum_at_Vancouver_Aquarium.jpg/130px-Ambystoma_mexicanum_at_Vancouver_Aquarium.jpg",
+      "Location of origin": "Mexico, the United States",
+      "Purpose": "research, pets",
+      "Species and subspecies": "Axolotl (Ambystoma mexicanum); tiger (A. tigrinum) and barred tiger salamanders (A. mavortium)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Probosciger_aterrimus-20030511.jpg/130px-Probosciger_aterrimus-20030511.jpg",
+      "Location of origin": "Australia, Papua New Guinea",
+      "Purpose": "pets",
+      "Species and subspecies": "Palm cockatoo (Probosciger aterrimus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE (uncertain for E. m. afghanicus)",
+      "Degree and type of domestication": "Slight physical modification",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Male_Leopard_Gecko.JPG/130px-Male_Leopard_Gecko.JPG",
+      "Location of origin": "Pakistan, Afghanistan",
+      "Purpose": "pets",
+      "Species and subspecies": "Common leopard gecko (Eublepharis macularius) including subspecies Afghan leopard gecko (E. m. afghanicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE (uncertain for B. b. athabascae)",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tatanka.jpg/130px-Tatanka.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, leather, hides, fiber, horns, guarding, pets",
+      "Species and subspecies": "American bison (Bison bison) including subspecies wood bison (B. b. athabascae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s and 1990s",
+      "Degree and type of domestication": "Held/tame in captivity, plumage colour changes in some species (e.g. grey parrot, turquoise-fronted amazon, green-cheeked parakeet and others)",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Congo_African_Grey_pet_on_a_perch.JPG/130px-Congo_African_Grey_pet_on_a_perch.JPG",
+      "Location of origin": "Australia, Africa, Asia, North America, Central America, South America, New Zealand, Papua New Guinea, New Caledonia, Fiji",
+      "Purpose": "pets, show, talking bird, ornamental, guarding, education, therapy",
+      "Species and subspecies": "Companion parrots (Psittaciformes; various species and subspecies)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE (uncertain for N. chrysostoma and N. splendida)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Neophema_pulchella_-Rainbow_Jungle_-Australia-8a.jpg/130px-Neophema_pulchella_-Rainbow_Jungle_-Australia-8a.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Turqoise (Neophema pulchella), blue-winged (N. chrysostoma), and scarlet-chested parrots (N. splendida)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the mid- to late 20th century CE",
+      "Degree and type of domestication": "Slight physical changes; loss of toxicity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg/130px-Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg",
+      "Location of origin": "Guyana, Suriname, Brazil, French Guiana, Nicaragua, Costa Rica, Panama, Colombia, Venezuela",
+      "Purpose": "pets",
+      "Species and subspecies": "Green and black (Dendrobates auratus) and yellow-banded poison dart frogs (D. leucomelas)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lampropeltis_getula_getula.jpg/130px-Lampropeltis_getula_getula.jpg",
+      "Location of origin": "Arizona, Florida, Mexico, California",
+      "Purpose": "pets",
+      "Species and subspecies": "Common kingsnake (Lampropeltis getula) including subspecies eastern (L. g. getula), California (L. g. californiae), Florida (L. g. floridana), Mexican black (L. g. nigrita), and Brooks' kingsnakes (L. g. brooksi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Serpent_roi_bandes_grises_01.JPG/130px-Serpent_roi_bandes_grises_01.JPG",
+      "Location of origin": "Mexico, Guatemala, Arizona, Texas, California",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Grey-banded kingsnake  (Lampropeltis alterna)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lampropeltis_mexicana_mexicana_01.jpg/130px-Lampropeltis_mexicana_mexicana_01.jpg",
+      "Location of origin": "Mexico",
+      "Purpose": "pets",
+      "Species and subspecies": "Thayer's kingsnake (Lampropeltis mexicana thayeri)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lampropeltis-triangulum-sinaloae-013.jpg/130px-Lampropeltis-triangulum-sinaloae-013.jpg",
+      "Location of origin": "Guatemala, Mexico, Honduras, Colombia, Puebla, Panama, Sonora, Florida, Iowa, Alabama, Indiana, Tennessee",
+      "Purpose": "pets",
+      "Species and subspecies": "Milk snake or house snake (Lampropeltis triangulum) including subspecies eastern (L. t. triangulum), Andean (L. t. andesiana), Mexican (L. t. annulata), Pueblan (L. t. campbelli), black (L. t. gaigeae), Honduran (L. t. hondurensis), Nelson's (L. t. nelsoni), and Sinaloan milk snakes (L. t. sinaloae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1960s (uncertain for P. obsoletus and P. spiloides)",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity, common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kornnatter.jpg/130px-Kornnatter.jpg",
+      "Location of origin": "the United States",
+      "Purpose": "pets",
+      "Species and subspecies": "Corn  (Pantherophis gutttatus), western rat (P. obsoletus), and grey rat snakes (P. spiloides)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1960s (uncertain for G. oblongonota)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Female_Madagascar_hissing_cockroach.JPG/130px-Female_Madagascar_hissing_cockroach.JPG",
+      "Location of origin": "Madagascar",
+      "Purpose": "pets",
+      "Species and subspecies": "Madagascar hissing (Gromphadorhina portentosa) and wide-horned hissing cockroaches (G. oblongonota)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1970s",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bartagame_fcm.jpg/130px-Bartagame_fcm.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Central bearded dragon (Pogona vitticeps) and related species",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1970s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Hypophthalmichthys_molitrix_Hungary.jpg/130px-Hypophthalmichthys_molitrix_Hungary.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, algae control",
+      "Species and subspecies": "Silver carp (Hypophthalmichthys molitrix)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eclectus_roratus-20030511.jpg/130px-Eclectus_roratus-20030511.jpg",
+      "Location of origin": "Australia, Indonesia, New Guinea, the Solomon Islands",
+      "Purpose": "pets",
+      "Species and subspecies": "Eclectus parrot (Eclectus roratus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s (uncertain for C. ophthalmica, C. haematuropygia, C. tenuirostris, C. pastinator, C. sanguinea and C. goffiniana)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cacatua_moluccensis_-_closeup_of_head.jpg/130px-Cacatua_moluccensis_-_closeup_of_head.jpg",
+      "Location of origin": "the Maluku Islands, Papua New Guinea, Australia, the Tanimbar Islands, the Philippines, the Solomon Islands",
+      "Purpose": "pets, show, talking bird",
+      "Species and subspecies": "Salmon-crested (Cacatua moluccensis), blue-eyed (C. ophthalmica), and Red-vented cockatoos (C. haematuropygia); long-billed (C. tenuirostris), western (C. pastinator), little (C. sanguinea) and Tanimbar corellas (C. goffiniana)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Petaurus_australis.jpg/130px-Petaurus_australis.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Yellow-bellied glider (Petaurus australis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Petaurus_breviceps_1.jpg/130px-Petaurus_breviceps_1.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Sugar glider (Petaurus breviceps)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pogona_henrylawsoni.jpg/130px-Pogona_henrylawsoni.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Rankin's dragon (Pogona henrylawsoni)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s (uncertain for B. impatiens)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bumblebee_October_2007-3a.jpg/130px-Bumblebee_October_2007-3a.jpg",
+      "Location of origin": "Europe (including the United Kingdom), North America",
+      "Purpose": "wax, pollination",
+      "Species and subspecies": "Buff-tailed (Bombus terrestris) and common eastern bumblebees (B. impatiens)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1990s (uncertain for R. pennata)",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Rhea_side_profile.jpg/130px-Rhea_side_profile.jpg",
+      "Location of origin": "South America",
+      "Purpose": "meat, eggs, feathers, leather, oil, pets",
+      "Species and subspecies": "Greater (Rhea americana) and Darwin's rheas (R. pennata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1990s",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Emu-wild.jpg/130px-Emu-wild.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "meat, eggs, feathers, leather, oil, guarding, pets",
+      "Species and subspecies": "Australian emu (Dromaius novaehollandiae novaehollandiae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Houston_Giant_Eland.jpg/130px-Houston_Giant_Eland.jpg",
+      "Location of origin": "West Africa",
+      "Purpose": "meat, milk, leather, hides, horns",
+      "Species and subspecies": "Giant eland  (Taurotragus derbianus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Beisa%2C_Tsawo-Wes%2C_Tanzani%C3%AB.jpg/130px-Beisa%2C_Tsawo-Wes%2C_Tanzani%C3%AB.jpg",
+      "Location of origin": "Kenya",
+      "Purpose": "meat, leather, hides, horns",
+      "Species and subspecies": "Common beisa (Oryx beisa beisa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1990s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Octodon_degus_-Heidelberg_Zoo%2C_Germany-8a.jpg/130px-Octodon_degus_-Heidelberg_Zoo%2C_Germany-8a.jpg",
+      "Location of origin": "the Chilean Andes",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Common degu (Octodon degus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1990s (uncertain for M. persicus, M. libycus, M. shawi, M. tristrami and M. crassus)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Golden_Agouti_Male_4-1-05.jpg/130px-Golden_Agouti_Male_4-1-05.jpg",
+      "Location of origin": "Mongolia, Algeria, Iran, Libya, Turkey, Egypt",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Mongolian gerbil (Meriones unguiculatus); Persian (M. persicus), Libyan (M. libycus), Shaw's (M. shawi), Tristram's (M. tristrami) and Sundevall's jirds (M. crassus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1990s (uncertain for I. delicatissima)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/St_Thomas_Marriott_Iguana_9_cropped.jpg/130px-St_Thomas_Marriott_Iguana_9_cropped.jpg",
+      "Location of origin": "South America, the Lesser Antilles",
+      "Purpose": "meat, leather, pets",
+      "Species and subspecies": "Green (Iguana iguana) and Lesser Antillean iguanas (I. delicatissima)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Australian-Carpet-Python.jpg/130px-Australian-Carpet-Python.jpg",
+      "Location of origin": "Indonesia, Australia, New Guinea",
+      "Purpose": "pets",
+      "Species and subspecies": "Carpet python (Morelia spilota) including subspecies diamond python (M. s. spilota); coastal (M. s. mcdowelli), inland (M. s. metcalfei), Darwin (M. s. variegata) and jungle carpet pythons (M. s. cheynei)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the mid-1990s (uncertain for M. carinata and M. bredli)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Morelia-viridis.jpg/130px-Morelia-viridis.jpg",
+      "Location of origin": "Indonesia, Australia, New Guinea",
+      "Purpose": "pets",
+      "Species and subspecies": "Green tree (Morelia viridis), southwestern (M. imbricata), rough-scaled (M. carinata) and Bredl's pythons (M. bredli)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the late 1990s (uncertain for C. funereus and C. lathami)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Red_tailed_Black_Cockatoo_in_flight.jpg/130px-Red_tailed_Black_Cockatoo_in_flight.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, education",
+      "Species and subspecies": "Red-tailed black (Calyptorhynchus banksii), yellow-tailed black (C. funereus) and glossy black cockatoos (C. lathami)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Erythrura_prasina_228.jpg/130px-Erythrura_prasina_228.jpg",
+      "Location of origin": "Malaysia, Brunei, Cambodia, Indonesia, Laos, Myanmar, Timor, Australia, the Philippines, New Caledonia, Fiji and Thailand",
+      "Purpose": "pets",
+      "Species and subspecies": "Pin-tailed (Erythrura prasina), tricolored (E. tricolor), tawny-breasted (E. hyperythra), blue-faced (E. trichroa), red-eared (E. coloria), red-throated (E. psittacea) and Fiji parrotfinches (E. pealii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the late 1990s",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Male_adult_Gouldian_Finch.jpg/130px-Male_adult_Gouldian_Finch.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Gouldian finch (Chloebia gouldiae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the late 20th century CE (uncertain for R. chloris, R. phyllochroa, R. barringtonensis, R. splendida, R. citropa, R. gracilenta and  R. raniformis)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Litoria_caerulea_-_Darwin_NT.jpg/130px-Litoria_caerulea_-_Darwin_NT.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "research, pets",
+      "Species and subspecies": "Australian green (Ranoidea caerulea), orange-eyed (R. chloris), leaf green (R. phyllochroa), mountain stream (R. barringtonensis), magnificent (R. splendida), Blue Mountains (R. citropa) and dainty green tree frogs (R. gracilenta); growling grass frog  (R. raniformis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the late 20th century CE (uncertain for C. aurita, C. calcarata, C. cornuta, C. joazeirensis, C. stolzmanni and C. cranwelli)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG/130px-Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG",
+      "Location of origin": "Argentina, Brazil, Venezuela, Suriname, Ecuador",
+      "Purpose": "pets",
+      "Species and subspecies": "Argentine (Ceratophrys ornata), Brazilian (C. aurita), Venezuelan (C. calcarata), Surinam (C. cornuta), Caatinga (C. joazeirensis), Pacific (C. stolzmanni) and Cranwell's horned frogs (C. cranwelli)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 2000s (uncertain for C. cuvieri, C. gibelio and C. langdorfii)",
+      "Degree and type of domestication": "Domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Carassius_carassius_Prague_Vltava_2.jpg/130px-Carassius_carassius_Prague_Vltava_2.jpg",
+      "Location of origin": "England, Russia, Japan",
+      "Purpose": "meat, research, pets",
+      "Species and subspecies": "Crucian (Carassius carassius), Japanese white crucian (C. cuvieri) and Prussian carp (C. gibelio); ginbuna (C. langdorfii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Excalfactoria_chinensis_%28aka%29.jpg/130px-Excalfactoria_chinensis_%28aka%29.jpg",
+      "Location of origin": "Asia, Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "King quail (Synoicus chinensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Crypturellus_parvirostris_2.jpg/130px-Crypturellus_parvirostris_2.jpg",
+      "Location of origin": "South America",
+      "Purpose": "meat, eggs",
+      "Species and subspecies": "Small-billed tinamou (Crypturellus parvirostris)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rhynchotus_rufescens_-Parque_das_Aves-8a.jpg/130px-Rhynchotus_rufescens_-Parque_das_Aves-8a.jpg",
+      "Location of origin": "South America",
+      "Purpose": "meat, eggs",
+      "Species and subspecies": "Red-winged tinamou (Rhynchotus rufescens)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg/130px-Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg",
+      "Location of origin": "Europe, Africa, India, Australia, North America",
+      "Purpose": "pest control, research, show, pets",
+      "Species and subspecies": "Common (Corvus corax), white-necked (C. albicollis) and Australian ravens (C. coronoides); carrion (C. corone), hooded (C. cornix), American (C. brachyrhynchos), pied (C. albus) and house crows (C. splendens); rook (C. frugilegus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Southern_Ground-hornbill_%28Bucorvus_leadbeateri%29_%2821152325325%29.jpg/130px-Southern_Ground-hornbill_%28Bucorvus_leadbeateri%29_%2821152325325%29.jpg",
+      "Location of origin": "South Africa, Ethiopia",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Southern ground (Bucorvus leadbeateri) and Abyssinian ground hornbills (B. abyssinicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Oriental_darter_%28Anhinga_melanogaster%29_21-Mar-2007_6-10-09_AM.JPG/130px-Oriental_darter_%28Anhinga_melanogaster%29_21-Mar-2007_6-10-09_AM.JPG",
+      "Location of origin": "India",
+      "Purpose": "fishing",
+      "Species and subspecies": "Oriental darter (Anhinga melanogaster)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Southern_screamer_%28Chauna_torquata%29.JPG/130px-Southern_screamer_%28Chauna_torquata%29.JPG",
+      "Location of origin": "South America",
+      "Purpose": "guarding",
+      "Species and subspecies": "Southern (Chauna torquata) and northern screamers (C. chavaria)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Anhima_cornuta_-near_Manu_Wildlife_Center%2C_Manu_National_Park%2C_Peru_-three-8.jpg/130px-Anhima_cornuta_-near_Manu_Wildlife_Center%2C_Manu_National_Park%2C_Peru_-three-8.jpg",
+      "Location of origin": "South America",
+      "Purpose": "guarding",
+      "Species and subspecies": "Horned screamer (Anhima cornuta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Red-legged_Seriema_RWD1.jpg/130px-Red-legged_Seriema_RWD1.jpg",
+      "Location of origin": "South America",
+      "Purpose": "guarding",
+      "Species and subspecies": "Red-legged seriema (Cariama cristata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Blacklegged.jpg/130px-Blacklegged.jpg",
+      "Location of origin": "South America",
+      "Purpose": "guarding",
+      "Species and subspecies": "Black-legged seriema (Chunga burmeisteri)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Aquila_chrysaetos_Flickr.jpg/130px-Aquila_chrysaetos_Flickr.jpg",
+      "Location of origin": "Europe, North America, Kazakhstan, Mongolia, Africa, Australia",
+      "Purpose": "falconry, intercepting, pest control, show, pets",
+      "Species and subspecies": "Golden (Aquila chrysaetos),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Weisskopf_Seeadler_haliaeetus_leucocephalus_2_amk.jpg/130px-Weisskopf_Seeadler_haliaeetus_leucocephalus_2_amk.jpg",
+      "Location of origin": "North America, Europe, Russia, Africa, Australia",
+      "Purpose": "falconry, intercepting, pest control, show, pets",
+      "Species and subspecies": "Bald (Haliaeetus leucocephalus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Harris_Hawk_1b_%285087160692%29.jpg/130px-Harris_Hawk_1b_%285087160692%29.jpg",
+      "Location of origin": "the United States",
+      "Purpose": "falconry, pest control, show, pets",
+      "Species and subspecies": "Harris's hawk (Parabuteo unicinctus harrisi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Accipiter_gentilis_-owned_by_a_falconer_in_Scotland_-upper_body-8a.jpg/130px-Accipiter_gentilis_-owned_by_a_falconer_in_Scotland_-upper_body-8a.jpg",
+      "Location of origin": "Europe, Asia, Africa, North America",
+      "Purpose": "falconry, pest control, show, pets",
+      "Species and subspecies": "Northern (Accipiter gentilis),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Uhu-muc.jpg/130px-Uhu-muc.jpg",
+      "Location of origin": "Europe, Russia, Turkmenistan",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Eurasian eagle-owl (Bubo bubo)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Great-horned_Owl_RWD_at_CRC1.jpg/130px-Great-horned_Owl_RWD_at_CRC1.jpg",
+      "Location of origin": "Canada",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Great horned owl (Bubo virginianus) including subspecies northern great horned owl (B. v. subarcticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tawny_Owl.jpg/130px-Tawny_Owl.jpg",
+      "Location of origin": "Europe (including the United Kingdom)",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Tawny owl (Strix aluco)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Plegadis_falcinellus_%28aka%29_background_blurred.jpg/130px-Plegadis_falcinellus_%28aka%29_background_blurred.jpg",
+      "Location of origin": "Europe, Asia, Africa, Australia, the Atlantic and Caribbean regions of the Americas",
+      "Purpose": "meat, eggs, pest control",
+      "Species and subspecies": "Glossy ibis (Plegadis falcinellus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Plegadis_ridgwayi_-Huacarpay_Lakes%2C_near_Cusco%2C_Peru-8.jpg/130px-Plegadis_ridgwayi_-Huacarpay_Lakes%2C_near_Cusco%2C_Peru-8.jpg",
+      "Location of origin": "Peru",
+      "Purpose": "meat, eggs, pest control",
+      "Species and subspecies": "Puna ibis (Plegadis ridgwayi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Wild_Boar_Habbitat_3.jpg/130px-Wild_Boar_Habbitat_3.jpg",
+      "Location of origin": "Europe (including the United Kingdom), Thailand",
+      "Purpose": "meat, leather, hides, tusks, pets",
+      "Species and subspecies": "Wild boar (Sus scrofa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sus_celebensis.png/130px-Sus_celebensis.png",
+      "Location of origin": "Sulawesi",
+      "Purpose": "meat, tusks, pets",
+      "Species and subspecies": "Celebes warty pig (Sus celebensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 2000s (uncertain for N. eugenii and N. parma)",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Red-necked_wallaby.gk.jpg/130px-Red-necked_wallaby.gk.jpg",
+      "Location of origin": "Tasmania, South Australia, Western Australia, New South Wales",
+      "Purpose": "lawn mowing, research, tourism, pets",
+      "Species and subspecies": "Red-necked (Notamacropus rufogriseus),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Red_kangaroo_-_melbourne_zoo.jpg/130px-Red_kangaroo_-_melbourne_zoo.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "meat, leather, tourism, pets",
+      "Species and subspecies": "Red kangaroo (Osphranter rufus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Dasyurus_maculatus.jpg/130px-Dasyurus_maculatus.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Tiger (Dasyurus maculatus), eastern (D. viverrinus), western (D. geoffroii) and northern quolls (D. hallucatus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Smooth-coat-otter.JPG/130px-Smooth-coat-otter.JPG",
+      "Location of origin": "Bangladesh",
+      "Purpose": "fishing, pets",
+      "Species and subspecies": "Smooth-coated otter (Lutrogale perspicillata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Steinmarder_%28cropped%29.jpg/130px-Steinmarder_%28cropped%29.jpg",
+      "Location of origin": "Europe, Russia, India",
+      "Purpose": "fur, pest control, pets",
+      "Species and subspecies": "Beech (Martes foina)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fisher-face-snow_-_West_Virginia_-_ForestWander.jpg/130px-Fisher-face-snow_-_West_Virginia_-_ForestWander.jpg",
+      "Location of origin": "North America",
+      "Purpose": "fur, pest control, research, pets",
+      "Species and subspecies": "Fisher or Pennant's marten (Pekania pennanti)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mustela_sibirica_dd_winter_2002.jpg/130px-Mustela_sibirica_dd_winter_2002.jpg",
+      "Location of origin": "Europe, Russia, India",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Least (Mustela nivalis), Siberian (M. sibirica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Greater_grison.jpg/130px-Greater_grison.jpg",
+      "Location of origin": "South America",
+      "Purpose": "hunting, pest control, pets",
+      "Species and subspecies": "Greater (Galictis vittata) and lesser grisons (G. cuja)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Lyncodon_patagonicus1.jpg/130px-Lyncodon_patagonicus1.jpg",
+      "Location of origin": "Argentina, Chile",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Patagonian weasel (Lyncodon patagonicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Procyon_lotor_7_-_am_Wasser.jpg/130px-Procyon_lotor_7_-_am_Wasser.jpg",
+      "Location of origin": "North America",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Common raccoon (Procyon lotor)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Nasua_nasua.jpg/130px-Nasua_nasua.jpg",
+      "Location of origin": "South America, Costa Rica",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "South American (Nasua nasua)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Squaw-ringtail-28073.jpg/130px-Squaw-ringtail-28073.jpg",
+      "Location of origin": "North America, Central America",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Ringtail (Bassariscus astutus) and cacomistle (B. sumichrasti)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Southern_Tamandua_and_Young_-_Sunshine_international_aquarium%2C_Tokyo%2C_Japan.jpg/130px-Southern_Tamandua_and_Young_-_Sunshine_international_aquarium%2C_Tokyo%2C_Japan.jpg",
+      "Location of origin": "South America, Central America",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Southern (Tamandua tetradactyla) and northern tamanduas (T. mexicana)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cuniculus_paca.jpg/130px-Cuniculus_paca.jpg",
+      "Location of origin": "Mexico, Argentina, Ecuador",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Lowland (Cuniculus paca) and mountain pacas (C. taczanowskii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hystrix_brachyura%2C_Malayan_porcupine.jpg/130px-Hystrix_brachyura%2C_Malayan_porcupine.jpg",
+      "Location of origin": "Vietnam, China, Indonesia, the Philippines, India, Africa",
+      "Purpose": "meat, quills, pets",
+      "Species and subspecies": "Malayan (Hystrix brachyura),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rhizomys_sinensis_-_Kunming_Natural_History_Museum_of_Zoology_-_DSC02460.JPG/130px-Rhizomys_sinensis_-_Kunming_Natural_History_Museum_of_Zoology_-_DSC02460.JPG",
+      "Location of origin": "China",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Chinese bamboo (Rhizomys sinensis) and large bamboo rats (R. sumatrensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lesser_bamboo_rat.jpg/130px-Lesser_bamboo_rat.jpg",
+      "Location of origin": "China, Laos",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Lesser bamboo rat (Cannomys badius)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Capromys_pilorides.jpg/130px-Capromys_pilorides.jpg",
+      "Location of origin": "Cuba",
+      "Purpose": "meat, pest control, pets",
+      "Species and subspecies": "Desmarest's hutia (Capromys pilorides)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lagurus_lagurus.jpg/130px-Lagurus_lagurus.jpg",
+      "Location of origin": "the Eurasian steppe",
+      "Purpose": "pets",
+      "Species and subspecies": "Steppe lemming (Lagurus lagurus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 20th century CE",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Tunturisopuli_Lemmus_Lemmus.jpg/130px-Tunturisopuli_Lemmus_Lemmus.jpg",
+      "Location of origin": "northern Fennoscandia",
+      "Purpose": "pets",
+      "Species and subspecies": "Norway lemming (Lemmus lemmus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Perpallidus.jpg/130px-Perpallidus.jpg",
+      "Location of origin": "Egypt, Libya",
+      "Purpose": "pets",
+      "Species and subspecies": "Lesser Egyptian (Gerbillus gerbillus), greater Egyptian (G. pyramidum), pale (G. perpallidus) and pleasant gerbils (G. amoenus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Micromysminutus1.jpg/130px-Micromysminutus1.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Eurasian harvest mouse (Micromys minutus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tolok.jpg/130px-Tolok.jpg",
+      "Location of origin": "Mexico, Central America",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Northeastern (Ctenosaura acanthura), black (C. similis), and Mexican spiny-tailed iguana (C. pectinata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Naja_atra_juvenile.jpg/130px-Naja_atra_juvenile.jpg",
+      "Location of origin": "China",
+      "Purpose": "venom, skins, pets",
+      "Species and subspecies": "Chinese cobra (Naja atra)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Platycercus_elegans_Wilsons_Prom.jpg/130px-Platycercus_elegans_Wilsons_Prom.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Crimson rosella (Platycercus elegans) including subspecies Adelaide (P. e. adelaidae) and yellow rosellas (P. e. flaveolus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Platycercus_icterotis1.jpg/130px-Platycercus_icterotis1.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Western (Platycercus icterotis), green (P. caledonicus), pale-headed (P. adscitus) and northern rosellas (P. venustus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Eastern_Rosella_%2836884763426%29.jpg/130px-Eastern_Rosella_%2836884763426%29.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets",
+      "Species and subspecies": "Eastern rosella (Platycercus eximius) including subspecies golden-mantled rosella (P. e. elecica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Trachemys_decorata.jpg/130px-Trachemys_decorata.jpg",
+      "Location of origin": "Hispaniola (Haiti and the Dominican Republic), Colombia, Cuba, Brazil, Uruguay, Nicaragua, Costa Rica, Mexico, Jamaica",
+      "Purpose": "pets",
+      "Species and subspecies": "Hispaniolan (Trachemys decorata), Colombian (T. callirostris), Cuban (T. decussata), D'Orbigny's (T. dorbigni), Nicaraguan (T. emolli), ornate (T. ornata), Jamaican (T. terrapen) and Meso-American sliders (T. venusta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Easy to tame",
+      "Extent in the wild vs. captivity": "Fairly common in captivity, common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sheldonbasking.JPG/130px-Sheldonbasking.JPG",
+      "Location of origin": "the south-central and southeastern United States",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Pond slider (Trachemys scripta) including subspecies yellow-bellied (T. s. scripta), red-eared (T. s. elegans) and Cumberland sliders (T. s. troostii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/E8976-Namdaemun-Turtles-sold-in-ginseng-shop.jpg/130px-E8976-Namdaemun-Turtles-sold-in-ginseng-shop.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Chinese softshell turtle (Pelodiscus sinensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chinemys_reevesii_02.jpg/130px-Chinemys_reevesii_02.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Chinese pond (Mauremys reevesii) and yellow pond turtles (M. mutica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Common_Snapping_Turtle.jpg/130px-Common_Snapping_Turtle.jpg",
+      "Location of origin": "Florida",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Common snapping turtle (Chelydra serpentina)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cuora_trifasciata.jpg/130px-Cuora_trifasciata.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Golden coin turtle (Cuora trifasciata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Palea_steindachneri.jpeg/130px-Palea_steindachneri.jpeg",
+      "Location of origin": "China",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Wattle-necked softshell turtle (Palea steindachneri)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Mouhotii.jpg/130px-Mouhotii.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, medicine, pets",
+      "Species and subspecies": "Keeled box turtle (Cuora mouhotii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Podocnemis_expansa_INPA.jpg/130px-Podocnemis_expansa_INPA.jpg",
+      "Location of origin": "Brazil",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Arrau turtle (Podocnemis expansa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nilecroc100.jpg/130px-Nilecroc100.jpg",
+      "Location of origin": "Florida, Cuba, Mexico, Colombia, Venezuela, Peru, Africa, Iran, India, Thailand, Myanmar, Sumatra, Borneo, the Philippines, Australia, Papua New Guinea",
+      "Purpose": "meat, hides, teeth, blood, fat, guarding, tourism, show, pets",
+      "Species and subspecies": "Saltwater (Crocodylus porosus), Nile (C. niloticus), West African (C. suchus), mugger (C. palustris), American (C. acutus), Cuban (C. rhombifer), Morelet's (C. moreletii), Orinoco (C. intermedius), freshwater (C. johnsoni), Siamese (C. siamensis), Philippine (C. mindorensis) and New Guinea crocodiles (C. novaeguineae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Neochmia_phaeton_-Middle_Point%2C_Northern_Territory%2C_Australia-8.jpg/130px-Neochmia_phaeton_-Middle_Point%2C_Northern_Territory%2C_Australia-8.jpg",
+      "Location of origin": "New Guinea, Australia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Crimson (Neochmia phaeton), and red-browed finches (N. temporalis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Neochmia_ruficauda.jpg/130px-Neochmia_ruficauda.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Star finch (Bathilda ruficauda)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Plum-headed_Finch-Neochmia_modesta.jpg/130px-Plum-headed_Finch-Neochmia_modesta.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "pets, show",
+      "Species and subspecies": "Plum-headed finch (Aidemosyne modesta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Perdix_perdix_%28Marek_Szczepanek%29.jpg/130px-Perdix_perdix_%28Marek_Szczepanek%29.jpg",
+      "Location of origin": "Hungary, the United Kingdom",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Grey partridge (Perdix perdix)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Perdrix_rouge.jpg/130px-Perdrix_rouge.jpg",
+      "Location of origin": "France, Afghanistan, North Africa, Yemen, Oman",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Red-legged (Alectoris rufa), chukar (A. chukar), Philby's (A. philbyi), Arabian (A. melanocephala) and Barbary partridges (A. barbara)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bambusicola_thoracicus1.jpg/130px-Bambusicola_thoracicus1.jpg",
+      "Location of origin": "China, India",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Chinese bamboo (Bambusicola thoracicus) and mountain bamboo partridges (B. fytchii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lophophorus_impejanus_Zoo_DU_2.jpg/130px-Lophophorus_impejanus_Zoo_DU_2.jpg",
+      "Location of origin": "Nepal",
+      "Purpose": "meat, eggs, feathers, ornamental, pets",
+      "Species and subspecies": "Himalayan monal (Lophophorus impejanus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Swinhoe%27s_Pheasant_0673.jpg/130px-Swinhoe%27s_Pheasant_0673.jpg",
+      "Location of origin": "Nepal, Taiwan, Vietnam, Sumatra, China, Thailand",
+      "Purpose": "meat, eggs, feathers, ornamental, pets",
+      "Species and subspecies": "Kalij (Lophura leucomelanos), Swinhoe's (L. swinhoii), Salvadori's (L. inornata), silver (L. nycthemera) and Edwards's pheasants (L. edwardsi); Siamese fireback (L. diardi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Red_Junglefowl_-_Thailand.jpg/130px-Red_Junglefowl_-_Thailand.jpg",
+      "Location of origin": "India, Sri Lanka, Thailand, Java",
+      "Purpose": "meat, eggs, feathers, ornamental, pets",
+      "Species and subspecies": "Red (Gallus gallus), green (G. varius), grey (G. sonneratii) and Sri Lankan junglefowl (G. lafayettii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Scaled_Quail_%28Callipepla_squamata%29_%2820164244389%29.jpg/130px-Scaled_Quail_%28Callipepla_squamata%29_%2820164244389%29.jpg",
+      "Location of origin": "Mexico, Utah, California",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Scaled (Callipepla squamata), elegant (C. douglasii), Gambel's (C. gambelii) and California quails (C. californica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Oreortyx_pictus.jpg/130px-Oreortyx_pictus.jpg",
+      "Location of origin": "California",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Mountain quail (Oreortyx pictus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Montezuma_Quail_%28Cyrtonyx_montezumae%29.jpg/130px-Montezuma_Quail_%28Cyrtonyx_montezumae%29.jpg",
+      "Location of origin": "Mexico",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Montezuma quail (Cyrtonyx montezumae)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Acryllium_vulturinum_-Tsavo_East_National_Park%2C_Kenya-8.jpg/130px-Acryllium_vulturinum_-Tsavo_East_National_Park%2C_Kenya-8.jpg",
+      "Location of origin": "Ethiopia",
+      "Purpose": "meat, pest control, pets",
+      "Species and subspecies": "Vulturine guineafowl (Acryllium vulturinum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Harlequin_Quail_%28Coturnix_delegorguei%29_%286035291347%29.jpg/130px-Harlequin_Quail_%28Coturnix_delegorguei%29_%286035291347%29.jpg",
+      "Location of origin": "Africa, India, Australia",
+      "Purpose": "meat, eggs, feathers, pets",
+      "Species and subspecies": "Harlequin (Coturnix delegorguei), rain (C. coromandelica) and stubble quails (C. pectoralis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/AerodramusFuciphagus.LipKee.jpg/130px-AerodramusFuciphagus.LipKee.jpg",
+      "Location of origin": "Indonesia, Malaysia, Thailand, the Philippines, Singapore",
+      "Purpose": "nests",
+      "Species and subspecies": "Edible-nest swiftlet (Aerodramus fuciphagus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "Common in captivity, becoming rare in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Brachypelma_smithi_2009_G09.jpg/130px-Brachypelma_smithi_2009_G09.jpg",
+      "Location of origin": "North America, Central America, South America, Europe, Africa, Asia, Australia",
+      "Purpose": "research, venom, pets",
+      "Species and subspecies": "Tarantulas (Theraphosidae, various species and subspecies)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "Somewhat common in captivity, nearly extinct in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gekkoninae_Rhacodactylus_ciliatus_tete.png/130px-Gekkoninae_Rhacodactylus_ciliatus_tete.png",
+      "Location of origin": "New Caledonia",
+      "Purpose": "pets",
+      "Species and subspecies": "Crested (Correlophus ciliatus) and suras geckos (C. sarasinorum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Florida_Manatee_FWS_20.jpg/130px-Florida_Manatee_FWS_20.jpg",
+      "Location of origin": "Florida",
+      "Purpose": "meat",
+      "Species and subspecies": "Florida manatee (Trichechus manatus latirostris)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg/130px-Sable_antelope_%28Hippotragus_niger%29_adult_male.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "meat, horns",
+      "Species and subspecies": "Roan (Hippotragus equinus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Male_greater_kudu.jpg/130px-Male_greater_kudu.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "meat, hides, horns, pets",
+      "Species and subspecies": "Greater kudu (Tragelaphus strepsiceros),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Blue_Wildebeests_%28Connochaetes_taurinus%29_%286451904975%29.jpg/130px-Blue_Wildebeests_%28Connochaetes_taurinus%29_%286451904975%29.jpg",
+      "Location of origin": "South Africa, Kenya",
+      "Purpose": "meat, leather, hides, horns, pets",
+      "Species and subspecies": "Blue (Connochaetes taurinus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Blesbok_at_NC_zoo.jpg/130px-Blesbok_at_NC_zoo.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "meat, hides, horns",
+      "Species and subspecies": "Bontebok (Damaliscus pygargus pygargus) including subspecies blesbok (D. p. phillipsi)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Nilgauantilope_Boselaphus_tragocamelus_Tierpark_Hellabrunn-10.jpg/130px-Nilgauantilope_Boselaphus_tragocamelus_Tierpark_Hellabrunn-10.jpg",
+      "Location of origin": "India, Pakistan",
+      "Purpose": "meat, hides, horns, pets",
+      "Species and subspecies": "Nilgai (Boselaphus tragocamelus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Slight physical changes",
+      "Extent in the wild vs. captivity": "Fairly common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Lonchura_punctulata_%28Nagarhole%2C_2004%29.jpg/130px-Lonchura_punctulata_%28Nagarhole%2C_2004%29.jpg",
+      "Location of origin": "Southeast Asia",
+      "Purpose": "pets, research",
+      "Species and subspecies": "Scaly-breasted munia (Lonchura punctulata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Blackbuck_male_female.jpg/130px-Blackbuck_male_female.jpg",
+      "Location of origin": "India, Pakistan",
+      "Purpose": "meat, hides, horns, pets",
+      "Species and subspecies": "Blackbuck (Antilope cervicapra)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Chinkara_Ranthambhore_National_Park.jpg/130px-Chinkara_Ranthambhore_National_Park.jpg",
+      "Location of origin": "India, Pakistan",
+      "Purpose": "meat, horns, pets",
+      "Species and subspecies": "Chinkara (Gazella bennettii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Springbok_etosha.jpg/130px-Springbok_etosha.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "meat, hides, horns, pets",
+      "Species and subspecies": "Springbok (Antidorcas marsupialis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BarbarySheep4.jpg/130px-BarbarySheep4.jpg",
+      "Location of origin": "North Africa",
+      "Purpose": "meat, horns",
+      "Species and subspecies": "Barbary sheep (Ammotragus lervia)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/African_Buffalo.JPG/130px-African_Buffalo.JPG",
+      "Location of origin": "South Africa",
+      "Purpose": "meat, leather, horns",
+      "Species and subspecies": "African buffalo (Syncerus caffer)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Collared_peccary02_-_melbourne_zoo.jpg/130px-Collared_peccary02_-_melbourne_zoo.jpg",
+      "Location of origin": "Brazil",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Collared peccary (Pecari tajacu)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/South_African_Giraffes%2C_fighting.jpg/130px-South_African_Giraffes%2C_fighting.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "tourism, pets",
+      "Species and subspecies": "South African giraffe (Giraffa camelopardalis giraffa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/CervusAlbirostris2.jpg/130px-CervusAlbirostris2.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, antlers",
+      "Species and subspecies": "Thorold's deer (Cervus albirostris)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/White-tailed_deer.jpg/130px-White-tailed_deer.jpg",
+      "Location of origin": "Virginia, West Virginia, Florida, Montana, Canada, Colombia",
+      "Purpose": "meat, hides, antlers, pets",
+      "Species and subspecies": "White-tailed (Odocoileus virginianus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chital_Stag.jpg/130px-Chital_Stag.jpg",
+      "Location of origin": "India",
+      "Purpose": "meat, hides, antlers, pets",
+      "Species and subspecies": "Chital or axis deer (Axis axis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Hydropotes_inermis_male.JPG/130px-Hydropotes_inermis_male.JPG",
+      "Location of origin": "China",
+      "Purpose": "meat, tusks, pets",
+      "Species and subspecies": "Water deer (Hydropotes inermis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Moschustier.jpg/130px-Moschustier.jpg",
+      "Location of origin": "China, India, Russia",
+      "Purpose": "meat, hides, tusks, musk",
+      "Species and subspecies": "Dwarf (Moschus berezovskii), alpine (M. chrysogaster), white-bellied (M. leucogaster) and Siberian musk deer (M. moschiferus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Crazy_Guanaco_%285464058504%29.jpg/130px-Crazy_Guanaco_%285464058504%29.jpg",
+      "Location of origin": "Peru",
+      "Purpose": "fiber, guarding, pets",
+      "Species and subspecies": "Guanaco (Lama guanicoe)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vicunacrop.jpg/130px-Vicunacrop.jpg",
+      "Location of origin": "Peru",
+      "Purpose": "fiber, pets",
+      "Species and subspecies": "Vicu\u00f1a (Vicugna vicugna)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ceratotherium_simum_Kruger_Park_02.JPG/130px-Ceratotherium_simum_Kruger_Park_02.JPG",
+      "Location of origin": "South Africa",
+      "Purpose": "horns",
+      "Species and subspecies": "Southern white rhinoceros (Ceratotherium simum simum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Muddy_Rhino_%28377658490%29.jpg/130px-Muddy_Rhino_%28377658490%29.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "horns",
+      "Species and subspecies": "Black rhinoceros (Diceros bicornis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rostkatze_Zoo_Berlin.JPG/130px-Rostkatze_Zoo_Berlin.JPG",
+      "Location of origin": "India",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Fishing (Prionailurus viverrinus) and rusty-spotted cats (P. rubiginosus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Spotted_Hyena%2C_Ngorongoro.jpg/130px-Spotted_Hyena%2C_Ngorongoro.jpg",
+      "Location of origin": "South Africa, Ethiopia, Nigeria",
+      "Purpose": "hunting, guarding, waste management, tourism, show, pets",
+      "Species and subspecies": "Spotted hyena (Crocuta crocuta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nyctereutes_procyonoides_4_%28Piotr_Kuczynski%29.jpg/130px-Nyctereutes_procyonoides_4_%28Piotr_Kuczynski%29.jpg",
+      "Location of origin": "China, Japan",
+      "Purpose": "fur, pest control, pets",
+      "Species and subspecies": "Common (Nyctereutes procyonoides) and Japanese raccoon dogs (N. viverrinus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Polarfuchs_1_2004-11-17.jpg/130px-Polarfuchs_1_2004-11-17.jpg",
+      "Location of origin": "Europe, North America, North Africa, Sudan, Central Asia",
+      "Purpose": "fur, pest control, pets",
+      "Species and subspecies": "Red (Vulpes vulpes), Arctic (V. lagopus), swift (V. velox), kit (V. macrotis), fennec (V. zerda),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Urocyon_littoralis_pair.jpg/130px-Urocyon_littoralis_pair.jpg",
+      "Location of origin": "the eastern United States, the Channel Islands, California",
+      "Purpose": "pelts, pest control, pets",
+      "Species and subspecies": "Grey (Urocyon cinereoargenteus) and island foxes (U. littoralis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Otocyon_megalotis_-_Etosha_2014.jpg/130px-Otocyon_megalotis_-_Etosha_2014.jpg",
+      "Location of origin": "Africa",
+      "Purpose": "pest control, show, pets",
+      "Species and subspecies": "Bat-eared fox (Otocyon megalotis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Easy to tame",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cerdocyon_thous_MG_9503.jpg/130px-Cerdocyon_thous_MG_9503.jpg",
+      "Location of origin": "South America",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Crab-eating fox (Cerdocyon thous)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Alba-European-Wolf.jpg/130px-Alba-European-Wolf.jpg",
+      "Location of origin": "Europe, Russia, Kazakhstan, Mongolia, China, the Middle East, Canada, Greenland",
+      "Purpose": "hunting, guarding, pest control, draft, research, education, therapy, tourism, show, pets",
+      "Species and subspecies": "Eurasian (C. l. lupus), Iberian (C. l. signatus), steppe (C. l. campestris), Mongolian (C. l. chanco), Arabian (C. l. arabs), Indian (C. l. pallipes), Arctic (C. l. arctos), Greenland (C. l. orion) and northwestern wolves (C. l. occidentalis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Canis_latrans.jpg/130px-Canis_latrans.jpg",
+      "Location of origin": "North America",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Coyote, prairie wolf or brush wolf (Canis latrans)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Canis_adustus_Kidepo_National_Park.jpg/130px-Canis_adustus_Kidepo_National_Park.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Side-striped jackal (Lupulella adusta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Meerkat_feb_09.jpg/130px-Meerkat_feb_09.jpg",
+      "Location of origin": "South Africa",
+      "Purpose": "pest control, research, education, therapy, tourism, show, pets",
+      "Species and subspecies": "Meerkat or suricate (Suricata suricatta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cusimanse.jpg/130px-Cusimanse.jpg",
+      "Location of origin": "West Africa",
+      "Purpose": "pets, pest control",
+      "Species and subspecies": "Common kusimanse (Crossarchus obscurus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ruddy-mongoose.jpg/130px-Ruddy-mongoose.jpg",
+      "Location of origin": "India, Southeast Asia",
+      "Purpose": "pest control, pets",
+      "Species and subspecies": "Ruddy (Urva smithii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Domesticated",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Kissfish.jpg/130px-Kissfish.jpg",
+      "Location of origin": "Thailand, Indonesia",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Kissing gourami (Helostoma temminckii)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Osphronemus_Gourami_%28better%29.png/130px-Osphronemus_Gourami_%28better%29.png",
+      "Location of origin": "Southeast Asia",
+      "Purpose": "meat, weed control, pets",
+      "Species and subspecies": "Giant (Osphronemus goramy),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Semi-domesticated",
+      "Extent in the wild vs. captivity": "Fairly common in captivity, common in the wild",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gregory_Moine_-_Red_bellied_Piranha_%28by%29.jpg/130px-Gregory_Moine_-_Red_bellied_Piranha_%28by%29.jpg",
+      "Location of origin": "South America",
+      "Purpose": "meat, teeth, research, pets",
+      "Species and subspecies": "Red-bellied (Pygocentrus nattereri), piraya (P. piraya) and black spot piranha (P. cariba)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pacific_bluefin_tuna.jpg/130px-Pacific_bluefin_tuna.jpg",
+      "Location of origin": "Europe, East Asia, Australia, Hawaii, North America",
+      "Purpose": "meat, eggs",
+      "Species and subspecies": "Atlantic bluefin (Thunnus thynnus), Pacific bluefin (T. orientalis), southern bluefin (T. maccoyii), yellowfin (T. albacares) and bigeye tunas (T. obesus); albacore or longfin tuna (T. alalunga)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/4803_white_sturgeon_swart_odfw_%284455050144%29.jpg/130px-4803_white_sturgeon_swart_odfw_%284455050144%29.jpg",
+      "Location of origin": "Europe, Alaska, California, Canada, Iran, Russia, Albania, the Aegean Sea",
+      "Purpose": "meat, eggs, pets",
+      "Species and subspecies": "European sea (Acipenser sturio), white (A. transmontanus), shortnose (A. brevirostrum), Persian (A. persicus), Siberian (A. baerii), Adriatic (A. naccarii) and starry sturgeons (A. stellatus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Epinephelus_malabaricus_in_UShaka_Sea_World_1098.jpg/130px-Epinephelus_malabaricus_in_UShaka_Sea_World_1098.jpg",
+      "Location of origin": "Asia, Australia, Fiji, South Africa, Italy, the Indo-Pacific",
+      "Purpose": "meat",
+      "Species and subspecies": "Malabar (Epinephelus malabaricus), giant (E. lanceolatus), greasy (E. tauvina), areolate (E. areolatus), dusky (E. marginatus), wavy-lined (E. undulosus), six-bar (E. sexfasciatus) and orange-spotted groupers (E. coioides)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rainbow_Trout_%28Oncorhynchus_mykiss%29_%28cropped%29.jpg/130px-Rainbow_Trout_%28Oncorhynchus_mykiss%29_%28cropped%29.jpg",
+      "Location of origin": "Europe, Asia, North America",
+      "Purpose": "meat, eggs",
+      "Species and subspecies": "Rainbow trout (Oncorhynchus mykiss) and Chinook salmon (O. tshawytscha)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Oncorhynchus_masou_in_Aquarium_2011-09-11.jpg/130px-Oncorhynchus_masou_in_Aquarium_2011-09-11.jpg",
+      "Location of origin": "Russia, Japan, Korea",
+      "Purpose": "meat",
+      "Species and subspecies": "Masu salmon (Oncorhynchus masou) including subspecies amago (O. m. macrostomus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Salmo_trutta_Trout_Aquarium_Atlanterhavsparken_Norway.jpg/130px-Salmo_trutta_Trout_Aquarium_Atlanterhavsparken_Norway.jpg",
+      "Location of origin": "Europe (including the United Kingdom), Alaska, Canada, Chile, Russia, Australia, Tasmania",
+      "Purpose": "meat, eggs",
+      "Species and subspecies": "Atlantic salmon (Salmo salar) and brown trout (S. trutta)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Barramundi.jpg/130px-Barramundi.jpg",
+      "Location of origin": "the United Kingdom, Poland, the United States, India, Southeast Asia, the Middle East, Australia, Japan, Africa",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Barramundi (Lates calcarifer),",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cobia_fingerlings.jpg/130px-Cobia_fingerlings.jpg",
+      "Location of origin": "the United States, Asia, Panama, Mexico",
+      "Purpose": "meat",
+      "Species and subspecies": "Cobia (Rachycentron canadum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Dicentrarchus_labrax01.jpg/130px-Dicentrarchus_labrax01.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat",
+      "Species and subspecies": "European bass (Dicentrarchus labrax)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Chanidae_-_Chanos_chanos.JPG/130px-Chanidae_-_Chanos_chanos.JPG",
+      "Location of origin": "the Philippines, Taiwan, Indonesia",
+      "Purpose": "meat",
+      "Species and subspecies": "Milkfish (Chanos chanos)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/130px-Esox_lucius_ZOO_1.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat, eggs, research, pets",
+      "Species and subspecies": "Northern pike (Esox lucius)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Alligator_Gar_10.JPG/130px-Alligator_Gar_10.JPG",
+      "Location of origin": "North America, Cuba, Costa Rica",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Alligator (Atractosteus spatula), Cuban (A. tristoechus) and tropical gars (A. tropicus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ctenopharyngodon_idella_01_Pengo.jpg/130px-Ctenopharyngodon_idella_01_Pengo.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, weed control",
+      "Species and subspecies": "Grass carp (Ctenopharyngodon idella)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mylopharyngodon_piceus.jpg/130px-Mylopharyngodon_piceus.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, pest control, medicine",
+      "Species and subspecies": "Black carp (Mylopharyngodon piceus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hypophthalmichthys-nob.jpg/130px-Hypophthalmichthys-nob.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat",
+      "Species and subspecies": "Bighead carp (Hypophthalmichthys nobilis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Giant_Barb.jpg/130px-Giant_Barb.jpg",
+      "Location of origin": "Vietnam",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Giant barb (Catlocarpio siamensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG/130px-Arapaima_gigas_at_Beijing_aquarium.JPG",
+      "Location of origin": "the Amazon Basin",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Arapaima (Arapaima gigas)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/European_Catfish_%28Silurus_glanis%29_%2813532570755%29.jpg/130px-European_Catfish_%28Silurus_glanis%29_%2813532570755%29.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat",
+      "Species and subspecies": "Wels catfish (Silurus glanis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Iridescent_shark.jpg/130px-Iridescent_shark.jpg",
+      "Location of origin": "Southeast Asia",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Iridescent shark (Pangasianodon hypophthalmus) and Mekong giant catfish (P. gigas)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mugil_cephalus_Minorca.jpg/130px-Mugil_cephalus_Minorca.jpg",
+      "Location of origin": "California, Colorado",
+      "Purpose": "meat",
+      "Species and subspecies": "Flathead grey mullet (Mugil cephalus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Etroplus_suratensis.jpg/130px-Etroplus_suratensis.jpg",
+      "Location of origin": "India",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Green (Etroplus suratensis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2006-10-06_18_-_Yellowtail_Snapper.JPG/130px-2006-10-06_18_-_Yellowtail_Snapper.JPG",
+      "Location of origin": "the Caribbean Sea",
+      "Purpose": "meat, tourism",
+      "Species and subspecies": "Yellowtail snapper (Ocyurus chrysurus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Red_snapper_2.jpg/130px-Red_snapper_2.jpg",
+      "Location of origin": "the Gulf of Mexico",
+      "Purpose": "meat, research",
+      "Species and subspecies": "Northern red snapper (Lutjanus campechanus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Seriola_dumerili_by_NPS.jpg/130px-Seriola_dumerili_by_NPS.jpg",
+      "Location of origin": "the Mediterranean Sea, Japan, Chile, Hawaii",
+      "Purpose": "meat",
+      "Species and subspecies": "Greater (Seriola dumerili), Japanese (S. quinqueradiata) and yellowtail amberjacks (S. lalandi); longfin yellowtail (S. rivoliana)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1980s (uncertain for P. lethostigma)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Paralichthys_lethostigma.jpg/130px-Paralichthys_lethostigma.jpg",
+      "Location of origin": "the United States, Japan, China, Korea",
+      "Purpose": "meat",
+      "Species and subspecies": "Southern (Paralichthys lethostigma) and olive flounders (P. olivaceus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Anguilla_anguilla.jpg/130px-Anguilla_anguilla.jpg",
+      "Location of origin": "Europe, Asia, North America, Australia, New Zealand",
+      "Purpose": "meat, research, medicine, pets",
+      "Species and subspecies": "European (Anguilla anguilla), Japanese (A. japonica), American (A. rostrata), short-finned (A. australis) and New Zealand longfin eels (A. dieffenbachii",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Held/tame in captivity",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sugarbag_bee.jpg/130px-Sugarbag_bee.jpg",
+      "Location of origin": "Australia, India",
+      "Purpose": "honey, wax, propolis, pollination",
+      "Species and subspecies": "Sugarbag bee (Tetragonula carbonaria) and Indian stingless bee (T. iridipennis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Dubia-cockroach-female-near-ruler.jpg/130px-Dubia-cockroach-female-near-ruler.jpg",
+      "Location of origin": "Central America, South America",
+      "Purpose": "animal feed, pets",
+      "Species and subspecies": "Dubia roach (Blaptica dubia)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Zophobas_morio_larva_-_top_%28aka%29.jpg/130px-Zophobas_morio_larva_-_top_%28aka%29.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat, animal feed, research",
+      "Species and subspecies": "Mealworm (Tenebrio molitar) and superworm (Zophobas morio)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tribolium_castaneum.jpg/130px-Tribolium_castaneum.jpg",
+      "Location of origin": "the United States",
+      "Purpose": "research",
+      "Species and subspecies": "Red flour beetle (Tribolium castaneum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hermetiaillucens.jpg/130px-Hermetiaillucens.jpg",
+      "Location of origin": "the United States",
+      "Purpose": "meat, animal feed, pollination, decomposing",
+      "Species and subspecies": "Black soldier fly (Hermetia illucens)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Achroia_grisella_caterpillars_kleine_wasmot_rupsen_%281%29.jpg/130px-Achroia_grisella_caterpillars_kleine_wasmot_rupsen_%281%29.jpg",
+      "Location of origin": "Europe?",
+      "Purpose": "meat, bait, animal feed, research",
+      "Species and subspecies": "Waxworms (Achroia grisella and Galleria mellonella)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Mopane_Worm_by_Arne_Larsen.jpg/130px-Mopane_Worm_by_Arne_Larsen.jpg",
+      "Location of origin": "Southern Africa",
+      "Purpose": "meat, silk",
+      "Species and subspecies": "Mopane moth (Gonimbrasia belina)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/American-cockroach.jpg/130px-American-cockroach.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, medicine, pets",
+      "Species and subspecies": "American cockroach (Periplaneta americana)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Diploptera_punctata_adult.jpg/130px-Diploptera_punctata_adult.jpg",
+      "Location of origin": "Hawaii",
+      "Purpose": "research",
+      "Species and subspecies": "Pacific beetle cockroach (Diploptera punctata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Rhopilema_esculentum_at_Monterey_Bay_Aquarium.jpg/130px-Rhopilema_esculentum_at_Monterey_Bay_Aquarium.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat, medicine, pets",
+      "Species and subspecies": "Flame jellyfish (Rhopilema esculentum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Enteroctopus_dolfeini.jpg/130px-Enteroctopus_dolfeini.jpg",
+      "Location of origin": "Japan, Korea",
+      "Purpose": "meat, research, pets",
+      "Species and subspecies": "Giant Pacific octopus (Enteroctopus dofleini)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Octopus_vulgaris_2.jpg/130px-Octopus_vulgaris_2.jpg",
+      "Location of origin": "Europe, Asia, North America, Western Australia, Hawaii, the Caribbean Sea",
+      "Purpose": "meat, ink, research, pets",
+      "Species and subspecies": "Common (Octopus vulgaris), common Sydney (O. tetricus), big blue (O. cyanea), Mexican four-eyed (O. maya), California two-spot (O. bimaculoides), Gould's (O. mimus), long arm (O. minor), Caribbean reef (O. briareus), Caribbean dwarf (O. mercatoris) and East Pacific red octopuses (O. rubescens)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ocellated_octopus.jpg/130px-Ocellated_octopus.jpg",
+      "Location of origin": "South Korea, Sulawesi",
+      "Purpose": "meat, research, pets",
+      "Species and subspecies": "Webfoot (Amphioctopus fangsiao)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Littorina_littorea_001.jpg/130px-Littorina_littorea_001.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat, shells",
+      "Species and subspecies": "Common periwinkle (Littorina littorea)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Snail1web.jpg/130px-Snail1web.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat, eggs, shells, slime, pets",
+      "Species and subspecies": "Garden snail (Cornu aspersum)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Giant_tiger_land_snail_%28Achatina_achatina%29.jpg/130px-Giant_tiger_land_snail_%28Achatina_achatina%29.jpg",
+      "Location of origin": "Ghana, Kenya",
+      "Purpose": "meat, eggs, shells, slime, pets",
+      "Species and subspecies": "Giant Ghana African snail (Achatina achatina)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg/130px-Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg",
+      "Location of origin": "East Africa",
+      "Purpose": "meat, shells, slime, education, pets",
+      "Species and subspecies": "Giant East African (Lissachatina fulica)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Eptatretus_stoutii_1.jpg/130px-Eptatretus_stoutii_1.jpg",
+      "Location of origin": "the United States, South Korea, Japan",
+      "Purpose": "meat, skins, slime",
+      "Species and subspecies": "Pacific (Eptatretus stoutii) and inshore hagfishes (E. burgeri)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg/130px-Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg",
+      "Location of origin": "Asia",
+      "Purpose": "meat, eggs, blood, pets",
+      "Species and subspecies": "Mangrove horseshoe crab (Carcinoscorpius rotundicauda)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Limulus_polyphemus_%28aq.%29.jpg/130px-Limulus_polyphemus_%28aq.%29.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, blood, research, pets",
+      "Species and subspecies": "Atlantic horseshoe crab (Limulus polyphemus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Tachypleus_tridentatus.jpg/130px-Tachypleus_tridentatus.jpg",
+      "Location of origin": "Japan, China, India",
+      "Purpose": "meat, blood, pets",
+      "Species and subspecies": "Japanese (Tachypleus tridentatus) and Indo-Pacific horseshoe crabs (T. gigas)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Scylla_serrata_Mud_Crab.jpg/130px-Scylla_serrata_Mud_Crab.jpg",
+      "Location of origin": "Asia",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Mud crab (Scylla serrata)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Portunus_pelagicus_male.jpg/130px-Portunus_pelagicus_male.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "meat",
+      "Species and subspecies": "Flower crab (Portunus armatus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ranina_ranina.jpg/130px-Ranina_ranina.jpg",
+      "Location of origin": "Australia",
+      "Purpose": "meat",
+      "Species and subspecies": "Spanner crab (Ranina ranina)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/KreeftbijDenOsse.jpg/130px-KreeftbijDenOsse.jpg",
+      "Location of origin": "Europe, the United States",
+      "Purpose": "meat",
+      "Species and subspecies": "European (Homarus gammarus) and American lobsters (H. americanus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/North-American-bullfrog1.jpg/130px-North-American-bullfrog1.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, education, research, pets",
+      "Species and subspecies": "American bullfrog (Lithobates catesbeianus), northern leopard frog (L. pipiens) and wood frog (L. sylvaticus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Male_Green_Frog_-_Hunterdon_County%2C_NJ.jpg/130px-Male_Green_Frog_-_Hunterdon_County%2C_NJ.jpg",
+      "Location of origin": "North America",
+      "Purpose": "pets",
+      "Species and subspecies": "Northern green frog (Lithobates clamitans melanota)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Rana_grylio.jpg/130px-Rana_grylio.jpg",
+      "Location of origin": "North America",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Pig frog (Lithobates grylio)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RanaLessonae1.JPG/130px-RanaLessonae1.JPG",
+      "Location of origin": "Europe",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Pool (Pelophylax lessonae) and marsh frogs (P. ridibundus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Fejer_cancri_050403_002_tdp.jpg/130px-Fejer_cancri_050403_002_tdp.jpg",
+      "Location of origin": "Java",
+      "Purpose": "meat",
+      "Species and subspecies": "Crab-eating frog (Fejervarya cancrivora)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hoplobatrachus_rugulosus_2.jpg/130px-Hoplobatrachus_rugulosus_2.jpg",
+      "Location of origin": "China, Thailand",
+      "Purpose": "meat, pets",
+      "Species and subspecies": "Chinese edible frog (Hoplobatrachus rugulosus) and Indus Valley bullfrog (H. tigerinus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "date uncertain",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Quasipaa_spinosa.jpg/130px-Quasipaa_spinosa.jpg",
+      "Location of origin": "China",
+      "Purpose": "meat",
+      "Species and subspecies": "Chinese spiny frog (Quasipaa spinosa)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "classical antiquity (date uncertain)",
+      "Degree and type of domestication": "Captured in the wild and fattened for food",
+      "Extent in the wild vs. captivity": "Extended in the wild, no longer kept in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Glis_glis_0738.JPG/130px-Glis_glis_0738.JPG",
+      "Location of origin": "Europe",
+      "Purpose": "meat, fat, fur, pets",
+      "Species and subspecies": "Edible dormouse (Glis glis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 14th century CE",
+      "Degree and type of domestication": "Captured in the wild or captive-bred",
+      "Extent in the wild vs. captivity": "Extended in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Blue_mussel_Mytilus_edulis.jpg/130px-Blue_mussel_Mytilus_edulis.jpg",
+      "Location of origin": "Europe",
+      "Purpose": "meat",
+      "Species and subspecies": "Blue mussel (Mytilus edulis)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 1970s",
+      "Degree and type of domestication": "Captured in the wild and captive-bred",
+      "Extent in the wild vs. captivity": "",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Green_Lipped_Mussel_%28314300764%29.jpg/130px-Green_Lipped_Mussel_%28314300764%29.jpg",
+      "Location of origin": "New Zealand",
+      "Purpose": "meat",
+      "Species and subspecies": "New Zealand green-lipped mussel (Perna canaliculus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "classical antiquity (date uncertain)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "No longer bred",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Brandhorn_Bolinus_brandaris_2.jpg/130px-Brandhorn_Bolinus_brandaris_2.jpg",
+      "Location of origin": "the central and western Mediterranean Sea",
+      "Purpose": "Tyrian purple, meat",
+      "Species and subspecies": "Purple dye murex (Bolinus brandaris)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "classical antiquity (date uncertain)",
+      "Degree and type of domestication": "Captive-bred",
+      "Extent in the wild vs. captivity": "No longer bred",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stumpfte_Stachelschnecke-Hexaplex_trunculus.jpg/130px-Stumpfte_Stachelschnecke-Hexaplex_trunculus.jpg",
+      "Location of origin": "the Mediterranean Sea and the Atlantic Ocean near the Mediterranean Sea",
+      "Purpose": "purple dye, meat",
+      "Species and subspecies": "Banded dye-murex (Hexaplex trunculus)",
+      "Wild ancestor": "-"
+    },
+    {
+      "Date": "the 19th century CE",
+      "Degree and type of domestication": "Tame when captive-bred, significant physical changes",
+      "Extent in the wild vs. captivity": "Somewhat common in the wild and in captivity",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Zoo_des_3_vall%C3%A9es_-_Mouffette_ray%C3%A9e_-_2015-01-02_-_i3441.jpg/130px-Zoo_des_3_vall%C3%A9es_-_Mouffette_ray%C3%A9e_-_2015-01-02_-_i3441.jpg",
+      "Location of origin": "North America",
+      "Purpose": "pelts, pest control, pets",
+      "Species and subspecies": "Striped skunk (Mephitis mephitis)",
+      "Wild ancestor": "-"
+    }
+  ]
+}

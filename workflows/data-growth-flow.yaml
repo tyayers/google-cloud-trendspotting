@@ -1,0 +1,37 @@
+- update_trend_data:
+    call: http.get
+    args:
+        url: CLOUD_RUN_SERVICE_URL/latest
+        query:
+            key: TOPIC_PLURAL
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: update_result
+- run_dataflow_job:
+    call: googleapis.dataflow.v1b3.projects.locations.templates.create
+    args:
+      projectId: PROJECT
+      location: REGION
+      body:
+        jobName: trend_growth_update
+        parameters:
+          javascriptTextTransformFunctionName: transform
+          JSONPath: JSON_PATH
+          javascriptTextTransformGcsPath: JS_TRANSFORM_PATH
+          inputFilePattern: INPUT_FILE
+          outputTable: OUTPUT_TABLE
+          bigQueryLoadingTemporaryDirectory: TEMP_DIR
+        environment:
+          numWorkers: 1
+          maxWorkers: 1
+          serviceAccountEmail: SERVICE_EMAIL
+        gcsPath: gs://dataflow-templates/latest/GCS_Text_to_BigQuery
+- update_growth_data:
+    call: http.get
+    args:
+        url: CLOUD_RUN_SERVICE_URL/growth_rates
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: growth_result

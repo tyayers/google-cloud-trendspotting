@@ -1,0 +1,37 @@
+- update_trend_data:
+    call: http.get
+    args:
+        url: https://trendupdater-ghfontasua-ew.a.run.app/latest
+        query:
+            key: sandwiches
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: update_result
+- run_dataflow_job:
+    call: googleapis.dataflow.v1b3.projects.locations.templates.create
+    args:
+      projectId: cloud32x
+      location: europe-west1
+      body:
+        jobName: trend_growth_update
+        parameters:
+          javascriptTextTransformFunctionName: transform
+          JSONPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/news_volume_schema_dataflow.json
+          javascriptTextTransformGcsPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/news_volume_split.js
+          inputFilePattern: gs://sandwich_trends_thljhosrw/input/news_volume_initial.csv
+          outputTable: cloud32x:sandwich_trends_thljhosrw.news_volume
+          bigQueryLoadingTemporaryDirectory: gs://sandwich_trends_thljhosrw/tmp
+        environment:
+          numWorkers: 1
+          maxWorkers: 1
+          serviceAccountEmail: trendservice@cloud32x.iam.gserviceaccount.com
+        gcsPath: gs://dataflow-templates/latest/GCS_Text_to_BigQuery
+- update_growth_data:
+    call: http.get
+    args:
+        url: https://trendupdater-ghfontasua-ew.a.run.app/growth_rates
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: growth_result

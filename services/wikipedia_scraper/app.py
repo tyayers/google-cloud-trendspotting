@@ -43,7 +43,8 @@ class wikipedia_scraper:
             table_result = []
             columns = []
             for header in table.find_all("th"):
-                columns.append(header.string.replace("\n", ""))
+                if header.string:
+                    columns.append(header.string.replace("\n", ""))
 
             for row in table.find("tbody").find_all("tr"):
                 cells = row.find_all("td")
@@ -55,12 +56,13 @@ class wikipedia_scraper:
                     if bracketIndex != -1:
                         new_value = new_value[:bracketIndex]
 
-                    new_name = columns[index]
-                    if value.next_element is not None and str(type(value.next_element)) == "<class 'bs4.element.Tag'>" and "class" in value.next_element.attrs and value.next_element.attrs["class"][0] == "image":
-                        new_value = "https:" + value.next_element.next_element.attrs['src']
-                        new_name = "Image"
-
-                    row_value[new_name] = new_value
+                    if index < len(columns):
+                        new_name = columns[index]
+                        if value.next_element is not None and str(type(value.next_element)) == "<class 'bs4.element.Tag'>" and "class" in value.next_element.attrs and value.next_element.attrs["class"][0] == "image":
+                            new_value = "https:" + value.next_element.next_element.attrs['src']
+                            new_name = "Image"
+    
+                        row_value[new_name] = new_value
 
                 if len(row_value) > 0:
                     table_result.append(row_value)

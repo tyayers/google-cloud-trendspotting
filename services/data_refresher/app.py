@@ -1,3 +1,4 @@
+import os
 import web
 import requests
 import json
@@ -15,12 +16,17 @@ app = web.application(urls, globals())
 
 class data_growth:
     def GET(self, site):
-
-
+        bucketName = os.getenv('BUCKET_NAME')
+        table = os.getenv('TABLE_NAME')
+        
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucketName)
+        
+        result = self.load(bucket, table)
+        
         web.header('Access-Control-Allow-Origin', '*')
         web.header('Content-Type', 'application/json')
         
-        #result = self.load(
         return json.dumps({"result": "Success"})
 
     def load(self, bucket, table):
@@ -48,14 +54,16 @@ class data_growth:
         
 class data_latest:
     def GET(self, site):
+        bucketName = os.getenv('BUCKET_NAME')
+        key = web.input().key
 
         storage_client = storage.Client()
-        bucket = storage_client.bucket("planttrends-72642")
-
-        terms = get_terms(bucket)
+        bucket = storage_client.bucket(bucketName)
+        
+        terms = get_terms(bucket, key)
         result = get_news_volume_latest(terms)
 
-        d = bucket.blob("inputs/news_volume_update.csv")
+        d = bucket.blob("input/news_volume_update.csv")
         d.upload_from_string(result)
 
         web.header('Access-Control-Allow-Origin', '*')
@@ -68,10 +76,13 @@ class data_latest:
 
 class data_initial_load:
     def GET(self):
+        bucketName = os.getenv('BUCKET_NAME')
+        key = web.input().key
+        
         storage_client = storage.Client()
-        bucket = storage_client.bucket("planttrends-72642")
-
-        result = self.load(bucket, "sandwiches")
+        bucket = storage_client.bucket(bucketName)
+        
+        result = self.load(bucket, key)
 
         web.header('Access-Control-Allow-Origin', '*')
         web.header('Content-Type', 'application/json')

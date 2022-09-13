@@ -7,6 +7,9 @@ gcloud services enable compute.googleapis.com
 gcloud services enable orgpolicy.googleapis.com
 gcloud services enable cloudresourcemanager.googleapis.com
 gcloud services enable workflows.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
+gcloud services enable run.googleapis.com
+gcloud services enable cloudscheduler.googleapis.com
 
 echo "Setting organizational policy configuration..."
 PROJECT_NUMBER=$(gcloud projects list --filter="$(gcloud config get-value project)" --format="value(PROJECT_NUMBER)")
@@ -45,6 +48,17 @@ gcloud projects add-iam-policy-binding $PROJECT \
 gcloud projects add-iam-policy-binding $PROJECT \
     --member="serviceAccount:trendservice@$PROJECT.iam.gserviceaccount.com" \
     --role="roles/bigquery.jobUser"
+gcloud projects add-iam-policy-binding $PROJECT \
+    --member="serviceAccount:trendservice@$PROJECT.iam.gserviceaccount.com" \
+    --role="roles/run.invoker"
+gcloud projects add-iam-policy-binding $PROJECT \
+    --member="serviceAccount:trendservice@$PROJECT.iam.gserviceaccount.com" \
+    --role="roles/iam.serviceAccountUser"
+gcloud projects add-iam-policy-binding $PROJECT \
+    --member="serviceAccount:trendservice@$PROJECT.iam.gserviceaccount.com" \
+    --role="roles/workflows.invoker"
+
+# gcloud iam service-accounts add-iam-policy-binding trendservice@$PROJECT.iam.gserviceaccount.com --member user:$USER --role roles/iam.serviceAccountUser
 
 echo "Creating storage bucket..."
 gcloud alpha storage buckets create gs://$BUCKET_NAME --location $LOCATION

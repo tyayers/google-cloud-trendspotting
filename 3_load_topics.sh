@@ -1,4 +1,4 @@
-cd ./services/py_wikipedia_scraper
+cd ./services/wikipedia_scraper
 
 echo "Installing dependencies..."
 pip3 install -r requirements.txt
@@ -16,7 +16,7 @@ gcloud alpha storage cp ./data/news_volume_schema_dataflow.json gs://$BUCKET_NAM
 gcloud alpha storage cp ./data/news_volume_split.js gs://$BUCKET_NAME/text_to_bigquery/news_volume_split.js
 
 echo "Now loading initial data and calculating yesterday's growth.."
-cd ./services/py_data_refresher
+cd ./services/data_refresher
 pip3 install -r requirements.txt
 
 python3 command.py -c INITIAL -b $BUCKET_NAME -k $TOPIC_PLURAL
