@@ -20,11 +20,18 @@ export LOCATION="EU" # The geographic location to use for geo-oriented resources
 export REGION="europe-west1" # The region to use for any regional resources
 export USER=$(gcloud auth list --filter=status:ACTIVE --format="value(account)")
 
-export TOPIC_PLURAL="sandwiches"
-export TOPIC_SINGULAR="sandwich"
-export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_sandwiches"
+# Uncomment one of these blocks, or add your own
 
-#export BUCKET_NAME="trend-$TOPIC"
+# TOPIC OPTION 1 - Sandwiches scraped from Wikipedia
+# export TOPIC_PLURAL="sandwiches"
+# export TOPIC_SINGULAR="sandwich"
+# export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_sandwiches"
+
+# TOPIC OPTION 2 - Herbal plant remedies scraped from Wikipedia
+export TOPIC_PLURAL="plants"
+export TOPIC_SINGULAR="plant"
+export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism"
+
 BUCKET_NAME="${TOPIC_SINGULAR}_trends_t$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8 ; echo '')"
 export BUCKET_NAME=$(echo "$BUCKET_NAME" | tr '[:upper:]' '[:lower:]')
 

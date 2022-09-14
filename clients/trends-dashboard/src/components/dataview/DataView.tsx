@@ -22,7 +22,7 @@ export const DataView: Component = (props) => {
     setSearchName(params.name.replace("-", "+").replace(" or ", " ").replace(" on ", " ").split(",")[0] + " " + topicSingular())
     setItems(mergedProps.items)
     setItem(items().find(item => item['Name'].toLowerCase() === params.name.toLowerCase()))
-    mergedProps.setTopBar(params.name)
+    //mergedProps.setTopBar(params.name)
 
     var divInterestElem = document.getElementById('trendsInterestChart');
     divInterestElem.innerHTML = "";

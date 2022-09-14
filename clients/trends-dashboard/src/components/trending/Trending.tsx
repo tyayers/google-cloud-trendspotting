@@ -3,7 +3,7 @@ import { Component, createSignal, createEffect, mergeProps, Show, For, onMount }
 import styles from '../../App.module.css';
 
 export const Trending: Component = (props) => {
-  const mergedProps = mergeProps({ items: [], setTopBar: function (name: string) { } }, props);
+  const mergedProps = mergeProps({ items: [], setTopBar: function (name: string, scrollIntoView: boolean) { } }, props);
   const [growthItems, setGrowthItems] = createSignal([])
   const [topicPlural, setTopicPlural] = createSignal(import.meta.env.VITE_TOPIC_PLURAL)
 
@@ -28,13 +28,17 @@ export const Trending: Component = (props) => {
     return result
   }
 
+  const itemClicked = (name: string) => {
+    mergedProps.setTopBar(name);
+  }
+
   return (
     <div class={styles.detail_empty_frame}>
       <div class={styles.trending_container}>
         <h1 class={styles.trending_title}>{"Top Trending " + topicPlural()[0].toUpperCase() + topicPlural().substring(1)}</h1>
         <For each={growthItems()}>{(item, i) =>
           <Show when={item.growth_rate != "0.0" && parseFloat(item.growth_rate) >= 100}>
-            <Link class={styles.trending_box} href={"/" + topicPlural() + "/" + item.name.trim()} onClick={(e) => { mergedProps.setTopBar(item['Name'].trim()) }}>
+            <Link class={styles.trending_box} href={"/" + topicPlural() + "/" + item.name.trim()} onClick={(e) => { itemClicked(item.name.trim()) }}>
               <img class={styles.trending_header_image} src={getPicture(item.name)}></img>
               <div class={styles.trending_box_title}>{item.name}</div>
               <div class={styles.trending_box_metric}>{"+" + item.growth_rate + " %"}</div>

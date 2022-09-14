@@ -5,7 +5,6 @@ import styles from './App.module.css';
 import { Menu } from './components/menu/Menu';
 import { DataView } from './components/dataview/DataView';
 import { Trending } from './components/trending/Trending';
-import plantdata from './assets/plantdata.js'
 import topbar from 'topbar';
 
 import logo from './assets/logo.png'
@@ -104,7 +103,7 @@ const App: Component = () => {
       setDetailUrl(`https://api.gdeltproject.org/api/v2/summary/summary?d=web&t=summary&k=${selectedName().replace("-", "+").replace(" or ", " ").split(",")[0]}+plant&ts=full&svt=zoom&sgt=yes&stt=yes&ssm=yes&slm=country&stc=yes&sta=list&c=1`)
   });
 
-  const setTopBar = (name: string) => {
+  const setTopBar = (name: string, scrollIntoView: boolean = true) => {
     if (name != "") {
       setMenuVisible(false);
       setSelectedName(name);
@@ -113,18 +112,20 @@ const App: Component = () => {
         topbar.hide();
       }, 5000)
 
-      setTimeout(() => {
-        let elem = document.getElementById("menuItem_" + name);
-        if (elem)
-          elem.scrollIntoView({ block: "center", inline: "nearest" });
-      }, 500)
+      if (scrollIntoView) {
+        setTimeout(() => {
+          let elem = document.getElementById("menuItem_" + name);
+          if (elem)
+            elem.scrollIntoView({ block: "center", inline: "nearest" });
+        }, 500)
+      }
     }
   }
 
-  createEffect(() => {
-    if (selectedItem() != undefined)
-      setTopBar(selectedName())
-  })
+  // createEffect(() => {
+  //   if (selectedItem() != undefined)
+  //     setTopBar(selectedName())
+  // })
 
   window.addEventListener('resize', (e) => {
     setMenuVisible(false);
