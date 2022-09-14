@@ -55,13 +55,14 @@ class data_growth:
 class data_latest:
     def GET(self, site):
         bucketName = os.getenv('BUCKET_NAME')
-        key = web.input().key
-
+        topic_singular = web.input().topic_singular
+        topic_plural = web.input().topic_plural
+        
         storage_client = storage.Client()
         bucket = storage_client.bucket(bucketName)
         
-        terms = get_terms(bucket, key)
-        result = get_news_volume_latest(terms)
+        terms = get_terms(bucket, topic_plural)
+        result = get_news_volume_latest(terms, topic_singular)
 
         d = bucket.blob("input/news_volume_update.csv")
         d.upload_from_string(result)
@@ -123,7 +124,7 @@ def get_terms(bucket, key):
     return terms
 
 
-def get_news_volume_latest(terms):
+def get_news_volume_latest(terms, topic_singular):
     result = ""
     yesterday_string = datetime.strftime(
         datetime.now() - timedelta(1), '%Y%m%d') + "T000000Z"
@@ -144,7 +145,7 @@ def get_news_volume_latest(terms):
 
         url = 'https://api.gdeltproject.org/api/v2/doc/doc?query=' + \
             query + \
-            '%20plant&mode=timelinevolraw&format=json&TIMESPAN=2w'
+            '%20' + topic_singular + '&mode=timelinevolraw&format=json&TIMESPAN=2w'
         vol = requests.get(url)
 
         volData = vol.json()
@@ -159,7 +160,7 @@ def get_news_volume_latest(terms):
                     result = result + term.replace(",", "") + "," + day["date"] + "," + \
                         str(day["value"]) + "," + str(day["norm"])
 
-        time.sleep(.5)
+        time.sleep(.2)
 
     return result
 

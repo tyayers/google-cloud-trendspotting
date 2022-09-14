@@ -3,7 +3,8 @@
     args:
         url: CLOUD_RUN_SERVICE_URL/latest
         query:
-            key: TOPIC_PLURAL
+            topic_singular: TOPIC_SINGULAR
+            topic_plural: TOPIC_PLURAL
         timeout: 1800
         auth:
             type: OIDC
