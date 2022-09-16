@@ -145,7 +145,7 @@ def get_news_volume_latest(terms, topic_singular):
 
         url = 'https://api.gdeltproject.org/api/v2/doc/doc?query=' + \
             query + \
-            '%20' + topic_singular + '&mode=timelinevolraw&format=json&TIMESPAN=2w'
+            '%20' + topic_singular + '&mode=timelinevolraw&format=json&TIMESPAN=1w'
         vol = requests.get(url)
 
         volData = vol.json()

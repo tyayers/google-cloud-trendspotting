@@ -1,14 +1,14 @@
-# - update_trend_data:
-#     call: http.get
-#     args:
-#         url: https://trendupdater-ghfontasua-ew.a.run.app/latest
-#         query:
-#             topic_singular: sandwich
-#             topic_plural: sandwiches
-#         timeout: 1800
-#         auth:
-#             type: OIDC
-#     result: update_result
+- update_trend_data:
+    call: http.get
+    args:
+        url: https://trendupdater-ghfontasua-ew.a.run.app/latest
+        query:
+            topic_singular: sandwich
+            topic_plural: sandwiches
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: update_result
 - run_dataflow_job:
     call: googleapis.dataflow.v1b3.projects.locations.templates.create
     args:
