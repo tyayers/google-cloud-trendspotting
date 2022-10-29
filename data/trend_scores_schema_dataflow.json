@@ -1,0 +1,20 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "name",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "The trends search term."
+    },
+    {
+      "name": "date",
+      "type": "DATE",
+      "description": "The date of the trends search."
+    },
+    {
+      "name": "score",
+      "type": "INTEGER",
+      "description": "The score of the term on the date."
+    }
+  ]
+}

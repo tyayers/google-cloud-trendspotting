@@ -5,14 +5,16 @@ import json
 import time
 from datetime import datetime, timedelta
 from google.cloud import storage, bigquery
+from pytrends.request import TrendReq
 
 urls = (
     '/initial(.*)', 'data_initial_load',
     '/latest(.*)', 'data_latest',
-    '/growth_rates(.*)', 'data_growth'
+    '/growth_rates(.*)', 'data_growth',
+    '/trends/initial(.*)', 'trends_initial_load',
+    '/trends/latest(.*)', 'trends_latest'
 )
 app = web.application(urls, globals())
-
 
 class data_growth:
     def GET(self, site):
@@ -41,10 +43,9 @@ class data_growth:
             result.append({
                 "name": row["name"],
                 "date": str(row["date"]),
-                "news_volume": row["news_volume"],
-                "previous_news_volume": row["previous_news_volume"],
-                "growth_rate": row["growth_rate"],
-                "news_norm": row["news_norm"]
+                "growth_rate": row["agg_growth"],
+                "trends_growth": row["trends_growth"],
+                "news_growth": row["news_growth"]
             })
 
         d = bucket.blob("output/growth_rates.json")
@@ -74,16 +75,16 @@ class data_latest:
         # web.header('Content-Type', 'text/csv')
         # return result
 
-
 class data_initial_load:
     def GET(self):
         bucketName = os.getenv('BUCKET_NAME')
-        key = web.input().key
-        
+        topic_singular = web.input().topic_singular
+        topic_plural = web.input().topic_plural
+
         storage_client = storage.Client()
         bucket = storage_client.bucket(bucketName)
         
-        result = self.load(bucket, key)
+        result = self.load(bucket, topic_singular, topic_plural)
 
         web.header('Access-Control-Allow-Origin', '*')
         web.header('Content-Type', 'application/json')
@@ -92,14 +93,64 @@ class data_initial_load:
         # web.header('Content-Type', 'text/csv')
         # return result
         
-    def load(self, bucket, key): 
-        terms = get_terms(bucket, key)
-        result = get_news_volume(terms)
+    def load(self, bucket, topic_singular, topic_plural): 
+        terms = get_terms(bucket, topic_plural)
+        result = get_news_volume(terms, topic_singular)
         
         d = bucket.blob("input/news_volume_initial.csv")
         d.upload_from_string(result)
         
         return result
+
+class trends_initial_load:
+    def GET(self, site):
+        bucketName = os.getenv('BUCKET_NAME')
+        topic_singular = web.input().topic_singular
+        topic_plural = web.input().topic_plural
+        
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucketName)
+        
+        result = self.load(bucket, topic_singular, topic_plural)
+
+        web.header('Access-Control-Allow-Origin', '*')
+        web.header('Content-Type', 'application/json')
+        return json.dumps({"result": "Success"})
+
+    def load(self, bucket, topic_singular, topic_plural):
+        terms = get_terms(bucket, topic_plural)
+        result = get_trends_initial(terms, topic_singular)
+
+        d = bucket.blob("input/trend_scores_initial.csv")
+        d.upload_from_string(result)
+
+        return result
+
+class trends_latest:
+    def GET(self, site):
+        bucketName = os.getenv('BUCKET_NAME')
+        print(bucketName)
+        topic_singular = web.input().topic_singular
+        topic_plural = web.input().topic_plural
+        
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucketName)
+        
+        terms = get_terms(bucket, topic_plural)
+        result = get_trends_latest(terms, topic_singular)
+
+        print("Writing trend updates to disk...")
+        f = open("trend_scores_update.csv", "w")
+        f.write(result)
+        f.close()
+
+        print("Writing trend updates to cloud storage...")
+        d = bucket.blob("input/trend_scores_update.csv")
+        d.upload_from_string(result)
+
+        web.header('Access-Control-Allow-Origin', '*')
+        web.header('Content-Type', 'application/json')
+        return json.dumps({"result": "Success"})
 
 def get_terms(bucket, key):
     terms = []
@@ -123,6 +174,43 @@ def get_terms(bucket, key):
 
     return terms
 
+def get_news_volume(terms, topic_singular):
+    result = ""
+    for term in terms:
+        query = ""
+        queryWords = term.split(" ")
+        for word in queryWords:
+            tempWord = word.lower().replace(",", "").replace(".", "").replace(
+                " or ", "").replace(" and ", "").replace("-", " ").replace("(", "").replace(")", "").replace("aka", "")
+
+            if len(tempWord) > 2:
+                tempWord = tempWord.replace(" ", "%20")
+                if (query == ""):
+                    query = tempWord
+                else:
+                    query = query + "%20" + tempWord
+
+        print('Searching GDELT for ', query)
+
+        url = 'https://api.gdeltproject.org/api/v2/doc/doc?query=' + \
+            query + \
+            '%20' + topic_singular + '&mode=timelinevolraw&format=json'
+        vol = requests.get(url)
+
+        volData = vol.json()
+        if "timeline" in volData:
+        
+            print('Found ', len(volData["timeline"][0]["data"]), ' records')
+            for day in volData["timeline"][0]["data"]:
+                if result != "":
+                    result = result + "\n"
+
+                result = result + term.replace(",", "") + "," + day["date"] + "," + \
+                    str(day["value"]) + "," + str(day["norm"])
+
+        time.sleep(.3)
+
+    return result
 
 def get_news_volume_latest(terms, topic_singular):
     result = ""
@@ -164,45 +252,48 @@ def get_news_volume_latest(terms, topic_singular):
 
     return result
 
-
-def get_news_volume(terms):
+def get_trends_initial(terms, topic_singular):
     result = ""
+    pytrends = TrendReq(hl='en-US', tz=60, retries=8, timeout=(10,25), backoff_factor=0.8)
+
     for term in terms:
-        query = ""
-        queryWords = term.split(" ")
-        for word in queryWords:
-            tempWord = word.lower().replace(",", "").replace(".", "").replace(
-                " or ", "").replace(" and ", "").replace("-", " ").replace("(", "").replace(")", "").replace("aka", "")
+        kw_list = [term + " " + topic_singular]
 
-            if len(tempWord) > 2:
-                tempWord = tempWord.replace(" ", "%20")
-                if (query == ""):
-                    query = tempWord
-                else:
-                    query = query + "%20" + tempWord
+        pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
+        df = pytrends.interest_over_time()
 
-        print('Searching GDELT for ', query)
+        for row in df.itertuples():
+            if result != "":
+                result = result + "\n"
 
-        url = 'https://api.gdeltproject.org/api/v2/doc/doc?query=' + \
-            query + \
-            '%20plant&mode=timelinevolraw&format=json'
-        vol = requests.get(url)
-
-        volData = vol.json()
-        if "timeline" in volData:
-        
-            print('Found ', len(volData["timeline"][0]["data"]), ' records')
-            for day in volData["timeline"][0]["data"]:
-                if result != "":
-                    result = result + "\n"
-
-                result = result + term.replace(",", "") + "," + day["date"] + "," + \
-                    str(day["value"]) + "," + str(day["norm"])
-
-        time.sleep(.3)
+            new_line = term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
+            result = result + new_line
+            print(new_line)
 
     return result
 
+def get_trends_latest(terms, topic_singular):
+    result = ""
+    pytrends = TrendReq(hl='en-US', tz=60, retries=8, timeout=(10,25), backoff_factor=0.8)
+
+    for term in terms:
+        if result != "":
+            result = result + "\n"
+
+        kw_list = [term + " " + topic_singular]
+
+        pytrends.build_payload(kw_list, cat=0, timeframe='today 1-m', geo='', gprop='')
+        df = pytrends.interest_over_time()
+
+        last_line = ""
+        for row in df.itertuples():
+            last_line = term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
+  
+        if (last_line):
+            print(last_line)  
+            result = result + last_line
+
+    return result
 
 if __name__ == "__main__":
     app.run()

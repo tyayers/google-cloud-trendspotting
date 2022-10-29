@@ -1,4 +1,4 @@
-- update_trend_data:
+- update_news_data:
     call: http.get
     args:
         url: CLOUD_RUN_SERVICE_URL/latest
@@ -9,7 +9,18 @@
         auth:
             type: OIDC
     result: update_result
-- run_dataflow_job:
+- update_trend_data:
+    call: http.get
+    args:
+        url: CLOUD_RUN_SERVICE_URL/trends/latest
+        query:
+            topic_singular: TOPIC_SINGULAR
+            topic_plural: TOPIC_PLURAL
+        timeout: 1800
+        auth:
+            type: OIDC
+    result: update_result    
+- run_dataflow_job_news:
     call: googleapis.dataflow.v1b3.projects.locations.templates.create
     args:
       projectId: PROJECT
@@ -18,16 +29,35 @@
         jobName: trend_growth_update
         parameters:
           javascriptTextTransformFunctionName: transform
-          JSONPath: JSON_PATH
-          javascriptTextTransformGcsPath: JS_TRANSFORM_PATH
-          inputFilePattern: INPUT_FILE
-          outputTable: OUTPUT_TABLE
+          JSONPath: NEWS_JSON_PATH
+          javascriptTextTransformGcsPath: NEWS_JS_TRANSFORM_PATH
+          inputFilePattern: NEWS_INPUT_FILE
+          outputTable: NEWS_OUTPUT_TABLE
           bigQueryLoadingTemporaryDirectory: TEMP_DIR
         environment:
           numWorkers: 1
           maxWorkers: 1
           serviceAccountEmail: SERVICE_EMAIL
         gcsPath: gs://dataflow-templates/latest/GCS_Text_to_BigQuery
+- run_dataflow_job_trends:
+    call: googleapis.dataflow.v1b3.projects.locations.templates.create
+    args:
+      projectId: PROJECT
+      location: REGION
+      body:
+        jobName: trend_growth_update
+        parameters:
+          javascriptTextTransformFunctionName: transform
+          JSONPath: TRENDS_JSON_PATH
+          javascriptTextTransformGcsPath: TRENDS_JS_TRANSFORM_PATH
+          inputFilePattern: TRENDS_INPUT_FILE
+          outputTable: TRENDS_OUTPUT_TABLE
+          bigQueryLoadingTemporaryDirectory: TEMP_DIR
+        environment:
+          numWorkers: 1
+          maxWorkers: 1
+          serviceAccountEmail: SERVICE_EMAIL
+        gcsPath: gs://dataflow-templates/latest/GCS_Text_to_BigQuery        
 - update_growth_data:
     call: http.get
     args:

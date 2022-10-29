@@ -1,0 +1,6 @@
+# News calls
+http://localhost:8080/latest?topic_singular=sandwich&topic_plural=sandwiches
+
+# Trends calls
+http://localhost:8080/trends/initial?topic_singular=sandwich&topic_plural=sandwiches
+http://localhost:8080/trends/latest?topic_singular=sandwich&topic_plural=sandwiches
