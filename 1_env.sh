@@ -28,8 +28,8 @@ export USER=$(gcloud auth list --filter=status:ACTIVE --format="value(account)")
 # export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_sandwiches"
 
 # TOPIC OPTION 2 - Herbal plant remedies scraped from Wikipedia
-export TOPIC_PLURAL="plants"
-export TOPIC_SINGULAR="plant"
+export TOPIC_PLURAL="flu"
+export TOPIC_SINGULAR="flu"
 export TOPIC_SCRAPE_URL="https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism"
 
 BUCKET_NAME="${TOPIC_SINGULAR}_trends_t$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8 ; echo '')"

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "sandwich-trends-thljhosrw",
+    "target": "flu-trends-tomkelc7o",
     "public": "dist",
     "ignore": [
       "firebase.json",

@@ -5,10 +5,11 @@
   "targets": {
     "cloud32x": {
       "hosting": {
-        "sandwich-trends-thljhosrw": [
-          "sandwich-trends-thljhosrw"
+        "flu-trends-tomkelc7o": [
+          "flu-trends-tomkelc7o"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }

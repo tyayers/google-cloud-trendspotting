@@ -93,6 +93,7 @@ bq mk \
 --view \
 "SELECT
   name,
+  geo,
   date,
   score,
   ROUND(score - previous_score, 0) AS growth_rate
@@ -110,7 +111,7 @@ bq mk \
 --description "View to see latest $TOPIC_SINGULAR trend score growth rates data." \
 --view \
 "SELECT
-  trends.name, trends.date, trends.score, trends.growth_rate AS trends_growth, news.growth_rate AS news_growth, ((trends.growth_rate + news.growth_rate) / 2) AS agg_growth
+  trends.name, trends.geo, trends.date, trends.score, trends.growth_rate AS trends_growth, news.growth_rate AS news_growth, ((trends.growth_rate + news.growth_rate) / 2) AS agg_growth
 FROM 
   \`$PROJECT.$BUCKET_NAME.trend_scores_growth_rates\` AS trends
 JOIN 

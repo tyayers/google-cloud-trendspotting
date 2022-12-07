@@ -6,6 +6,7 @@ sed -i "/VITE_TOPIC_PLURAL=/c\VITE_TOPIC_PLURAL=$TOPIC_PLURAL" .env
 sed -i "/VITE_DATA_ROOT_URL=/c\VITE_DATA_ROOT_URL=https://storage.googleapis.com/$BUCKET_NAME/output/" .env
 
 echo "Building client..."
+npm install
 npm run build
 
 echo "Now we're going to login to Firebase, please follow the instructions to login..."

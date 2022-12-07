@@ -1,0 +1,10 @@
+{
+  "geos": ["US-CA", "US-AL", "GB", "GB-ENG", "DE", "DE-BW", "DE-BE"],
+  "terms": [
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rhinovirus"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 echo "Load initial news volumes"
 python3 command.py -c INITIAL -b $BUCKET_NAME -s $TOPIC_SINGULAR -p $TOPIC_PLURAL
 
-gcloud dataflow jobs run data_initial_load \
+gcloud dataflow jobs run news_initial_load \
     --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
     --region $REGION \
     --service-account-email trendservice@$PROJECT.iam.gserviceaccount.com \
@@ -41,9 +41,9 @@ bigQueryLoadingTemporaryDirectory=gs://$BUCKET_NAME/tmp
 python3 command.py -c GROWTH -t "$PROJECT.$BUCKET_NAME.news_volume_growth_rates" -b $BUCKET_NAME
 
 echo "Load initial trend scores"
-#python3 command.py -c INITIAL_TRENDS -b $BUCKET_NAME -s $TOPIC_SINGULAR -p $TOPIC_PLURAL
+python3 command.py -c INITIAL_TRENDS -b $BUCKET_NAME -s $TOPIC_SINGULAR -p $TOPIC_PLURAL
 
-gcloud dataflow jobs run data_initial_load \
+gcloud dataflow jobs run trends_initial_load \
     --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
     --region $REGION \
     --service-account-email trendservice@$PROJECT.iam.gserviceaccount.com \
