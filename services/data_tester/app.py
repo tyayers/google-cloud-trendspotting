@@ -14,7 +14,7 @@ def main():
     f.close()
 
     term_list = get_terms(terms)
-    result = get_trends_initial(term_list, terms["geos"], "")
+    result = get_trends_latest(term_list, terms["geos"], "")
     # with open('trend_scores_initial.csv', 'w', encoding='UTF8', newline='') as f:
     #     writer = csv.writer(f)
 
@@ -24,7 +24,7 @@ def main():
     #     # write multiple rows
     #     writer.writerows(data)
 
-    with open("trend_scores_initial.csv", "w") as outfile:
+    with open("trend_scores_latest.csv", "w") as outfile:
         outfile.write(result)
 
 def get_terms(data):
@@ -149,26 +149,28 @@ def get_trends_initial(terms, geos, topic_singular):
 
     return result
 
-def get_trends_latest(terms, topic_singular):
+def get_trends_latest(terms, geos, topic_singular):
     result = ""
     pytrends = TrendReq(hl='en-US', tz=60, retries=8, timeout=(10,25), backoff_factor=0.8)
 
     for term in terms:
-        if result != "":
-            result = result + "\n"
-
         kw_list = [term + " " + topic_singular]
 
-        pytrends.build_payload(kw_list, cat=0, timeframe='today 1-m', geo='', gprop='')
-        df = pytrends.interest_over_time()
+        for geo in geos:
+            new_geo = ""
+            if geo != "WORLD":
+                new_geo = geo
 
-        last_line = ""
-        for row in df.itertuples():
-            last_line = term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
-  
-        if (last_line):
-            print(last_line)  
-            result = result + last_line
+            pytrends.build_payload(kw_list, cat=0, timeframe='today 1-m', geo=new_geo, gprop='')
+            df = pytrends.interest_over_time()
+
+            for row in df.itertuples():
+                if result != "":
+                    result = result + "\n"
+
+                new_line = geo + "," + term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
+                result = result + new_line
+                print(new_line)
 
     return result
 

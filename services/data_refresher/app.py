@@ -62,8 +62,8 @@ class data_latest:
         storage_client = storage.Client()
         bucket = storage_client.bucket(bucketName)
         
-        terms = get_terms(bucket, topic_plural)
-        result = get_news_volume_latest(terms, topic_singular)
+        terms = get_terms(bucket, "terms")
+        result = get_news_volume_latest(terms["terms"], topic_singular)
 
         d = bucket.blob("input/news_volume_update.csv")
         d.upload_from_string(result)
@@ -94,8 +94,8 @@ class data_initial_load:
         # return result
         
     def load(self, bucket, topic_singular, topic_plural): 
-        terms = get_terms(bucket, topic_plural)
-        result = get_news_volume(terms, topic_singular)
+        terms = get_terms(bucket, "terms")
+        result = get_news_volume(terms["terms"], topic_singular)
         
         d = bucket.blob("input/news_volume_initial.csv")
         d.upload_from_string(result)
@@ -118,8 +118,9 @@ class trends_initial_load:
         return json.dumps({"result": "Success"})
 
     def load(self, bucket, topic_singular, topic_plural):
-        terms = get_terms(bucket, topic_plural)
-        result = get_trends_initial(terms, topic_singular)
+        terms = get_terms(bucket, "terms")
+
+        result = get_trends_initial(terms["terms"], terms["geos"], topic_singular)
 
         d = bucket.blob("input/trend_scores_initial.csv")
         d.upload_from_string(result)
@@ -136,8 +137,8 @@ class trends_latest:
         storage_client = storage.Client()
         bucket = storage_client.bucket(bucketName)
         
-        terms = get_terms(bucket, topic_plural)
-        result = get_trends_latest(terms, topic_singular)
+        terms = get_terms(bucket, "terms")
+        result = get_trends_latest(terms["terms"], terms["geos"], topic_singular)
 
         print("Writing trend updates to disk...")
         f = open("trend_scores_update.csv", "w")
@@ -154,6 +155,7 @@ class trends_latest:
 
 def get_terms(bucket, key):
     terms = []
+    geos = ["WORLD"]
 
     blob = bucket.blob("output/topic_entities.json")
     data = json.loads(blob.download_as_string())
@@ -170,9 +172,15 @@ def get_terms(bucket, key):
         # name = name.replace(", ", " ").replace(" or ", "").replace(" in 
         terms.append(name)
 
+    if "geos" in data:
+        geos = data["geos"]
+
     print(terms)
 
-    return terms
+    return {
+      "geos": geos,
+      "terms": terms
+    }
 
 def get_news_volume(terms, topic_singular):
     result = ""
@@ -252,48 +260,54 @@ def get_news_volume_latest(terms, topic_singular):
 
     return result
 
-def get_trends_initial(terms, topic_singular):
+def get_trends_initial(terms, geos, topic_singular):
     result = ""
     pytrends = TrendReq(hl='en-US', tz=60, retries=8, timeout=(10,25), backoff_factor=0.8)
 
     for term in terms:
         kw_list = [term + " " + topic_singular]
 
-        pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
-        df = pytrends.interest_over_time()
+        for geo in geos:
+            new_geo = ""
+            if geo != "WORLD":
+                new_geo = geo
 
-        for row in df.itertuples():
-            if result != "":
-                result = result + "\n"
+            pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo=new_geo, gprop='')
+            df = pytrends.interest_over_time()
 
-            new_line = term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
-            result = result + new_line
-            print(new_line)
+            for row in df.itertuples():
+                if result != "":
+                    result = result + "\n"
+
+                new_line = geo + "," + term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
+                result = result + new_line
+                print(new_line)
 
     return result
 
-def get_trends_latest(terms, topic_singular):
+def get_trends_latest(terms, geos, topic_singular):
     result = ""
     pytrends = TrendReq(hl='en-US', tz=60, retries=8, timeout=(10,25), backoff_factor=0.8)
 
     for term in terms:
-        if result != "":
-            result = result + "\n"
-
         kw_list = [term + " " + topic_singular]
 
-        pytrends.build_payload(kw_list, cat=0, timeframe='today 1-m', geo='', gprop='')
-        df = pytrends.interest_over_time()
+        for geo in geos:
+            new_geo = ""
+            if geo != "WORLD":
+                new_geo = geo
 
-        last_line = ""
-        for row in df.itertuples():
-            last_line = term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
-  
-        if (last_line):
-            print(last_line)  
-            result = result + last_line
+            pytrends.build_payload(kw_list, cat=0, timeframe='today 1-m', geo=new_geo, gprop='')
+            df = pytrends.interest_over_time()
+
+            for row in df.itertuples():
+                if result != "":
+                    result = result + "\n"
+
+                new_line = geo + "," + term.replace(",", "") + "," + str(row.Index.date()) + "," + str(row[1])
+                result = result + new_line
+                print(new_line)
 
     return result
-
 if __name__ == "__main__":
     app.run()

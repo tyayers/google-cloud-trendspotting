@@ -13,7 +13,7 @@
       "justMyCode": true,
       "cwd": "${workspaceFolder}/services/data_tester",
       "env": {
-        "BUCKET_NAME": "sandwich_trends_thljhosrw",
+        "BUCKET_NAME": "flu_trends_tomkelc7o",
         "TABLE_NAME": "cloud32x.sandwich_trends_thljhosrw.news_volume_growth_rates",
         "GCLOUD_PROJECT": "cloud32x"
       }

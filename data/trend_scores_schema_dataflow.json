@@ -1,13 +1,13 @@
 {
   "BigQuery Schema": [
     {
-      "name": "name",
+      "name": "geo",
       "type": "STRING",
       "mode": "REQUIRED",
       "description": "The trends search term."
     },
     {
-      "name": "geo",
+      "name": "name",
       "type": "STRING",
       "mode": "REQUIRED",
       "description": "The geo of the search trend value."
@@ -15,11 +15,13 @@
     {
       "name": "date",
       "type": "DATE",
+      "mode": "REQUIRED",
       "description": "The date of the trends search."
     },
     {
       "name": "score",
       "type": "INTEGER",
+      "mode": "REQUIRED",
       "description": "The score of the term on the date."
     }
   ]

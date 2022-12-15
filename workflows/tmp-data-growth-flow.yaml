@@ -1,10 +1,10 @@
 - update_news_data:
     call: http.get
     args:
-        url: https://trendupdater-ghfontasua-ew.a.run.app/latest
+        url: https://flu-trendupdater-ghfontasua-ew.a.run.app/latest
         query:
-            topic_singular: sandwich
-            topic_plural: sandwiches
+            topic_singular: flu
+            topic_plural: flu
         timeout: 1800
         auth:
             type: OIDC
@@ -12,10 +12,10 @@
 - update_trend_data:
     call: http.get
     args:
-        url: https://trendupdater-ghfontasua-ew.a.run.app/trends/latest
+        url: https://flu-trendupdater-ghfontasua-ew.a.run.app/trends/latest
         query:
-            topic_singular: sandwich
-            topic_plural: sandwiches
+            topic_singular: flu
+            topic_plural: flu
         timeout: 1800
         auth:
             type: OIDC
@@ -29,11 +29,11 @@
         jobName: trend_growth_update
         parameters:
           javascriptTextTransformFunctionName: transform
-          JSONPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/news_volume_schema_dataflow.json
-          javascriptTextTransformGcsPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/news_volume_split.js
-          inputFilePattern: gs://sandwich_trends_thljhosrw/input/news_volume_update.csv
-          outputTable: cloud32x:sandwich_trends_thljhosrw.news_volume
-          bigQueryLoadingTemporaryDirectory: gs://sandwich_trends_thljhosrw/tmp
+          JSONPath: gs://flu_trends_tomkelc7o/text_to_bigquery/news_volume_schema_dataflow.json
+          javascriptTextTransformGcsPath: gs://flu_trends_tomkelc7o/text_to_bigquery/news_volume_split.js
+          inputFilePattern: gs://flu_trends_tomkelc7o/input/news_volume_update.csv
+          outputTable: cloud32x:flu_trends_tomkelc7o.news_volume
+          bigQueryLoadingTemporaryDirectory: gs://flu_trends_tomkelc7o/tmp
         environment:
           numWorkers: 1
           maxWorkers: 1
@@ -48,11 +48,11 @@
         jobName: trend_growth_update
         parameters:
           javascriptTextTransformFunctionName: transform
-          JSONPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/trend_scores_schema_dataflow.json
-          javascriptTextTransformGcsPath: gs://sandwich_trends_thljhosrw/text_to_bigquery/trend_scores_split.js
-          inputFilePattern: gs://sandwich_trends_thljhosrw/input/trend_scores_update.csv
-          outputTable: cloud32x:sandwich_trends_thljhosrw.trend_scores
-          bigQueryLoadingTemporaryDirectory: gs://sandwich_trends_thljhosrw/tmp
+          JSONPath: gs://flu_trends_tomkelc7o/text_to_bigquery/trend_scores_schema_dataflow.json
+          javascriptTextTransformGcsPath: gs://flu_trends_tomkelc7o/text_to_bigquery/trend_scores_split.js
+          inputFilePattern: gs://flu_trends_tomkelc7o/input/trend_scores_update.csv
+          outputTable: cloud32x:flu_trends_tomkelc7o.trend_scores
+          bigQueryLoadingTemporaryDirectory: gs://flu_trends_tomkelc7o/tmp
         environment:
           numWorkers: 1
           maxWorkers: 1
@@ -61,7 +61,7 @@
 - update_growth_data:
     call: http.get
     args:
-        url: https://trendupdater-ghfontasua-ew.a.run.app/growth_rates
+        url: https://flu-trendupdater-ghfontasua-ew.a.run.app/growth_rates
         timeout: 1800
         auth:
             type: OIDC

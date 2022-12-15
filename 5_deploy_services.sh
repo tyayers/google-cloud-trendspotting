@@ -2,7 +2,7 @@ cd ./services/data_refresher
 
 PROJECT=$(gcloud config get project)
 # Set service name
-NAME=trendupdater
+NAME="$TOPIC_SINGULAR-trendupdater"
 
 # Build and publish image to our cloud registry
 gcloud builds submit --tag eu.gcr.io/$PROJECT/$NAME
@@ -38,11 +38,14 @@ sed -i "s@TRENDS_OUTPUT_TABLE@$PROJECT:$BUCKET_NAME.trend_scores@" ./workflows/t
 sed -i "s@TEMP_DIR@gs://$BUCKET_NAME/tmp@" ./workflows/tmp-data-growth-flow.yaml
 sed -i "s+SERVICE_EMAIL+trendservice@$PROJECT.iam.gserviceaccount.com+" ./workflows/tmp-data-growth-flow.yaml
 
-gcloud workflows deploy trend_update_flow --location=$REGION --source=workflows/tmp-data-growth-flow.yaml --service-account=trendservice@$PROJECT.iam.gserviceaccount.com
+FLOW_NAME="$TOPIC_SINGULAR-update-flow"
+SCHEDULER_NAME="$TOPIC_SINGULAR-update-job"
 
-gcloud workflows run trend_update_flow --location=$REGION
+gcloud workflows deploy $FLOW_NAME --location=$REGION --source=workflows/tmp-data-growth-flow.yaml --service-account=trendservice@$PROJECT.iam.gserviceaccount.com
 
-gcloud scheduler jobs create http trend_update_job \
+gcloud workflows run $FLOW_NAME --location=$REGION
+
+gcloud scheduler jobs create http $SCHEDULER_NAME \
 --location=$REGION \
 --schedule="0 5 * * *" \
 --uri="https://workflowexecutions.googleapis.com/v1/projects/$PROJECT/locations/$REGION/workflows/trend_update_flow/executions" \

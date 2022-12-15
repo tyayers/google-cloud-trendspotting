@@ -1,0 +1,485 @@
+{
+  "geos": ["WORLD", "US", "US-CA", "US-AL", "GB", "GB-ENG", "DE", "DE-BW", "DE-BE"],
+  "terms": [
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rhinovirus"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "sore throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rikodeine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "flu symptoms"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "discrepancy"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "fever"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "codral cold and flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cough medicine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cold and flu tablets"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "stomach flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "discrepancy records"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cough syrup"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "nasonex nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "pholcodine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dymista"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "influenza"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dry cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "bisolvon"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "nyquil"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cold symptoms"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "lemsip"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "robitussin"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dymista nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "influenza a"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "common cold"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dextromethorphan"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "demazin"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "chesty cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "vicks vaporub"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dymista 125 50"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "codral"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "fess nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "difflam throat spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "bisolvon chesty forte"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "avamys nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "duro tuss"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "how to get rid of a sore throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "bromhexine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "difflam"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "lidocaine spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "influenza a symptoms"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "euky bear"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "coughing up green phlegm"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "vicks"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dimetapp"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "mucus"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "head cold"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "bromhexine hydrochloride"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "sore throat medicine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "sore throat covid"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "yellow snot"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "phlegm cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "lozenges"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "otrivin nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rhinocort"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cough suppressant"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "nyquil chicken"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "vicks inhaler"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "colds"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "nasonex spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rikodeine cough syrup"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "sudafed nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "runny nose"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "blood in phlegm"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dry throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "sore throat no other symptoms"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "duro tuss dry cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "yellow phlegm"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "ryaltris nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "green snot"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "how to stop coughing at night"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "robitussin dry cough forte"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dry cough medicine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "dimetapp cold and flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "saline nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "demazin cold and flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "how to get rid of sore throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "coughing"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "post nasal drip cough"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "rhinocort nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "butter menthol"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "tamiflu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "tamiflu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "avamys"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "cold and flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "mometasone nasal spray"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "difference between cold and flu"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "prospan"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "how long does the flu last"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "covid sore throat"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "flu vaccine"
+    },
+    {
+      "Description": "Cold & flu",
+      "Image": "https://i0.wp.com/www.nfid.org/wp-content/uploads/2019/08/Flu.jpg?ssl=1",
+      "Name": "i have a cough that won t go away but i m not sick"
+    }
+  ]
+}
