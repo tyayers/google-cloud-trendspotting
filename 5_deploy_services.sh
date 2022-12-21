@@ -45,9 +45,11 @@ gcloud workflows deploy $FLOW_NAME --location=$REGION --source=workflows/tmp-dat
 
 gcloud workflows run $FLOW_NAME --location=$REGION
 
+yes | gcloud scheduler jobs delete $SCHEDULER_NAME --location=$REGION
+
 gcloud scheduler jobs create http $SCHEDULER_NAME \
 --location=$REGION \
 --schedule="0 5 * * *" \
---uri="https://workflowexecutions.googleapis.com/v1/projects/$PROJECT/locations/$REGION/workflows/trend_update_flow/executions" \
+--uri="https://workflowexecutions.googleapis.com/v1/projects/$PROJECT/locations/$REGION/workflows/$FLOW_NAME/executions" \
 --time-zone="Europe/Amsterdam" \
 --oauth-service-account-email="trendservice@$PROJECT.iam.gserviceaccount.com"
